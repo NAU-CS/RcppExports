@@ -1,0 +1,69 @@
+Database of all RcppExports.cpp files, to support [[https://github.com/NAU-CS/RcppDeepState][RcppDeepState]]
+project.
+
+** 29 Jan 2020
+
+- [[file:packages-download.R]] downloads all CRAN packages which list Rcpp
+  under LinkingTo.
+- [[file:packages-untar.R]] extracts just the RcppExports.cpp file from
+  each package tar.gz file. (these are copied to the [[file:packages]]
+  directory in this github repo)
+- [[file:input_parameter_parse.R]] was for experimenting with regex
+  subroutines, but it only parses argument types (not functions) so it
+  should no longer be used.
+- [[file:packages-parse.R]] analyzes which types are used most frequently
+  in R packages that use Rcpp:
+
+The top 10 types are:
+
+#+BEGIN_SRC 
+> (top10 <- arg.counts[args==1, .(
++   funs=.N,
++   pkgs=length(unique(pkg.dir))
++ ), by=clean.type][order(-funs)][1:10])
+               clean.type funs pkgs
+ 1:                  SEXP  380   72
+ 2:   Rcpp::NumericVector  330  154
+ 3:   Rcpp::NumericMatrix  236  128
+ 4:             arma::mat  208  102
+ 5:            Rcpp::List  172   71
+ 6:           std::string  159   76
+ 7: Rcpp::CharacterVector  112   51
+ 8:                   int  108   60
+ 9:   Rcpp::IntegerVector   88   37
+10:                double   79   44
+> 
+#+END_SRC
+
+If we implement =RcppDeepState_*= random generation functions for each
+of these ten types, then we will be able to automatically test this many
+functions/packages:
+
+#+BEGIN_SRC 
+> covered[, .(
++   funs=.N,
++   pkgs=length(unique(pkg.dir))
++ )]
+   funs pkgs
+1: 7702 1132
+> 
+#+END_SRC
+
+If we only implement these 8 (easy) then we have this many:
+
+#+BEGIN_SRC 
+> (some.types <- grep("SEXP|List", top10$clean.type, invert=TRUE, value=TRUE))
+[1] "Rcpp::NumericVector"   "Rcpp::NumericMatrix"   "arma::mat"            
+[4] "std::string"           "Rcpp::CharacterVector" "int"                  
+[7] "Rcpp::IntegerVector"   "double"               
+> some.covered <- arg.counts[some.types, on="clean.type"][, .(
++   top10args=.N
++ ), by=.(pkg.dir, funName, args)][args==top10args][order(-args)]
+> some.covered[, .(
++   funs=.N,
++   pkgs=length(unique(pkg.dir))
++ )]
+   funs pkgs
+1: 5838  995
+> 
+#+END_SRC
