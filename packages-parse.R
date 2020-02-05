@@ -1,28 +1,3 @@
-old.pattern <- list(type=list(
-  before="[^<,]+",
-  nc::quantifier(
-    "<\\s*",
-    inside="(?1)|[^<>]+",
-    ">",
-    "\\s*",
-    "(?:const)?",
-    "\\s*",
-    "&?",
-    "\\s*",
-    "?")),
-  "\\s+",
-  name="[^\\s,)>]+",
-  nc::quantifier(
-    "\\s*",
-    "=",
-    "\\s*",
-    default="[^\\s,)>]+",
-    "?"),
-  "[,)]")
-nc::capture_all_str(
-  "const Eigen::Matrix<double, 1, Eigen::Dynamic>& inv, const int& nerrs, foo< bar< sars > > var = 1, boost::ecuyer1988& base_rng__, std::ostream* pstream__)",
-  old.pattern)
-
 cleanType <- function(type.vec){
   if(length(type.vec)==0)return(type.vec)
   trans.list <- list(
@@ -69,6 +44,10 @@ parseRcppExports <- function(pkg.path){
     pkg.path, "src", "RcppExports.cpp"),
     mustWork=TRUE)
   cpp.lines <- readLines(RcppExports.cpp)
+  getParams <- function(line.vec){
+    grep("Rcpp::traits::input_parameter", line.vec, value=TRUE)
+  }
+  all.param.lines <- getParams(cpp.lines)
   subject.vec <- gsub("/[*].*?[*]/", "", cpp.lines)
   ns.dt <- nc::capture_all_str(
     subject.vec,
@@ -76,7 +55,7 @@ parseRcppExports <- function(pkg.path){
     namespace="[^ ;]+")
   fun.dt <- nc::capture_all_str(
     subject.vec,
-    "\n// ",
+    "\n\\s*// ",
     commentName=".*",
     "\n",
     prototype=list(
@@ -87,16 +66,16 @@ parseRcppExports <- function(pkg.path){
       arguments=".*",
       "\\);\n"),
     SEXP=".*\n",
-    "BEGIN_RCPP\n",
+    "\\s*BEGIN_RCPP\\s*\n",
     code="(?:.*\n)*?",
-    "END_RCPP")
-  arg.dt <- if(nrow(fun.dt)==0){
-    NULL
+    "\\s*END_RCPP")
+  pkg.arg.dt <- if(nrow(fun.dt)==0){
+    data.table::data.table()
   }else{
     fun.dt[, {
       code.vec <- strsplit(code, "\n")[[1]]
       no.comments <- sub("//.*", "", code.vec)
-      input.vec <- grep("Rcpp::traits::input_parameter", no.comments, value=TRUE)
+      input.vec <- getParams(no.comments)
       if(length(input.vec)==0){
         NULL
       }else{
@@ -104,10 +83,14 @@ parseRcppExports <- function(pkg.path){
       }
     }, by=funName]
   }
+  pkg.lines.dt <- data.table::data.table(
+    parameters=length(all.param.lines),
+    parsed=nrow(pkg.arg.dt))
   list(
+    lines=pkg.lines.dt,
     namespaces=ns.dt,
     prototypes=fun.dt[, .(funName, commentName, prototype)],
-    arguments=arg.dt)
+    arguments=pkg.arg.dt)
 }
 
 RcppExports.cpp.vec <- Sys.glob(file.path(
@@ -115,21 +98,42 @@ RcppExports.cpp.vec <- Sys.glob(file.path(
 pkg.dir.vec <- dirname(dirname(RcppExports.cpp.vec))
 
 arg.dt.list <- list()
+lines.dt.list <- list()
 ns.dt.list <- list()
 for(pkg.dir in pkg.dir.vec){
   result.list <- parseRcppExports(pkg.dir)
   if(nrow(result.list$prototypes)==0){
     print(pkg.dir)
   }
-  if(!is.null(result.list$arguments) && nrow(result.list$arguments)){
+  lines.dt.list[[pkg.dir]] <- data.table::data.table(
+    pkg.dir, result.list$lines)
+  if(nrow(result.list$arguments)){
     arg.dt.list[[pkg.dir]] <- data.table::data.table(
       pkg.dir, result.list$arguments)
     ns.dt.list[[pkg.dir]] <- data.table::data.table(
       pkg.dir, result.list$namespaces)
   }
 }
+lines.dt <- do.call(rbind, lines.dt.list)
 arg.dt <- do.call(rbind, arg.dt.list)
 ns.dt <- do.call(rbind, ns.dt.list)
+
+## Our regex extracts all arguments and functions for the vast
+## majority of RcppExports.cpp files:
+lines.dt[parsed==parameters]
+
+## The RcppExports.cpp files in these packages were not parsed
+## completely (our regex for extracting all functions missed some).
+lines.dt[parsed<parameters]
+## issues: (1) DPWeibull no prototypes, (2) lbfgs line breaks in
+## prototypes etc. -- these were probably manually edited after
+## calling compileAttributes. IDEA: extract all source files and call
+## compileAttributes ourself! -> see analysis in
+## compileAttributes-parse.R.
+
+## These packages do not use Rcpp attributes, so there is no
+## information about the input parameters in the RcppExports.cpp file.
+lines.dt[parameters==0]
 
 arg.dt[, clean.type := cleanType(inside)]
 print(names(table(arg.dt$clean.type)))

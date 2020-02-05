@@ -1,6 +1,100 @@
 Database of all RcppExports.cpp files, to support [[https://github.com/NAU-CS/RcppDeepState][RcppDeepState]]
 project.
 
+** 5 Feb 2020
+
+- [[file:compileAttributes-untar.R]] untars the entire R package and then
+  calls compileAttributes to generate a standard (easy to parse)
+  RcppExports.cpp file.
+- [[file:compileAttributes-parse.R]] does pretty much the same thing as
+  [[file:packages-parse.R]], but using the RcppExports.cpp file that we
+  generated (instead of the file that was provided in the package
+  source tar.gz file). The results below are similar to the previous
+  results, but the numbers are a bit larger, which implies that we
+  should run compileAttributes before parsing the RcppExports.cpp
+  file. 
+
+#+BEGIN_SRC 
+> (some.types <- grep(
++   "SEXP|List", top10$clean.type, invert=TRUE, value=TRUE))
+[1] "Rcpp::NumericVector"   "Rcpp::NumericMatrix"   "arma::mat"            
+[4] "std::string"           "Rcpp::CharacterVector" "int"                  
+[7] "Rcpp::IntegerVector"   "double"               
+> some.covered <- arg.counts[some.types, on="clean.type"][, .(
++   top10args=.N
++ ), by=.(pkg.dir, funName, args)][args==top10args][order(-args)]
+> some.covered[, .(
++   funs=.N,
++   pkgs=length(unique(pkg.dir))
++ )]
+   funs pkgs
+1: 5952 1007
+> 
+#+END_SRC
+
+Also I checked to make sure that all funs/args are parsed
+using our regex, so we can be sure that the regex is sufficient (no
+need to improve any further).
+
+#+BEGIN_SRC 
+> lines.dt[parsed<parameters]
+Empty data.table (0 rows and 3 cols): pkg.dir,parameters,parsed
+> 
+#+END_SRC
+
+We are however unable to automatically fuzz the following 39 packages
+which use Rcpp, but do not use the export attribute, so there is no
+information about functions/args in the RcppExports.cpp file. Since
+this is a small minority of packages, it is acceptable to ignore these
+(we can require users of our software to use the Rcpp export
+attribute).
+
+#+BEGIN_SRC 
+> lines.dt[parameters==0]
+                                  pkg.dir parameters parsed
+ 1:                compileAttributes/ANN2          0      0
+ 2:       compileAttributes/ConConPiWiFun          0      0
+ 3:             compileAttributes/CoxPlus          0      0
+ 4:                 compileAttributes/DPP          0      0
+ 5:       compileAttributes/DiffusionRgqd          0      0
+ 6:       compileAttributes/DiffusionRimp          0      0
+ 7:      compileAttributes/DiffusionRjgqd          0      0
+ 8:                compileAttributes/FiRE          0      0
+ 9:              compileAttributes/FisPro          0      0
+10:               compileAttributes/GiRaF          0      0
+11:              compileAttributes/MADPop          0      0
+12:    compileAttributes/NPBayesImputeCat          0      0
+13:              compileAttributes/NlinTS          0      0
+14:          compileAttributes/OncoBayes2          0      0
+15: compileAttributes/OneArmPhaseTwoStudy          0      0
+16:               compileAttributes/RBesT          0      0
+17:             compileAttributes/RcppBDT          0      0
+18:            compileAttributes/RcppCNPy          0      0
+19:              compileAttributes/RcppDL          0      0
+20:            compileAttributes/RcppHNSW          0      0
+21:           compileAttributes/RcppXsimd          0      0
+22:             compileAttributes/RcppXts          0      0
+23:                compileAttributes/YPPE          0      0
+24:                compileAttributes/bmlm          0      0
+25:              compileAttributes/cblasr          0      0
+26:                 compileAttributes/cbq          0      0
+27:                compileAttributes/cccp          0      0
+28:           compileAttributes/compboost          0      0
+29:             compileAttributes/dggridR          0      0
+30:              compileAttributes/hsstan          0      0
+31:            compileAttributes/incgraph          0      0
+32:               compileAttributes/lm.br          0      0
+33:               compileAttributes/lolog          0      0
+34:            compileAttributes/multinet          0      0
+35:                compileAttributes/qmix          0      0
+36: compileAttributes/randomUniformForest          0      0
+37:             compileAttributes/rrcovHD          0      0
+38:               compileAttributes/s2net          0      0
+39:              compileAttributes/wingui          0      0
+                                  pkg.dir parameters parsed
+> 
+#+END_SRC
+
 ** 29 Jan 2020
 
 - [[file:packages-download.R]] downloads all CRAN packages which list Rcpp
