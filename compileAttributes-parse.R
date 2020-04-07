@@ -17,7 +17,7 @@ cleanType <- function(type.vec){
     namespace="\\b[^\\s:<]+?",
     "::",
     fun="[^<\\s]+?\\b")[!is.na(fun)])
-  for(i in 1:nrow(rep.dt)){
+  for(i in seq_along(rep.dt$fun)){
     rep.row <- rep.dt[i]
     pattern <- paste0("(?<!::)\\b", rep.row$fun, "\\b")
     replace <- rep.row[, paste0(namespace, "::", fun)]
@@ -37,7 +37,8 @@ type.pattern <- list(
     "\\s*",
     "&?",
     "\\s*"),
-  "::type")
+  "::type ",
+  name="[^(]+")
 
 parseRcppExports <- function(pkg.path){
   RcppExports.cpp <- normalizePath(file.path(
