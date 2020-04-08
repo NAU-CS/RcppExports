@@ -1,6 +1,10 @@
 Database of all RcppExports.cpp files, to support [[https://github.com/NAU-CS/RcppDeepState][RcppDeepState]]
 project.
 
+** 8 Apr 2020
+Simplified pattern for matching a type in
+[[file:compileAttributes-parse.R]], parseRcppExports function now
+self-contained.
 ** 5 Feb 2020
 
 - [[file:compileAttributes-untar.R]] untars the entire R package and then

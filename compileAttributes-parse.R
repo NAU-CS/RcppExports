@@ -26,20 +26,6 @@ cleanType <- function(type.vec){
   type.vec
 }
 
-type.pattern <- list(
-  type=list(
-    before="[^<]+",
-    "<\\s*",
-    inside="(?1)|[^<>]+",
-    ">",
-    "\\s*",
-    "(?:const)?",
-    "\\s*",
-    "&?",
-    "\\s*"),
-  "::type ",
-  name="[^(]+")
-
 parseRcppExports <- function(pkg.path){
   RcppExports.cpp <- normalizePath(file.path(
     pkg.path, "src", "RcppExports.cpp"),
@@ -50,6 +36,7 @@ parseRcppExports <- function(pkg.path){
   }
   all.param.lines <- getParams(cpp.lines)
   subject.vec <- gsub("/[*].*?[*]/", "", cpp.lines)
+  include.lines <- grep("#include", subject.vec, value=TRUE)
   ns.dt <- nc::capture_all_str(
     subject.vec,
     "using namespace ",
@@ -80,7 +67,12 @@ parseRcppExports <- function(pkg.path){
       if(length(input.vec)==0){
         NULL
       }else{
-        nc::capture_first_vec(input.vec, type.pattern)
+        nc::capture_first_vec(
+          input.vec, 
+          "input_parameter< ",
+          inside=".*",
+          ">::type ",
+          name="[^(]+")
       }
     }, by=funName]
   }
@@ -90,6 +82,7 @@ parseRcppExports <- function(pkg.path){
   list(
     lines=pkg.lines.dt,
     namespaces=ns.dt,
+    includes=include.lines,
     prototypes=fun.dt[, .(funName, commentName, prototype)],
     arguments=pkg.arg.dt)
 }
@@ -101,20 +94,54 @@ pkg.dir.vec <- dirname(dirname(RcppExports.cpp.vec))
 arg.dt.list <- list()
 lines.dt.list <- list()
 ns.dt.list <- list()
+includes.dt.list <- list()
 for(pkg.dir in pkg.dir.vec){
+  pkg <- basename(pkg.dir)
   result.list <- parseRcppExports(pkg.dir)
   lines.dt.list[[pkg.dir]] <- data.table::data.table(
-    pkg.dir, result.list$lines)
+    pkg, result.list$lines)
+  includes.dt.list[[pkg.dir]] <- data.table::data.table(
+    pkg, include=result.list$includes)
   if(nrow(result.list$arguments)){
     arg.dt.list[[pkg.dir]] <- data.table::data.table(
-      pkg.dir, result.list$arguments)
+      pkg, result.list$arguments)
     ns.dt.list[[pkg.dir]] <- data.table::data.table(
-      pkg.dir, result.list$namespaces)
+      pkg, result.list$namespaces)
   }
 }
 lines.dt <- do.call(rbind, lines.dt.list)
 arg.dt <- do.call(rbind, arg.dt.list)
 ns.dt <- do.call(rbind, ns.dt.list)
+includes.dt <- do.call(rbind, includes.dt.list)
+
+## What are the local include statements?
+includes.dt[, type := ifelse(grepl("<", include), "global", "local")]
+
+## What are the most frequent #include statements?
+include.counts <- includes.dt[, .(
+  count=.N
+), by=.(include, type)][order(count)]
+
+## there are five types of global includes: Rcpp.h, RcppArmadillo.h,
+## RcppEigen.h, set, string.
+include.counts[type=="global"]
+
+## all local includes occur only once, in that package.
+include.counts[type=="local"][order(count)]
+
+# what kinds of local includes are there?
+local.includes <- includes.dt[type=="local"]
+local.includes[, has.inst := grepl("inst", include)]
+local.includes[has.inst==TRUE]
+local.includes[has.inst==FALSE] #all pkg_types.h
+local.includes[, file := ifelse(
+  include == sprintf('#include "../inst/include/%s.h"', pkg),
+  "inst/pkg.h", ifelse(
+    include == sprintf('#include "../inst/include/%s_types.h"', pkg),
+    "inst/pkg_types.h", ifelse(
+      include == sprintf('#include "%s_types.h"', pkg),
+      "pkg_types.h", "other")))]
+local.includes[, .(count=.N), by=file] #there are three types of local includes.
 
 ## Our regex extracts all arguments and functions for the vast
 ## majority of RcppExports.cpp files:
@@ -135,29 +162,47 @@ print(names(table(ns.dt$namespace)))
 arg.dt[clean.type=="longint"]
 arg.dt[grepl(" ", funName)]
 
+## which ones used the recursive regex?
+arg.dt[, n.inside := nchar(gsub("[^<]", "", inside))]
+arg.dt[0<n.inside][order(n.inside)]
+arg.dt[2==n.inside, unique(clean.type)]
+arg.dt[grepl("Nullable", clean.type)][order(n.inside)]
+## which packages have a range of different numbers of nesting?
+## geojsonR is the most extreme (5 different numbers, from 0 to 4).
+nested.templates <- arg.dt[, .(
+  min=min(n.inside),
+  max=max(n.inside),
+  count=length(table(n.inside))
+), by=pkg][min!=max][order(count)]
+## which arguments have multi-parameter templates? rmdcev is the most
+## extreme package (69 arguments with multi-parameter templates).
+multi.param.templates <- arg.dt[
+  grepl(",", clean.type)][nested.templates, on="pkg", nomatch=0L]
+multi.param.templates[, .(args=.N), by=pkg]
+
 arg.counts <- arg.dt[, .(
   args=.N
-), by=.(pkg.dir, funName)][arg.dt, on=.(pkg.dir, funName)]
+), by=.(pkg, funName)][arg.dt, on=.(pkg, funName)]
 (top10 <- arg.counts[args==1, .(
   funs=.N,
-  pkgs=length(unique(pkg.dir))
+  pkgs=length(unique(pkg))
 ), by=clean.type][order(-funs)][1:10])
 
 (covered <- arg.counts[top10$clean.type, on="clean.type"][, .(
   top10args=.N
-), by=.(pkg.dir, funName, args)][args==top10args][order(-args)])
+), by=.(pkg, funName, args)][args==top10args][order(-args)])
 ##covered[funName=="repel_boxes"]
 covered[, .(
   funs=.N,
-  pkgs=length(unique(pkg.dir))
+  pkgs=length(unique(pkg))
 )]
 
 (some.types <- grep(
   "SEXP|List", top10$clean.type, invert=TRUE, value=TRUE))
 some.covered <- arg.counts[some.types, on="clean.type"][, .(
   top10args=.N
-), by=.(pkg.dir, funName, args)][args==top10args][order(-args)]
+), by=.(pkg, funName, args)][args==top10args][order(-args)]
 some.covered[, .(
   funs=.N,
-  pkgs=length(unique(pkg.dir))
+  pkgs=length(unique(pkg))
 )]
