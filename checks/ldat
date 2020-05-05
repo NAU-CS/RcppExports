@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package ldat</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/ldat/index.html"> ldat </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:55 CEST.
+</p>
+<table border="1" summary="CRAN check results for package ldat">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.3.3 </td> <td class="r"> 51.26 </td> <td class="r"> 35.14 </td> <td class="r"> 86.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.3.3 </td> <td class="r"> 31.51 </td> <td class="r"> 27.89 </td> <td class="r"> 59.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.3.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 120.59 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.3.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 105.28 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.3.3 </td> <td class="r"> 158.00 </td> <td class="r"> 141.00 </td> <td class="r"> 299.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.3.3 </td> <td class="r"> 39.81 </td> <td class="r"> 34.81 </td> <td class="r"> 74.62 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.3.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 107.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/ldat-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.3.3 </td> <td class="r"> 38.15 </td> <td class="r"> 34.78 </td> <td class="r"> 72.93 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.3.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.3.3 </td> <td class="r"> 127.00 </td> <td class="r"> 152.00 </td> <td class="r"> 279.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.3.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.3.3 </td> <td class="r"> 107.00 </td> <td class="r"> 155.00 </td> <td class="r"> 262.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/ldat-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.3.3
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘tests.R’ [4s/18s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/tests.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(ldat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required package: lvec<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Attaching package: 'lvec'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  The following object is masked from 'package:base':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      order<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required package: Rcpp<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Attaching package: 'ldat'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  The following objects are masked from 'package:base':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      append, match, table, which<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("ldat")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   *** caught bus error ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  address f7cb0000, cause 'object specific hardware error'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1: as_lvec(index)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2: lset.lvec(x, index = i, values = value)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3: lset(x, index = i, values = value)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4: `[&lt;-.lvec`(`*tmp*`, 4, value = 99)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5: `[&lt;-`(`*tmp*`, 4, value = 99)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8: withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11: tryCatchList(expr, names[-nh], parentenv, handlers[-nh])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13: tryCatchOne(tryCatchList(expr, names[-nh], parentenv, handlers[-nh]),     names[nh], parentenv, handlers[[nh]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  15: tryCatch(withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error), error = handle_fatal,     skip = function(e) {    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  16: test_code(desc, code, env = parent.frame())<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  17: test_that("indexing works", {    x &lt;- as_lvec(1:10)    x_r &lt;- as_rvec(x)    x[4] &lt;- 99    x_r[4] &lt;- 99    expect_that(as_rvec(x), equals(x_r))    expect_that(as_rvec(x[c(3, 4)]), equals(x_r[c(3, 4)]))    expect_that(as_rvec(x[TRUE]), equals(x_r[TRUE]))    x[1:4] &lt;- 109    x_r[1:4] &lt;- 109    expect_that(as_rvec(x), equals(x_r))    expect_that(as_rvec(x[4]), equals(x_r[4]))    expect_that(as_rvec(x[NA]), equals(x_r[NA]))    x[range = c(3, 6)] &lt;- 299    x_r[3:6] &lt;- 299    expect_that(as_rvec(x), equals(x_r))    expect_that(as_rvec(x[range = c(2, 3)]), equals(x_r[c(2,         3)]))})<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  18: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  19: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  20: withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  21: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  22: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  23: tryCatchList(expr, names[-nh], parentenv, handlers[-nh])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  24: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  25: tryCatchOne(tryCatchList(expr, names[-nh], parentenv, handlers[-nh]),     names[nh], parentenv, handlers[[nh]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  26: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  27: tryCatch(withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error), error = handle_fatal,     skip = function(e) {    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  28: test_code(NULL, exprs, env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  29: source_file(path, new.env(parent = env), chdir = TRUE, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  30: force(code)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  31: doWithOneRestart(return(expr), restart)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  32: withOneRestart(expr, restarts[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  33: withRestarts(testthat_abort_reporter = function() NULL, force(code))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  34: with_reporter(reporter = reporter, start_end_reporter = start_end_reporter,     {        reporter$start_file(basename(path))        lister$start_file(basename(path))        source_file(path, new.env(parent = env), chdir = TRUE,             wrap = wrap)        reporter$.end_context()        reporter$end_file()    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  35: FUN(X[[i]], ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  36: lapply(paths, test_file, env = env, reporter = current_reporter,     start_end_reporter = FALSE, load_helpers = FALSE, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  37: force(code)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  38: doWithOneRestart(return(expr), restart)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  39: withOneRestart(expr, restarts[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  40: withRestarts(testthat_abort_reporter = function() NULL, force(code))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  41: with_reporter(reporter = current_reporter, results &lt;- lapply(paths,     test_file, env = env, reporter = current_reporter, start_end_reporter = FALSE,     load_helpers = FALSE, wrap = wrap))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  42: test_files(paths, reporter = reporter, env = env, stop_on_failure = stop_on_failure,     stop_on_warning = stop_on_warning, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  43: test_dir(path = test_path, reporter = reporter, env = env, filter = filter,     ..., stop_on_failure = stop_on_failure, stop_on_warning = stop_on_warning,     wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  44: test_package_dir(package = package, test_path = test_path, filter = filter,     reporter = reporter, ..., stop_on_failure = stop_on_failure,     stop_on_warning = stop_on_warning, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  45: test_check("ldat")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/ldat-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

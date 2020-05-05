@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package ASPBay</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/ASPBay/index.html"> ASPBay </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:46 CEST.
+</p>
+<table border="1" summary="CRAN check results for package ASPBay">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.2 </td> <td class="r"> 34.51 </td> <td class="r"> 69.08 </td> <td class="r"> 103.59 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.2 </td> <td class="r"> 21.90 </td> <td class="r"> 51.95 </td> <td class="r"> 73.85 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 137.18 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 129.67 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 88.00 </td> <td class="r"> 111.00 </td> <td class="r"> 199.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 26.45 </td> <td class="r"> 70.81 </td> <td class="r"> 97.26 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 181.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 27.47 </td> <td class="r"> 69.94 </td> <td class="r"> 97.41 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 65.00 </td> <td class="r"> 151.00 </td> <td class="r"> 216.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 62.00 </td> <td class="r"> 162.00 </td> <td class="r"> 224.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/ASPBay-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.2
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;ASP.Score: no visible global function definition for 'pnorm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Graphs.Bayesian: no visible global function definition for 'dev.new'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;colorhex: no visible global function definition for 'gray'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;colorhex: no visible global function definition for 'rgb'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dev.new gray pnorm rgb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "dev.new", "gray", "rgb")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "pnorm")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/ASPBay-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/ASPBay-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ASPBay-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ASPBay-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/ASPBay-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/ASPBay-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/ASPBay-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/ASPBay-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/ASPBay-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/ASPBay-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/ASPBay-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/ASPBay-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.2
+
+
+<br/>
+
+Check: compiled code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;File ‘ASPBay/libs/ASPBay.so’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Found no calls to: ‘R_registerRoutines’, ‘R_useDynamicSymbols’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;It is good practice to register native routines and to disable symbol<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;search.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ASPBay-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ASPBay-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+</body>
+</html>

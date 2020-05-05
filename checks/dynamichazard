@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package dynamichazard</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/dynamichazard/index.html"> dynamichazard </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:50 CEST.
+</p>
+<table border="1" summary="CRAN check results for package dynamichazard">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.6.6 </td> <td class="r"> 638.96 </td> <td class="r"> 210.49 </td> <td class="r"> 849.45 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/dynamichazard-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.6.6 </td> <td class="r"> 419.46 </td> <td class="r"> 160.79 </td> <td class="r"> 580.25 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/dynamichazard-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.6.6 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1162.45 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/dynamichazard-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.6.6 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1084.76 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/dynamichazard-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.6.6 </td> <td class="r"> 1483.00 </td> <td class="r"> 438.00 </td> <td class="r"> 1921.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/dynamichazard-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.6.6 </td> <td class="r"> 497.72 </td> <td class="r"> 202.61 </td> <td class="r"> 700.33 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/dynamichazard-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.6.6 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 953.60 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/dynamichazard-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.6.6 </td> <td class="r"> 496.14 </td> <td class="r"> 204.12 </td> <td class="r"> 700.26 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/dynamichazard-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.6.6 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/dynamichazard-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.6.6 </td> <td class="r"> 1136.00 </td> <td class="r"> 414.00 </td> <td class="r"> 1550.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/dynamichazard-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.6.6 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/dynamichazard-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.6.6 </td> <td class="r"> 976.00 </td> <td class="r"> 355.00 </td> <td class="r"> 1331.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/dynamichazard-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.6.6
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 39.0Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    data   4.2Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc    1.7Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs  32.7Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/dynamichazard-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/dynamichazard-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/dynamichazard-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/dynamichazard-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/dynamichazard-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/dynamichazard-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/dynamichazard-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.6.6
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [86s/109s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/testthat.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # Had the same issue as in this thread: https://github.com/hadley/testthat/issues/86<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; Sys.setenv("R_TESTS" = "")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; options(deparse.max.lines = 5,  testthat.summary.max_reports = 1000L)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; testthat::test_check("dynamichazard", reporter = "summary")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required package: dynamichazard<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required package: survival<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Tracing function "expect_known_value" in package "testthat"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Tracing function "expect_known_output" in package "testthat"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required package: DBI<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running tests for GMA: ..................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing LAPACK wrapper functions: ..............................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_PF: ........................................................................................................................................................................................................SS...SSSSSSSS..S12SS..SSSSSSSSSSSS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing SMA: ................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing UKF: ..WWWWWW..WWWWWW...WWW.WWWWWW..WWW..WWW..WWW..WWW..WWW..WWW..WWW..WWW.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing bigglm_wrapper: ..........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing boot: ...S..................................................................................................................................................................................................................................................................................................................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  testing cloglog link function: ....S<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing cpp sampling functions: ..................................................................................................................................................................................................................................................................................................................................................................................................................S.............................................................S....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_cpp_utils.R:: .S............<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing ddhazard w/ generic things and w/ the the EKF : .....................S.........WWW.......<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing design_mat_and_risk_obj: ............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing fixed_effects_in_E_step: .........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing test_fixed_effects_in_M_step: ..........S..<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing 'get_start_values': ....................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running tests for hatvalues: ....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing examples in man files: .......S.S....SSSS........S<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing loglike: ....................WWWW.WWWW...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing options: .<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing parallelglm vs. glm: ................................................S<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing plot functions: ..................WWW....................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing predict: .......................................................................WWW........SS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing print function: ...SS.....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing residuals functions: ..................................................................................................................................................................................................SS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing shiny app: ..<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing static_glm: WWW...WWWWWW.WWW.WWW.WWW.WWW.....WWWWWW.WWW....WWWWWW.WWW...........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing summary function: .................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing test_utils: ............S......................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Testing weights in fit: ................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ Skipped ═════════════════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. PF_smooth gives same results (@test_PF.R#71) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. Import and export PF cloud from Rcpp gives the same (@test_PF.R#249) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3. PF_EM gives previous results on head neck data set (@test_PF.R#342) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4. PF_EM gives previous results on head neck data set with fixed effects and the logit model (@test_PF.R#409) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5. compute_PF_summary_stats gives previous results (@test_PF.R#434) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6. 'get_cloud_means' and 'get_cloud_quantiles' gives previous results (@test_PF.R#508) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7. 'get_ancestors' yields the correct result (@test_PF.R#558) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8. ´est_params_dens´ gives the same as a R version (@test_PF.R#580) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9. fixed effect estimation gives the same as an R implementation (@test_PF.R#628) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10. A few iterations with `type = "VAR"' yields the same as before (@test_PF.R#709) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11. PF_EM gives the same with restricted and unrestricted model when we estimate all the parameters (@test_PF.R#781) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12. Using `n_smooth_final` works as expected and yields previous results (@test_PF.R#891) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13. sampling with a t-distribution gives previous results (@test_PF.R#959) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14. 'PF_forward_filter' gives the same as 'PF_EM' when it should (@test_PF.R#997) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  15. 'state_fw' gives correct results (@test_PF.R#1126) - Reason: !dir.exists("pf-internals")  is TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  16. 'state_bw' gives correct results (@test_PF.R#1162) - Reason: !dir.exists("pf-internals")  is TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  17. 'artificial_prior' gives correct results (@test_PF.R#1197) - Reason: !dir.exists("pf-internals")  is TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  18. 'observational_cdist' gives correct results (@test_PF.R#1231) - Reason: !dir.exists("pf-internals")  is TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  19. combining forward and backwards works (@test_PF.R#1276) - Reason: !dir.exists("pf-internals")  is TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  20. combining prior and backwards works (@test_PF.R#1323) - Reason: !dir.exists("pf-internals")  is TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  21. mode approximations give expected result (@test_PF.R#1361) - Reason: !dir.exists("pf-internals")  is TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  22. 'PF_get_score_n_hess' gives the same as an R implementation (@test_PF.R#1481) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  23. warns with randow walk model when covariates are in both fixed and random (@test_PF.R#1619) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  24. works when there are time periods outside where we have data and with a single fixed and random effect (@test_PF.R#1640) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  25. 'fix_seed = FALSE' yields different results at each call (@test_PF.R#1665) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  26. boot yields previously computed values with pbc (@test_boot_est.R#19) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  27. cloglog function gives previous result with simulated data using PF_EM and PF_forward_filter (@test_cloglog.R#56) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  28. mvrnorm gives expected sample mean and variance (@test_cpp_sample_funcs.R#50) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  29. 'mvtrnorm' yields close to uniform sample (@test_cpp_sample_funcs.R#111) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  30. trunc_lp_in_exponential_dist does not truncate when not needed (@test_cpp_utils.R#12) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  31. Different non-integer time_scales gives the same result with ddhazard (@test_ddhazard_n_EKF.R#165) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  32. posterior_approx gives previous found values with fixed effects in M-step (@test_fixed_effects_in_M_step.R#187) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  33. residuals.ddhazard help page examples gives the same results (@test_help_page_examples.R#43) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  34. ddhazard_boot help page examples gives the same results (@test_help_page_examples.R#67) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  35. PF_EM help page example runs and gives previous computed results (@test_help_page_examples.R#129) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  36. Second example on PF help page gives the same result (@test_help_page_examples.R#170) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  37. example in 'PF_EM' with gives previous results w/ a few iterations (@test_help_page_examples.R#226) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  38. `PF_forward_filter` the results stated in the comments and does not alter the .Random.seed as stated on the help page (@test_help_page_examples.R#357) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  39. 'PF_get_score_n_hess' gives previous results (@test_help_page_examples.R#515) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  40. glm and parallelglm gives the same (@test_parallelglm.R#80) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  41. Terms from predict with exponential outcome are correct (@test_predict.R#413) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  42. Different non-integer time_scales gives the same result with predict results (@test_predict.R#474) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  43. print.ddhazard_boot gives the expected output (@test_print.R#39) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  44. Print function for PF objects gives previous results (@test_print.R#89) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  45. Gets previous results with Rossi (@test_residuals.R#209) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  46. Get prevoius residuals with whas500 (@test_residuals.R#236) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  47. Testing util functions to sim series for tests (@test_test_utils.R#28) - Reason: On CRAN<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ Warnings ════════════════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. UKF does not fail and both methods give the same (@test_UKF.R#39) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. UKF does not fail and both methods give the same (@test_UKF.R#39) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3. UKF does not fail and both methods give the same (@test_UKF.R#39) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4. UKF does not fail and both methods give the same (@test_UKF.R#52) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5. UKF does not fail and both methods give the same (@test_UKF.R#52) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6. UKF does not fail and both methods give the same (@test_UKF.R#52) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7. Changing time scale in UKF does no change results when other parems are changed accoridngly (@test_UKF.R#83) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8. Changing time scale in UKF does no change results when other parems are changed accoridngly (@test_UKF.R#83) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9. Changing time scale in UKF does no change results when other parems are changed accoridngly (@test_UKF.R#83) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10. Changing time scale in UKF does no change results when other parems are changed accoridngly (@test_UKF.R#94) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11. Changing time scale in UKF does no change results when other parems are changed accoridngly (@test_UKF.R#94) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12. Changing time scale in UKF does no change results when other parems are changed accoridngly (@test_UKF.R#94) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13. Testing UKF against prev computed values (@test_UKF.R#117) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14. Testing UKF against prev computed values (@test_UKF.R#117) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  15. Testing UKF against prev computed values (@test_UKF.R#117) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  16. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#140) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  17. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#140) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  18. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#140) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  19. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#144) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  20. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#144) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  21. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#144) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  22. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#152) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  23. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#152) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  24. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#152) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  25. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#161) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  26. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#161) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  27. Altering UKF alpha, beta and kappa change the results (@test_UKF.R#161) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  28. UKF works on simulated data works with exponential model and gives previous results (@test_UKF.R#170) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  29. UKF works on simulated data works with exponential model and gives previous results (@test_UKF.R#170) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  30. UKF works on simulated data works with exponential model and gives previous results (@test_UKF.R#170) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  31. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  32. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  33. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  34. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  35. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  36. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  37. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  38. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  39. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  40. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  41. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  42. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  43. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  44. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  45. UKF second order model works (that is, gives no errors...) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  46. Result of exponential model gives previous results w/ simulated data (@test_ddhazard_n_EKF.R#246) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  47. Result of exponential model gives previous results w/ simulated data (@test_ddhazard_n_EKF.R#246) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  48. Result of exponential model gives previous results w/ simulated data (@test_ddhazard_n_EKF.R#246) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  49. logLik for simulated data versus old results (@test_loglike.R#170) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  50. logLik for simulated data versus old results (@test_loglike.R#170) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  51. logLik for simulated data versus old results (@test_loglike.R#170) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  52. logLik for simulated data versus old results (@test_loglike.R#181) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  53. logLik for simulated data versus old results (@test_loglike.R#189) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  54. logLik for simulated data versus old results (@test_loglike.R#189) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  55. logLik for simulated data versus old results (@test_loglike.R#189) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  56. logLik for simulated data versus old results (@test_loglike.R#202) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  57. Alters mfcol and sets it back (@test_plot.R#74) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  58. Alters mfcol and sets it back (@test_plot.R#74) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  59. Alters mfcol and sets it back (@test_plot.R#74) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  60. get_survival_case_weights_and_data and predict yields consistent result with ids (@test_predict.R#300) - 'varlist' has changed (from nvar=9) to new 12 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  61. get_survival_case_weights_and_data and predict yields consistent result with ids (@test_predict.R#300) - 'varlist' has changed (from nvar=9) to new 12 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  62. get_survival_case_weights_and_data and predict yields consistent result with ids (@test_predict.R#300) - 'varlist' has changed (from nvar=9) to new 12 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  63. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#10) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  64. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#10) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  65. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#10) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  66. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#22) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  67. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#22) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  68. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#22) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  69. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#25) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  70. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#25) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  71. Static glm yields expected number of events, correct rows and same result when supplying risk_obj (@test_static_glm.R#25) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  72. static glm gives results with exponential that match previous computations (@test_static_glm.R#38) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  73. static glm gives results with exponential that match previous computations (@test_static_glm.R#38) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  74. static glm gives results with exponential that match previous computations (@test_static_glm.R#38) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  75. static glm gives results with exponential that match previous computations (@test_static_glm.R#49) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  76. static glm gives results with exponential that match previous computations (@test_static_glm.R#49) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  77. static glm gives results with exponential that match previous computations (@test_static_glm.R#49) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  78. design_matrix yields equal result with different values of use_weights (@test_static_glm.R#61) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  79. design_matrix yields equal result with different values of use_weights (@test_static_glm.R#61) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  80. design_matrix yields equal result with different values of use_weights (@test_static_glm.R#61) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  81. design_matrix yields equal result with different values of use_weights (@test_static_glm.R#70) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  82. design_matrix yields equal result with different values of use_weights (@test_static_glm.R#70) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  83. design_matrix yields equal result with different values of use_weights (@test_static_glm.R#70) - 'varlist' has changed (from nvar=5) to new 8 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  84. Gets same with different methods (@test_static_glm.R#129) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  85. Gets same with different methods (@test_static_glm.R#129) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  86. Gets same with different methods (@test_static_glm.R#129) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  87. Gets same with different methods (@test_static_glm.R#130) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  88. Gets same with different methods (@test_static_glm.R#130) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  89. Gets same with different methods (@test_static_glm.R#130) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  90. Gets same with different methods (@test_static_glm.R#134) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  91. Gets same with different methods (@test_static_glm.R#134) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  92. Gets same with different methods (@test_static_glm.R#134) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  93. Gets same with different methods (@test_static_glm.R#129) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  94. Gets same with different methods (@test_static_glm.R#129) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  95. Gets same with different methods (@test_static_glm.R#129) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  96. Gets same with different methods (@test_static_glm.R#130) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  97. Gets same with different methods (@test_static_glm.R#130) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  98. Gets same with different methods (@test_static_glm.R#130) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  99. Gets same with different methods (@test_static_glm.R#134) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  100. Gets same with different methods (@test_static_glm.R#134) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  101. Gets same with different methods (@test_static_glm.R#134) - 'varlist' has changed (from nvar=12) to new 15 after EncodeVars() -- should no longer happen!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ Failed ══════════════════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 1. Failure: type = 'VAR' works with non-zero mean with a single term and give<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  pf_Fear[!names(pf_Fear) %in% c("clouds", "terms")] has changed from known value recorded in './previous_results/PF_VARS_non_zero_mean_inter.RDS'.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "fixed_effects": Mean relative difference: 0.003776019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Q": Mean relative difference: 0.005679666<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "F": Mean relative difference: 0.02913308<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "EM_ests": Component "fixed_effects": Mean relative difference: 0.001959785<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "EM_ests": Component "F": Mean relative difference: 0.02160762<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "EM_ests": Component "Q": Mean relative difference: 0.003591164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "log_likes": Mean relative difference: 9.053193e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "effective_sample_size": Component "forward_clouds": Mean relative difference: 0.01888271<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "effective_sample_size": Component "backward_clouds": Mean relative difference: 0.081413<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 2. Failure: type = 'VAR' works with non-zero mean with a single term and give<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  pf_Fear[!names(pf_Fear) %in% c("clouds", "terms")] has changed from known value recorded in './previous_results/PF_VARS_non_zero_mean_slope.RDS'.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Q": Mean relative difference: 0.01955495<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "F": Mean relative difference: 0.8229506<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "EM_ests": Component "F": Mean relative difference: 0.7965683<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "EM_ests": Component "Q": Mean relative difference: 0.01417436<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "effective_sample_size": Component "forward_clouds": Mean relative difference: 0.1426928<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "effective_sample_size": Component "backward_clouds": Mean relative difference: 0.06135956<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "effective_sample_size": Component "smoothed_clouds": Mean relative difference: 0.01918649<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "seed": Mean relative difference: 0.007246377<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ DONE ════════════════════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: Test failures<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/dynamichazard-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

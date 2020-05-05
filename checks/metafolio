@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package metafolio</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/metafolio/index.html"> metafolio </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:57 CEST.
+</p>
+<table border="1" summary="CRAN check results for package metafolio">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.1.0 </td> <td class="r"> 35.47 </td> <td class="r"> 48.53 </td> <td class="r"> 84.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.1.0 </td> <td class="r"> 22.88 </td> <td class="r"> 38.74 </td> <td class="r"> 61.62 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 111.73 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 108.78 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 96.00 </td> <td class="r"> 106.00 </td> <td class="r"> 202.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 29.91 </td> <td class="r"> 47.83 </td> <td class="r"> 77.74 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 117.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 31.45 </td> <td class="r"> 48.16 </td> <td class="r"> 79.61 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 74.00 </td> <td class="r"> 109.00 </td> <td class="r"> 183.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 60.00 </td> <td class="r"> 97.00 </td> <td class="r"> 157.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/metafolio-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.1.0
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;VaR: no visible global function definition for 'quantile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;add_dens_polygon: no visible global function definition for 'na.omit'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;add_dens_polygon: no visible global function definition for 'polygon'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;add_dens_polygon: no visible global function definition for 'points'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;annotate: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;annotate: no visible global function definition for 'text'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;create_asset_weights: no visible global function definition for 'runif'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;custom_bw: no visible global function definition for 'quantile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;custom_bw: no visible global function definition for 'var'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_conserv_plans_mv: no visible binding for global variable 'var'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_efficient_frontier: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'chull'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_port_vals: no visible binding for global variable 'var'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_quantile_contour: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'contourLines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;gg_color_hue: no visible global function definition for 'hcl'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;meta_sim: no visible global function definition for 'runif'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;meta_sim: no visible global function definition for 'rnorm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;monte_carlo_portfolios: no visible global function definition for 'var'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for 'rect'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for 'axis'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for 'axTicks'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for 'mtext'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;optim_thermal: no visible global function definition for 'optimize'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans : &lt;anonymous&gt;: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for 'na.omit'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'plot.default'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for 'box'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for 'axis'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for 'axTicks'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for 'legend'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_correlation_between_returns: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_correlation_between_returns: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for 'box'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_correlation_between_returns: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for 'mtext'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_efficient_portfolios: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_efficient_portfolios: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'barplot'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_panel_lines: no visible global function definition for 'matplot'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_panel_lines: no visible global function definition for 'box'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for 'box'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for 'axis'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for 'rect'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for 'mtext'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for 'box'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for 'abline'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for 'axis'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for 'mtext'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'text'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'axis'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'axTicks'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'lm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'abline'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for 'box'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;run_cons_plans: no visible binding for global variable 'var'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;thermal_area: no visible global function definition for 'uniroot'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;thermal_area: no visible global function definition for 'integrate'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  abline axTicks axis barplot box chull contourLines hcl integrate<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  legend lines lm matplot mtext na.omit optimize par plot.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  points polygon quantile rect rnorm runif text uniroot var<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "chull", "contourLines", "hcl")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "abline", "axTicks", "axis", "barplot", "box",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "legend", "lines", "matplot", "mtext", "par",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "plot.default", "points", "polygon", "rect", "text")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "integrate", "lm", "na.omit", "optimize",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "quantile", "rnorm", "runif", "uniroot", "var")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/metafolio-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/metafolio-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/metafolio-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/metafolio-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/metafolio-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/metafolio-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/metafolio-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/metafolio-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/metafolio-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/metafolio-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1.0
+
+
+<br/>
+
+Check: compiled code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;File ‘metafolio/libs/metafolio.so’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Found no calls to: ‘R_registerRoutines’, ‘R_useDynamicSymbols’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;It is good practice to register native routines and to disable symbol<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;search.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/metafolio-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/metafolio-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 0.1.0
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;VaR: no visible global function definition for ‘quantile’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;add_dens_polygon: no visible global function definition for ‘na.omit’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;add_dens_polygon: no visible global function definition for ‘polygon’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;add_dens_polygon: no visible global function definition for ‘points’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;annotate: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;annotate: no visible global function definition for ‘text’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;create_asset_weights: no visible global function definition for ‘runif’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;custom_bw: no visible global function definition for ‘quantile’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;custom_bw: no visible global function definition for ‘var’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_conserv_plans_mv: no visible binding for global variable ‘var’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_efficient_frontier: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘chull’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_port_vals: no visible binding for global variable ‘var’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;get_quantile_contour: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘contourLines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;gg_color_hue: no visible global function definition for ‘hcl’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;meta_sim: no visible global function definition for ‘runif’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;meta_sim: no visible global function definition for ‘rnorm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;monte_carlo_portfolios: no visible global function definition for ‘var’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for ‘rect’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for ‘axis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for ‘axTicks’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;my.axis: no visible global function definition for ‘mtext’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;optim_thermal: no visible global function definition for ‘optimize’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans : &lt;anonymous&gt;: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for ‘na.omit’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘plot.default’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for ‘box’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for ‘axis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for ‘axTicks’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_cons_plans: no visible global function definition for ‘legend’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_correlation_between_returns: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_correlation_between_returns: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_correlation_between_returns: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for ‘box’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_correlation_between_returns: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for ‘mtext’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_efficient_portfolios: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_efficient_portfolios: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘barplot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_panel_lines: no visible global function definition for ‘matplot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_panel_lines: no visible global function definition for ‘box’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for ‘box’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for ‘axis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for ‘rect’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_rickers: no visible global function definition for ‘mtext’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for ‘box’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for ‘abline’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for ‘axis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sim_ts: no visible global function definition for ‘mtext’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘text’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘axis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘axTicks’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘lm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘abline’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot_sp_A_ts: no visible global function definition for ‘box’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;run_cons_plans: no visible binding for global variable ‘var’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;thermal_area: no visible global function definition for ‘uniroot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;thermal_area: no visible global function definition for ‘integrate’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  abline axTicks axis barplot box chull contourLines hcl integrate<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  legend lines lm matplot mtext na.omit optimize par plot plot.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  points polygon quantile rect rnorm runif text uniroot var<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "chull", "contourLines", "hcl")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "abline", "axTicks", "axis", "barplot", "box",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "legend", "lines", "matplot", "mtext", "par", "plot",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "plot.default", "points", "polygon", "rect", "text")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "integrate", "lm", "na.omit", "optimize",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "quantile", "rnorm", "runif", "uniroot", "var")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/metafolio-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/metafolio-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

@@ -1,0 +1,1030 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package stm</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/stm/index.html"> stm </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:06 CEST.
+</p>
+<table border="1" summary="CRAN check results for package stm">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.3.5 </td> <td class="r"> 49.98 </td> <td class="r"> 290.88 </td> <td class="r"> 340.86 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/stm-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.3.5 </td> <td class="r"> 33.89 </td> <td class="r"> 215.69 </td> <td class="r"> 249.58 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/stm-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.3.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 403.80 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/stm-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.3.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 397.83 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/stm-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.3.5 </td> <td class="r"> 129.00 </td> <td class="r"> 487.00 </td> <td class="r"> 616.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/stm-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.3.5 </td> <td class="r"> 40.16 </td> <td class="r"> 276.34 </td> <td class="r"> 316.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/stm-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.3.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 549.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/stm-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.3.5 </td> <td class="r"> 39.33 </td> <td class="r"> 283.16 </td> <td class="r"> 322.49 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/stm-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.3.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/stm-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.3.5 </td> <td class="r"> 106.00 </td> <td class="r"> 485.00 </td> <td class="r"> 591.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/stm-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.3.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/stm-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.3.5 </td> <td class="r"> 73.00 </td> <td class="r"> 479.00 </td> <td class="r"> 552.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/stm-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: running tests for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [0s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [108s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(stm)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  stm v1.3.5 successfully loaded. See ?stm for help. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Papers, resources, and other materials at structuraltopicmodel.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("stm")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removed 1098 of 1102 terms (3659 of 4143 tokens) due to sparselevel of 0.8 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 2 of 4 terms (223 of 377 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 117 Documents with No Words <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 135 documents, 2 terms and 154 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.766) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 640 of 1102 terms (640 of 3789 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 341 documents, 462 terms and 3149 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.623) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (2 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (2 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (17 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (16 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -10.359) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: plot.STM doesn't throw error  (@test-visualize.R#4)  --------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  error reading from connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. base::load(url("http://goo.gl/VPdxlS"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 9 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 1 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: plot.STM doesn't throw error  (@test-visualize.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/stm-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: running tests for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [109s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(stm)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  stm v1.3.5 successfully loaded. See ?stm for help. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Papers, resources, and other materials at structuraltopicmodel.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("stm")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removed 1098 of 1102 terms (3659 of 4143 tokens) due to sparselevel of 0.8 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 2 of 4 terms (223 of 377 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 117 Documents with No Words <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 135 documents, 2 terms and 154 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.766) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 640 of 1102 terms (640 of 3789 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 341 documents, 462 terms and 3149 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.623) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (2 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (17 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (17 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -10.359) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: plot.STM doesn't throw error  (@test-visualize.R#4)  --------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  error reading from connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. base::load(url("http://goo.gl/VPdxlS"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 9 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 1 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: plot.STM doesn't throw error  (@test-visualize.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/stm-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building 'stmVignette.Rnw' using Sweave<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;stm v1.3.5 successfully loaded. See ?stm for help. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp; Papers, resources, and other materials at structuraltopicmodel.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'stmVignette.Rnw' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; chunk 7 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in load(url("http://goo.gl/VPdxlS")) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  error reading from connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building 'stmVignette.Rnw'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'stmVignette.Rnw'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/stm-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/stm-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/stm-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  5.2Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    data   1.7Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   2.4Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/stm-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/stm-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: running tests for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [0s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [108s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(stm)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  stm v1.3.5 successfully loaded. See ?stm for help. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Papers, resources, and other materials at structuraltopicmodel.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("stm")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removed 1098 of 1102 terms (3659 of 4143 tokens) due to sparselevel of 0.8 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 2 of 4 terms (223 of 377 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 117 Documents with No Words <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 135 documents, 2 terms and 154 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.766) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 640 of 1102 terms (640 of 3789 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 341 documents, 462 terms and 3149 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.623) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (16 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (2 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (15 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -10.359) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: plot.STM doesn't throw error  (@test-visualize.R#4)  --------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  error reading from connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. base::load(url("http://goo.gl/VPdxlS"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 9 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 1 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: plot.STM doesn't throw error  (@test-visualize.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/stm-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: running tests for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [0s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [111s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(stm)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  stm v1.3.5 successfully loaded. See ?stm for help. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Papers, resources, and other materials at structuraltopicmodel.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("stm")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removed 1098 of 1102 terms (3659 of 4143 tokens) due to sparselevel of 0.8 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 2 of 4 terms (223 of 377 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 117 Documents with No Words <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 135 documents, 2 terms and 154 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.766) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 640 of 1102 terms (640 of 3789 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 341 documents, 462 terms and 3149 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.623) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (2 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (17 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (17 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -10.359) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: plot.STM doesn't throw error  (@test-visualize.R#4)  --------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  error reading from connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. base::load(url("http://goo.gl/VPdxlS"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 9 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 1 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: plot.STM doesn't throw error  (@test-visualize.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/stm-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: running tests for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [0s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [110s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(stm)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  stm v1.3.5 successfully loaded. See ?stm for help. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Papers, resources, and other materials at structuraltopicmodel.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("stm")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removed 1098 of 1102 terms (3659 of 4143 tokens) due to sparselevel of 0.8 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 2 of 4 terms (223 of 377 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 117 Documents with No Words <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 135 documents, 2 terms and 154 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.773) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 640 of 1102 terms (640 of 3789 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 341 documents, 462 terms and 3149 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.622) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (16 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (16 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -10.359) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: plot.STM doesn't throw error  (@test-visualize.R#4)  --------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  error reading from connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. base::load(url("http://goo.gl/VPdxlS"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 9 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 1 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: plot.STM doesn't throw error  (@test-visualize.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/stm-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.3.5
+
+
+<br/>
+
+Check: running tests for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [0s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [108s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(stm)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  stm v1.3.5 successfully loaded. See ?stm for help. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Papers, resources, and other materials at structuraltopicmodel.com<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("stm")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removed 1098 of 1102 terms (3659 of 4143 tokens) due to sparselevel of 0.8 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 2 of 4 terms (223 of 377 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 117 Documents with No Words <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 135 documents, 2 terms and 154 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...........<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.766) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Building corpus... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Converting to Lower Case... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing punctuation... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing stopwords... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing numbers... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Stemming... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Creating Output... <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Removing 640 of 1102 terms (640 of 3789 tokens) due to frequency <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Your corpus now has 341 documents, 462 terms and 3149 tokens.Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	....<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -5.623) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .................................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (0 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (2 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Spectral Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Calculating the gram matrix...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Finding anchor words...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	 Recovering initialization...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   	..........................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Initialization complete.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (3 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (16 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -7.197) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed E-Step (2 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  .....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step (15 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Beginning Random Initialization <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completing Iteration 1 (approx. per word bound = -10.359) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 1 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ....................................................................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed Group 2 E-Step (1 seconds). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Completed M-Step. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Model Terminated Before Convergence Reached <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: plot.STM doesn't throw error  (@test-visualize.R#4)  --------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  error reading from connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. base::load(url("http://goo.gl/VPdxlS"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 9 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 1 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: plot.STM doesn't throw error  (@test-visualize.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/stm-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

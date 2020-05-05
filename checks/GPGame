@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package GPGame</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/GPGame/index.html"> GPGame </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:53 CEST.
+</p>
+<table border="1" summary="CRAN check results for package GPGame">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.1.0 </td> <td class="r"> 44.18 </td> <td class="r"> 83.62 </td> <td class="r"> 127.80 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/GPGame-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.1.0 </td> <td class="r"> 28.50 </td> <td class="r"> 66.81 </td> <td class="r"> 95.31 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/GPGame-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 163.69 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/GPGame-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 151.34 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/GPGame-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 114.00 </td> <td class="r"> 128.00 </td> <td class="r"> 242.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/GPGame-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 35.15 </td> <td class="r"> 81.70 </td> <td class="r"> 116.85 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/GPGame-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 204.20 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/GPGame-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 34.38 </td> <td class="r"> 78.50 </td> <td class="r"> 112.88 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/GPGame-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/GPGame-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 99.00 </td> <td class="r"> 177.00 </td> <td class="r"> 276.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/GPGame-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/GPGame-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 81.00 </td> <td class="r"> 154.00 </td> <td class="r"> 235.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/GPGame-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.1.0
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Package suggested but not available for checking: 'DiceOptim'
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/GPGame-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/GPGame-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/GPGame-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/GPGame-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/GPGame-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.1.0
+
+
+<br/>
+
+Check: Rd cross-references
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Unknown package 'DiceOptim' in Rd xrefs
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/GPGame-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/GPGame-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/GPGame-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/GPGame-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/GPGame-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.1.0
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following significant warnings:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Warning: 'rgl_init' failed, running with rgl.useNULL = TRUE
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/GPGame-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

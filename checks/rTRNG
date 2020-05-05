@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package rTRNG</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/rTRNG/index.html"> rTRNG </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:04 CEST.
+</p>
+<table border="1" summary="CRAN check results for package rTRNG">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 4.20-1 </td> <td class="r"> 143.02 </td> <td class="r"> 170.53 </td> <td class="r"> 313.55 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 4.20-1 </td> <td class="r"> 115.12 </td> <td class="r"> 118.59 </td> <td class="r"> 233.71 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 4.20-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 423.32 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 4.20-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 406.77 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 4.20-1 </td> <td class="r"> 361.00 </td> <td class="r"> 307.00 </td> <td class="r"> 668.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 4.20-1 </td> <td class="r"> 119.93 </td> <td class="r"> 156.42 </td> <td class="r"> 276.35 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 4.20-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 388.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/rTRNG-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 4.20-1 </td> <td class="r"> 121.78 </td> <td class="r"> 158.49 </td> <td class="r"> 280.27 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 4.20-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/rTRNG-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 4.20-1 </td> <td class="r"> 301.00 </td> <td class="r"> 305.00 </td> <td class="r"> 606.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 4.20-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/rTRNG-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 4.20-1 </td> <td class="r"> 325.00 </td> <td class="r"> 276.00 </td> <td class="r"> 601.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/rTRNG-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3><a href="check_issue_kinds.html">Additional issues</a></h3>
+<p>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/memtests/valgrind/rTRNG"><span class="check_ko">valgrind</span></a>
+</p>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 4.20-1
+
+
+<br/>
+
+Check: for GNU extensions in Makefiles
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;GNU make is a SystemRequirements.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/rTRNG-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/rTRNG-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/rTRNG-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/rTRNG-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/rTRNG-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/rTRNG-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/rTRNG-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/rTRNG-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/rTRNG-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/rTRNG-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/rTRNG-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/rTRNG-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 4.20-1
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 30.7Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc    7.8Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs  21.9Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/rTRNG-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/rTRNG-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/rTRNG-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/rTRNG-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/rTRNG-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/rTRNG-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/rTRNG-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 4.20-1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘mcMat.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 219: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 235: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 416: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 432: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 987: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 998: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 1023: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;"/home/ripley/R/Lib32/rTRNG/include/trng/special_functions.hpp", line 1034: Error: Badly formed constant expression.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8 Error(s) detected.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;make: Fatal error: Command failed for target `mcMat.o'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Current working directory /tmp/Rtmpbbayy2/working_dir/RtmpUtaWsO/sourceCpp-i386-pc-solaris2.10-1.0.4.6/sourcecpp_50963e1d325e<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 20-26 (mcMat.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'mcMat.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error 1 occurred building shared library.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘mcMat.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘rTRNG.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Building shared library for Rcpp code chunk...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; exampleCpp()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; [1] 0.908596011 0.868944127 0.354053042 0.737823978 0.005293939 0.586628362<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; [7] 0.686208571 0.708826658 0.662295773 0.818212143<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘rTRNG.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘rTRNG.useR2017.pdf.asis’ using asis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘rTRNG.useR2017.pdf.asis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘mcMat.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/rTRNG-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 4.20-1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘mcMat.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/CoreFoundation are out of sync. Falling back to library file for linking.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 20-26 (mcMat.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'mcMat.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;unable to load shared object '/Volumes/Temp/tmp/RtmpwGpROf/sourceCpp-x86_64-apple-darwin17.0-1.0.4.6/sourcecpp_f014da3ded8/sourceCpp_2.so':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dlopen(/Volumes/Temp/tmp/RtmpwGpROf/sourceCpp-x86_64-apple-darwin17.0-1.0.4.6/sourcecpp_f014da3ded8/sourceCpp_2.so, 6): Library not loaded: rTRNG.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Referenced from: /Volumes/Temp/tmp/RtmpwGpROf/sourceCpp-x86_64-apple-darwin17.0-1.0.4.6/sourcecpp_f014da3ded8/sourceCpp_2.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Reason: image not found<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘mcMat.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘rTRNG.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Building shared library for Rcpp code chunk...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/CoreFoundation are out of sync. Falling back to library file for linking.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 106-129 (rTRNG.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'rTRNG.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;unable to load shared object '/Volumes/Temp/tmp/Rtmp8Ny1SQ/sourceCpp-x86_64-apple-darwin17.0-1.0.4.6/sourcecpp_f1f29c7777d/sourceCpp_2.so':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dlopen(/Volumes/Temp/tmp/Rtmp8Ny1SQ/sourceCpp-x86_64-apple-darwin17.0-1.0.4.6/sourcecpp_f1f29c7777d/sourceCpp_2.so, 6): Library not loaded: rTRNG.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Referenced from: /Volumes/Temp/tmp/Rtmp8Ny1SQ/sourceCpp-x86_64-apple-darwin17.0-1.0.4.6/sourcecpp_f1f29c7777d/sourceCpp_2.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Reason: image not found<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘rTRNG.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘rTRNG.useR2017.pdf.asis’ using asis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘rTRNG.useR2017.pdf.asis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following files failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘mcMat.Rmd’ ‘rTRNG.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/rTRNG-00check.html">r-release-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 4.20-1
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [8s/8s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/testthat.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Last 13 lines of output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ testthat results  ═══════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 581 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 30 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#264) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#268) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#264) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#268) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#264) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#268) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#264) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#268) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9. Failure: $split errors for out-of-range subsequence indices (@test-TRNG.Engine.R#264) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/rTRNG-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 4.20-1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘mcMat.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 20-26 (mcMat.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'mcMat.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;unable to load shared object '/private/tmp/Rtmp45Brmw/sourceCpp-x86_64-apple-darwin15.6.0-1.0.4/sourcecpp_7900335ea405/sourceCpp_2.so':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dlopen(/private/tmp/Rtmp45Brmw/sourceCpp-x86_64-apple-darwin15.6.0-1.0.4/sourcecpp_7900335ea405/sourceCpp_2.so, 6): Library not loaded: rTRNG.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Referenced from: /private/tmp/Rtmp45Brmw/sourceCpp-x86_64-apple-darwin15.6.0-1.0.4/sourcecpp_7900335ea405/sourceCpp_2.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Reason: image not found<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘mcMat.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘rTRNG.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Building shared library for Rcpp code chunk...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 106-129 (rTRNG.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'rTRNG.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;unable to load shared object '/private/tmp/RtmpTayhkr/sourceCpp-x86_64-apple-darwin15.6.0-1.0.4/sourcecpp_791da5c16c2/sourceCpp_2.so':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dlopen(/private/tmp/RtmpTayhkr/sourceCpp-x86_64-apple-darwin15.6.0-1.0.4/sourcecpp_791da5c16c2/sourceCpp_2.so, 6): Library not loaded: rTRNG.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Referenced from: /private/tmp/RtmpTayhkr/sourceCpp-x86_64-apple-darwin15.6.0-1.0.4/sourcecpp_791da5c16c2/sourceCpp_2.so<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Reason: image not found<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘rTRNG.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘rTRNG.useR2017.pdf.asis’ using asis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘rTRNG.useR2017.pdf.asis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following files failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘mcMat.Rmd’ ‘rTRNG.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/rTRNG-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

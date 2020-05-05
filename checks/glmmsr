@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package glmmsr</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/glmmsr/index.html"> glmmsr </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:53 CEST.
+</p>
+<table border="1" summary="CRAN check results for package glmmsr">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.2.3 </td> <td class="r"> 441.84 </td> <td class="r"> 107.56 </td> <td class="r"> 549.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-vignettes </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.2.3 </td> <td class="r"> 269.51 </td> <td class="r"> 88.09 </td> <td class="r"> 357.60 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-vignettes </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1281.78 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/glmmsr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1225.59 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.2.3 </td> <td class="r"> 1063.00 </td> <td class="r"> 216.00 </td> <td class="r"> 1279.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-vignettes </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.2.3 </td> <td class="r"> 335.72 </td> <td class="r"> 106.36 </td> <td class="r"> 442.08 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-vignettes </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1597.20 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.2.3 </td> <td class="r"> 337.87 </td> <td class="r"> 107.12 </td> <td class="r"> 444.99 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-vignettes </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/glmmsr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.2.3 </td> <td class="r"> 932.00 </td> <td class="r"> 288.00 </td> <td class="r"> 1220.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-vignettes </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/glmmsr-00check.html">FAIL</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.2.3 </td> <td class="r"> 750.00 </td> <td class="r"> 250.00 </td> <td class="r"> 1000.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/glmmsr-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-vignettes </td> </tr>
+</table>
+<h3><a href="check_issue_kinds.html">Additional issues</a></h3>
+<p>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/memtests/clang-UBSAN/glmmsr"><span class="check_ko">clang-UBSAN</span></a>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/memtests/gcc-UBSAN/glmmsr"><span class="check_ko">gcc-UBSAN</span></a>
+</p>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.2.3
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 46.6Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs  45.7Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/glmmsr-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/glmmsr-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/glmmsr-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.2.3
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: FAIL
+
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/glmmsr-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

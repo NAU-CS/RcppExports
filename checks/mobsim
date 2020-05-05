@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package mobsim</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/mobsim/index.html"> mobsim </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:57 CEST.
+</p>
+<table border="1" summary="CRAN check results for package mobsim">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.1.0 </td> <td class="r"> 28.51 </td> <td class="r"> 92.95 </td> <td class="r"> 121.46 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/mobsim-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.1.0 </td> <td class="r"> 17.13 </td> <td class="r"> 70.94 </td> <td class="r"> 88.07 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/mobsim-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 157.25 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/mobsim-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 147.42 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/mobsim-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 72.00 </td> <td class="r"> 169.00 </td> <td class="r"> 241.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/mobsim-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 24.61 </td> <td class="r"> 90.39 </td> <td class="r"> 115.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/mobsim-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 212.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/mobsim-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 21.00 </td> <td class="r"> 90.97 </td> <td class="r"> 111.97 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/mobsim-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/mobsim-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 59.00 </td> <td class="r"> 181.00 </td> <td class="r"> 240.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/mobsim-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/mobsim-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 48.00 </td> <td class="r"> 165.00 </td> <td class="r"> 213.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/mobsim-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.1.0
+
+
+<br/>
+
+Check: dependencies in R code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Namespace in Imports field not imported from: ‘sads’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  All declared Imports should be used.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/mobsim-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/mobsim-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/mobsim-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/mobsim-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/mobsim-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

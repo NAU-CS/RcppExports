@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package jackalope</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/jackalope/index.html"> jackalope </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:55 CEST.
+</p>
+<table border="1" summary="CRAN check results for package jackalope">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.1.0 </td> <td class="r"> 302.65 </td> <td class="r"> 47.54 </td> <td class="r"> 350.19 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.1.0 </td> <td class="r"> 207.94 </td> <td class="r"> 37.43 </td> <td class="r"> 245.37 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 520.11 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 474.09 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 766.00 </td> <td class="r"> 146.00 </td> <td class="r"> 912.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 243.08 </td> <td class="r"> 46.93 </td> <td class="r"> 290.01 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 373.80 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 234.34 </td> <td class="r"> 46.47 </td> <td class="r"> 280.81 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 588.00 </td> <td class="r"> 132.00 </td> <td class="r"> 720.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.1.0 </td> <td class="r"> 509.00 </td> <td class="r"> 113.00 </td> <td class="r"> 622.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/jackalope-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.1.0
+
+
+<br/>
+
+Check: for GNU extensions in Makefiles
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;GNU make is a SystemRequirements.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/jackalope-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/jackalope-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/jackalope-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/jackalope-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/jackalope-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/jackalope-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/jackalope-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/jackalope-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/jackalope-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/jackalope-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/jackalope-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/jackalope-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.1.0
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 23.3Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    art_profiles   1.5Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs          21.0Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/jackalope-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/jackalope-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/jackalope-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/jackalope-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/jackalope-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/jackalope-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package gpuR</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/gpuR/index.html"> gpuR </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:53 CEST.
+</p>
+<table border="1" summary="CRAN check results for package gpuR">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 2.0.3 </td> <td class="r"> 942.10 </td> <td class="r"> 48.11 </td> <td class="r"> 990.21 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/gpuR-00check.html"><span class="check_ko">WARN</span></a> </td> <td> --no-tests </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 2.0.3 </td> <td class="r"> 741.75 </td> <td class="r"> 41.49 </td> <td class="r"> 783.24 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/gpuR-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-tests </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 2.0.3 </td> <td class="r"> 784.82 </td> <td class="r"> 48.91 </td> <td class="r"> 833.73 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/gpuR-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-tests </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 2.0.3 </td> <td class="r"> 769.91 </td> <td class="r"> 48.92 </td> <td class="r"> 818.83 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/gpuR-00check.html"><span class="check_ok">OK</span></a> </td> <td> --no-tests </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 2.0.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/gpuR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 2.0.3 </td> <td class="r"> 2102.00 </td> <td class="r"> 7.00 </td> <td class="r"> 2109.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/gpuR-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 2.0.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/gpuR-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 2.0.3
+
+
+<br/>
+
+Flags: --no-tests
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following significant warnings:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:269:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:291:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:314:58: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:333:58: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenVec.hpp:165:76: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vclPtr.cpp:1034:51: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vclPtr.cpp:1059:51: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:78:82: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:240:91: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:297:82: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:680:43: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1016:76: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1042:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1065:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1088:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1112:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1136:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1159:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1183:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1207:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1230:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1254:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1277:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1303:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1327:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1350:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1373:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:47:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:72:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:97:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:119:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_eigen.cpp:47:53: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:47:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:71:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:96:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:121:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:244:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:247:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:248:46: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:288:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:291:48: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:292:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:293:46: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:294:47: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:342:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:345:48: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:346:45: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:386:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:389:48: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:390:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:391:46: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:392:47: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:431:92: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:444:100: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:453:89: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:491:92: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:500:75: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:501:75: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:505:95: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:506:95: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:512:102: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:521:81: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:522:81: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:578:89: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:646:91: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:647:91: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:648:93: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:649:93: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/gpuR-00check.html">r-devel-linux-x86_64-debian-clang</a>
+
+</p>
+
+<p>
+
+Version: 2.0.3
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 48.2Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs  45.8Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/gpuR-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/gpuR-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.3
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Installation failed.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/gpuR-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.3
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following significant warnings:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:269:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:291:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:314:58: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenMat.hpp:333:58: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ../inst/include/gpuR/dynEigenVec.hpp:165:76: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vclPtr.cpp:1034:51: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vclPtr.cpp:1059:51: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:78:82: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:240:91: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:297:82: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:680:43: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1016:76: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1042:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1065:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1088:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1112:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1136:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1159:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1183:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1207:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1230:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1254:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1277:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1303:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1327:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1350:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas1.cpp:1373:70: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:47:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:72:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:97:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_blas3.cpp:119:41: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_eigen.cpp:47:53: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:47:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:71:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:96:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:121:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:244:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:247:49: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:248:46: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:288:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:291:48: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:292:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:293:46: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:294:47: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:342:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:345:48: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:346:45: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:386:69: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:389:48: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:390:50: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:391:46: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:392:47: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:431:92: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:444:100: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:453:89: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:491:92: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:500:75: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:501:75: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:505:95: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:506:95: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:512:102: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:521:81: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:522:81: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:578:89: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:646:91: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:647:91: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:648:93: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  vienna_stats.cpp:649:93: warning: explicitly assigning value of variable of type 'viennacl::context' to itself [-Wself-assign-overloaded]
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/gpuR-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.3
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [68s/77s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/testthat.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Last 13 lines of output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ testthat results  ═══════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 3096 | SKIPPED: 309 | WARNINGS: 0 | FAILED: 25 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: gpuMatrix Double Precision Matrix-Vector multiplication (@test_gpuMatrix_algebra.R#840) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. Error: gpuMatrix Integer Precision Sum (@test_gpuMatrix_row_col.R#41) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3. Error: gpuMatrix Double Precision Sum (@test_gpuMatrix_row_col.R#67) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4. Error: gpuMatrix Double Precision Block Sum (@test_gpuMatrix_row_col.R#400) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5. Error: gpuVector Double precision tcrossprod (@test_gpuVector_algebra.R#607) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6. Error: Switching GPUs vclMatrix Double Precision Matrix Multiplication (@test_switch_gpu_vclMatrix_algebra.R#480) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7. Error: Switching GPUs vclMatrix Double Precision Matrix Subtraction (@test_switch_gpu_vclMatrix_algebra.R#507) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8. Error: Switching GPUs vclMatrix Double Precision Scalar Matrix Subtraction (@test_switch_gpu_vclMatrix_algebra.R#535) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9. Error: Switching GPUs vclMatrix Double Precision Unary Scalar Matrix Subtraction (@test_switch_gpu_vclMatrix_algebra.R#567) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/gpuR-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

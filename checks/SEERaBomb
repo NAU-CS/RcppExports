@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package SEERaBomb</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/SEERaBomb/index.html"> SEERaBomb </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:04 CEST.
+</p>
+<table border="1" summary="CRAN check results for package SEERaBomb">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 2019.2 </td> <td class="r"> 39.41 </td> <td class="r"> 156.34 </td> <td class="r"> 195.75 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 2019.2 </td> <td class="r"> 29.60 </td> <td class="r"> 120.74 </td> <td class="r"> 150.34 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 2019.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 234.24 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 2019.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 230.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 2019.2 </td> <td class="r"> 114.00 </td> <td class="r"> 307.00 </td> <td class="r"> 421.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 2019.2 </td> <td class="r"> 0.24 </td> <td class="r"> 2.26 </td> <td class="r"> 2.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/SEERaBomb-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 2019.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 324.10 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 2019.2 </td> <td class="r"> 33.04 </td> <td class="r"> 149.60 </td> <td class="r"> 182.64 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 2019.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 2019.2 </td> <td class="r"> 92.00 </td> <td class="r"> 323.00 </td> <td class="r"> 415.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 2019.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 2019.2 </td> <td class="r"> 94.00 </td> <td class="r"> 228.00 </td> <td class="r"> 322.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/SEERaBomb-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Package required but not available: ‘demography’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;manual.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/SEERaBomb-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following significant warnings:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Warning: 'rgl_init' failed, running with rgl.useNULL = TRUE
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: dependencies in R code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: S3 generic/method consistency
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See section ‘Generic functions and methods’ in the ‘Writing R<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Extensions’ manual.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: replacement functions
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The argument of a replacement function which corresponds to the right<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;hand side must be named ‘value’.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: foreign function calls
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See chapter ‘System and foreign language interfaces’ in the ‘Writing R<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Extensions’ manual.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: for missing documentation entries
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;All user-level objects in a package should have documentation entries.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See chapter ‘Writing R documentation files’ in the ‘Writing R<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Extensions’ manual.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: for code/documentation mismatches
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2019.2
+
+
+<br/>
+
+Check: Rd \usage sections
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;No protocol specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The \usage entries for S3 methods should use the \method markup and not<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;their full name.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See chapter ‘Writing R documentation files’ in the ‘Writing R<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Extensions’ manual.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/SEERaBomb-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

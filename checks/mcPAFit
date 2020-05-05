@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package mcPAFit</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/mcPAFit/index.html"> mcPAFit </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:56 CEST.
+</p>
+<table border="1" summary="CRAN check results for package mcPAFit">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.1.4 </td> <td class="r"> 23.31 </td> <td class="r"> 53.41 </td> <td class="r"> 76.72 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/mcPAFit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.1.4 </td> <td class="r"> 13.80 </td> <td class="r"> 43.25 </td> <td class="r"> 57.05 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/mcPAFit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 99.93 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/mcPAFit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 93.08 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/mcPAFit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.1.4 </td> <td class="r"> 62.00 </td> <td class="r"> 138.00 </td> <td class="r"> 200.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/mcPAFit-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.1.4 </td> <td class="r"> 17.27 </td> <td class="r"> 52.60 </td> <td class="r"> 69.87 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/mcPAFit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 140.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/mcPAFit-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.1.4 </td> <td class="r"> 18.29 </td> <td class="r"> 52.91 </td> <td class="r"> 71.20 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/mcPAFit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/mcPAFit-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.1.4 </td> <td class="r"> 53.00 </td> <td class="r"> 140.00 </td> <td class="r"> 193.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/mcPAFit-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/mcPAFit-00check.html">FAIL</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.1.4 </td> <td class="r"> 44.00 </td> <td class="r"> 88.00 </td> <td class="r"> 132.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/mcPAFit-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.1.4
+
+
+<br/>
+
+Check: use of SHLIB_OPENMP_*FLAGS in Makefiles
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  src/Makevars: incorrect macro SHLIB_OPENMP_CFLAGS included in PKG_CXXFLAGS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  src/Makevars: SHLIB_OPENMP_CFLAGS is included in PKG_LIBS but linking is by C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  src/Makevars.win: incorrect macro SHLIB_OPENMP_CFLAGS included in PKG_CXXFLAGS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  src/Makevars.win: SHLIB_OPENMP_CFLAGS is included in PKG_LIBS but linking is by C++<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use of these macros is discussed in sect 1.2.1.1 of 'Writing R<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Extensions'. The macros for different languages may differ so the<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;matching macro must be used in PKG_CXXFLAGS (etc) and match that used<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;in PKG_LIBS (except for Fortran: see the manual).
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/mcPAFit-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/mcPAFit-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/mcPAFit-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/mcPAFit-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/mcPAFit-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/mcPAFit-00check.html">r-release-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1.4
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: FAIL
+
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/mcPAFit-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package NestedCategBayesImpute</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/NestedCategBayesImpute/index.html"> NestedCategBayesImpute </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:58 CEST.
+</p>
+<table border="1" summary="CRAN check results for package NestedCategBayesImpute">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.2.1 </td> <td class="r"> 161.29 </td> <td class="r"> 41.19 </td> <td class="r"> 202.48 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.2.1 </td> <td class="r"> 95.68 </td> <td class="r"> 32.41 </td> <td class="r"> 128.09 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 286.30 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 248.01 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 425.00 </td> <td class="r"> 88.00 </td> <td class="r"> 513.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/NestedCategBayesImpute-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 113.74 </td> <td class="r"> 40.53 </td> <td class="r"> 154.27 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 218.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/NestedCategBayesImpute-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 120.44 </td> <td class="r"> 39.96 </td> <td class="r"> 160.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 328.00 </td> <td class="r"> 115.00 </td> <td class="r"> 443.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/NestedCategBayesImpute-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/NestedCategBayesImpute-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 313.00 </td> <td class="r"> 129.00 </td> <td class="r"> 442.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/NestedCategBayesImpute-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.2.1
+
+
+<br/>
+
+Check: for GNU extensions in Makefiles
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;GNU make is a SystemRequirements.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/NestedCategBayesImpute-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/NestedCategBayesImpute-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NestedCategBayesImpute-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/NestedCategBayesImpute-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/NestedCategBayesImpute-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/NestedCategBayesImpute-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/NestedCategBayesImpute-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/NestedCategBayesImpute-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/NestedCategBayesImpute-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/NestedCategBayesImpute-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/NestedCategBayesImpute-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/NestedCategBayesImpute-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.2.1
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  6.3Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   5.7Mb
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NestedCategBayesImpute-00check.html">r-devel-linux-x86_64-fedora-clang</a>
+
+</p>
+
+<p>
+
+Version: 1.2.1
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following significant warnings:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  generateData.cpp:105:18: warning: passing NULL to non-pointer argument 1 of 'Rcpp::Vector&lt;RTYPE, StoragePolicy&gt;::Vector(const int&amp;) [with int RTYPE = 19; StoragePolicy = Rcpp::PreserveStorage]' [-Wconversion-null]
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/NestedCategBayesImpute-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/NestedCategBayesImpute-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/NestedCategBayesImpute-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/NestedCategBayesImpute-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

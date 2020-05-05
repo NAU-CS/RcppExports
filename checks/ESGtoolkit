@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package ESGtoolkit</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/ESGtoolkit/index.html"> ESGtoolkit </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:51 CEST.
+</p>
+<table border="1" summary="CRAN check results for package ESGtoolkit">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.1 </td> <td class="r"> 23.65 </td> <td class="r"> 62.54 </td> <td class="r"> 86.19 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.1 </td> <td class="r"> 17.30 </td> <td class="r"> 48.78 </td> <td class="r"> 66.08 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 116.79 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 108.89 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 77.00 </td> <td class="r"> 104.00 </td> <td class="r"> 181.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 18.93 </td> <td class="r"> 60.08 </td> <td class="r"> 79.01 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 141.60 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 20.01 </td> <td class="r"> 60.90 </td> <td class="r"> 80.91 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 58.00 </td> <td class="r"> 182.00 </td> <td class="r"> 240.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 56.00 </td> <td class="r"> 150.00 </td> <td class="r"> 206.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/ESGtoolkit-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: DESCRIPTION meta-information
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Malformed Title field: should not end in a period.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/ESGtoolkit-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/ESGtoolkit-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ESGtoolkit-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ESGtoolkit-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/ESGtoolkit-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/ESGtoolkit-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/ESGtoolkit-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/ESGtoolkit-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/ESGtoolkit-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/ESGtoolkit-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/ESGtoolkit-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/ESGtoolkit-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;bands.add: no visible global function definition for 'polygon'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.add: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.plot: no visible global function definition for 'polygon'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.plot: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.plot: no visible global function definition for 'abline'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest: no visible global function definition for 'deltat'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'cor'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'cor.test'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for 'start'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for 'deltat'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for 'tsp'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for 'window'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgfwdrates: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for 'deltat'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible binding for global variable 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for 'qt'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for 'pt'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for 'end'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for 'start'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for 'is.ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for 'tsp'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for 'deltat'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for 'window'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  't.test'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for 'matplot'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for 'polygon'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for 'is.ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for 'tsp'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for 'deltat'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for 'start'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for 'window'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for 'is.ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'quantile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  't.test'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'colorRampPalette'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for 'time'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for 'points'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for 'geom_point'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for 'aes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for 'theme'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'element_blank'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'scale_color_manual'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for 'geom_density'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'scale_fill_manual'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for 'coord_flip'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for 'start'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for 'deltat'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for 'xlab'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for 'ylab'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for 'theme'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simdiff: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simshocks: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simshocks: no visible global function definition for 'qnorm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simshocks : &lt;anonymous&gt;: no visible global function definition for 'ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  abline aes colorRampPalette coord_flip cor cor.test deltat<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  element_blank end geom_density geom_point is.ts lines matplot par<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  points polygon pt qnorm qt quantile scale_color_manual<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  scale_fill_manual sd start t.test theme time ts tsp window xlab ylab<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "colorRampPalette")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "abline", "lines", "matplot", "par", "points",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "polygon")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "cor", "cor.test", "deltat", "end", "is.ts", "pt",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "qnorm", "qt", "quantile", "sd", "start", "t.test", "time",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "ts", "tsp", "window")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/ESGtoolkit-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/ESGtoolkit-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ESGtoolkit-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ESGtoolkit-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/ESGtoolkit-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/ESGtoolkit-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/ESGtoolkit-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/ESGtoolkit-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/ESGtoolkit-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/ESGtoolkit-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: compiled code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;File ‘ESGtoolkit/libs/ESGtoolkit.so’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Found no calls to: ‘R_registerRoutines’, ‘R_useDynamicSymbols’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;It is good practice to register native routines and to disable symbol<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;search.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/ESGtoolkit-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/ESGtoolkit-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;bands.add: no visible global function definition for ‘polygon’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.add: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.plot: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.plot: no visible global function definition for ‘polygon’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.plot: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bands.plot: no visible global function definition for ‘abline’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest: no visible global function definition for ‘deltat’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘cor’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgcortest : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘cor.test’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for ‘start’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for ‘deltat’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for ‘tsp’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgdiscountfactor: no visible global function definition for ‘window’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgfwdrates: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for ‘deltat’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible binding for global variable ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for ‘qt’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for ‘pt’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for ‘end’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmartingaletest: no visible global function definition for ‘start’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for ‘is.ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for ‘tsp’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for ‘deltat’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for ‘window’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘t.test’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for ‘matplot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for ‘polygon’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmccv: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for ‘is.ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for ‘tsp’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for ‘deltat’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for ‘start’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgmcprices: no visible global function definition for ‘window’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for ‘is.ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘quantile’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands : &lt;anonymous&gt;: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘t.test’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘colorRampPalette’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for ‘time’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for ‘points’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotbands: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for ‘geom_point’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for ‘aes’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for ‘theme’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘element_blank’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘scale_color_manual’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for ‘geom_density’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘scale_fill_manual’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotshocks: no visible global function definition for ‘coord_flip’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for ‘start’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for ‘deltat’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for ‘xlab’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for ‘ylab’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;esgplotts: no visible global function definition for ‘theme’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simdiff: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simshocks: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simshocks: no visible global function definition for ‘qnorm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;simshocks : &lt;anonymous&gt;: no visible global function definition for ‘ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  abline aes colorRampPalette coord_flip cor cor.test deltat<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  element_blank end geom_density geom_point is.ts lines matplot par<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  plot points polygon pt qnorm qt quantile scale_color_manual<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  scale_fill_manual sd start t.test theme time ts tsp window xlab ylab<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "colorRampPalette")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "abline", "lines", "matplot", "par", "plot",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "points", "polygon")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "cor", "cor.test", "deltat", "end", "is.ts", "pt",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "qnorm", "qt", "quantile", "sd", "start", "t.test", "time",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "ts", "tsp", "window")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/ESGtoolkit-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/ESGtoolkit-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

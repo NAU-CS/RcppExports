@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package DiffusionRjgqd</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/DiffusionRjgqd/index.html"> DiffusionRjgqd </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:50 CEST.
+</p>
+<table border="1" summary="CRAN check results for package DiffusionRjgqd">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.1.1 </td> <td class="r"> 48.37 </td> <td class="r"> 164.59 </td> <td class="r"> 212.96 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/DiffusionRjgqd-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.1.1 </td> <td class="r"> 31.88 </td> <td class="r"> 125.36 </td> <td class="r"> 157.24 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/DiffusionRjgqd-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 263.69 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/DiffusionRjgqd-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 260.58 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/DiffusionRjgqd-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.1.1 </td> <td class="r"> 111.00 </td> <td class="r"> 223.00 </td> <td class="r"> 334.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/DiffusionRjgqd-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.1.1 </td> <td class="r"> 36.51 </td> <td class="r"> 166.11 </td> <td class="r"> 202.62 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/DiffusionRjgqd-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 364.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/DiffusionRjgqd-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.1.1 </td> <td class="r"> 36.53 </td> <td class="r"> 164.02 </td> <td class="r"> 200.55 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/DiffusionRjgqd-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/DiffusionRjgqd-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.1.1 </td> <td class="r"> 103.00 </td> <td class="r"> 285.00 </td> <td class="r"> 388.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/DiffusionRjgqd-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/DiffusionRjgqd-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.1.1 </td> <td class="r"> 77.00 </td> <td class="r"> 227.00 </td> <td class="r"> 304.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/DiffusionRjgqd-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.1.1
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  7.1Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc   5.6Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/DiffusionRjgqd-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/DiffusionRjgqd-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/DiffusionRjgqd-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/DiffusionRjgqd-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/DiffusionRjgqd-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/DiffusionRjgqd-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/DiffusionRjgqd-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1.1
+
+
+<br/>
+
+Check: compiled code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;File ‘DiffusionRjgqd/libs/DiffusionRjgqd.so’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Found no calls to: ‘R_registerRoutines’, ‘R_useDynamicSymbols’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;It is good practice to register native routines and to disable symbol<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;search.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/DiffusionRjgqd-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/DiffusionRjgqd-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 0.1.1
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following significant warnings:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Warning: 'rgl_init' failed, running with rgl.useNULL = TRUE
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/DiffusionRjgqd-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘Part_1_Introduction.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘Part_1_Introduction.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘Part_2_Transition_Densities.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 176-185 (Part_2_Transition_Densities.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'Part_2_Transition_Densities.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;there is no package called 'DiffusionRgqd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘Part_2_Transition_Densities.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘Part_3_Bivariate_Diffusions.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘Part_3_Bivariate_Diffusions.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘DiffusionRjgqd_Paper.pdf.asis’ using asis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘DiffusionRjgqd_Paper.pdf.asis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘DiffusionRjgqd_RepMaterials.html.asis’ using asis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘DiffusionRjgqd_RepMaterials.html.asis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘Part_4_Likelihood_Inference.html.asis’ using asis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘Part_4_Likelihood_Inference.html.asis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘Part_2_Transition_Densities.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/DiffusionRjgqd-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package spduration</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/spduration/index.html"> spduration </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:06 CEST.
+</p>
+<table border="1" summary="CRAN check results for package spduration">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.17.1 </td> <td class="r"> 79.78 </td> <td class="r"> 147.12 </td> <td class="r"> 226.90 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.17.1 </td> <td class="r"> 52.47 </td> <td class="r"> 108.78 </td> <td class="r"> 161.25 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.17.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 290.79 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.17.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 275.67 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.17.1 </td> <td class="r"> 245.00 </td> <td class="r"> 357.00 </td> <td class="r"> 602.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.17.1 </td> <td class="r"> 0.28 </td> <td class="r"> 2.66 </td> <td class="r"> 2.94 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/spduration-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.17.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 377.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.17.1 </td> <td class="r"> 61.12 </td> <td class="r"> 140.30 </td> <td class="r"> 201.42 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.17.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/spduration-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.17.1 </td> <td class="r"> 204.00 </td> <td class="r"> 362.00 </td> <td class="r"> 566.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.17.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.17.1 </td> <td class="r"> 135.00 </td> <td class="r"> 339.00 </td> <td class="r"> 474.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/spduration-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.17.1
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Package required but not available: ‘separationplot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;manual.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/spduration-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.17.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘introduction.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bscoup               package:spduration                R Documentation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;_&lt;08&gt;B&amp;_&lt;08&gt;S _&lt;08&gt;2_&lt;08&gt;0_&lt;08&gt;0_&lt;08&gt;3 _&lt;08&gt;c_&lt;08&gt;o_&lt;08&gt;u_&lt;08&gt;p _&lt;08&gt;d_&lt;08&gt;a_&lt;08&gt;t_&lt;08&gt;a<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;_&lt;08&gt;D_&lt;08&gt;e_&lt;08&gt;s_&lt;08&gt;c_&lt;08&gt;r_&lt;08&gt;i_&lt;08&gt;p_&lt;08&gt;t_&lt;08&gt;i_&lt;08&gt;o_&lt;08&gt;n:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     Replication data from Belkin and Schofer's 2003 paper on coups.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;_&lt;08&gt;U_&lt;08&gt;s_&lt;08&gt;a_&lt;08&gt;g_&lt;08&gt;e:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     bscoups<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;_&lt;08&gt;F_&lt;08&gt;o_&lt;08&gt;r_&lt;08&gt;m_&lt;08&gt;a_&lt;08&gt;t:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     A data frame with 5463 observations of 14 variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'countryid' Gleditsch and Ward country codes.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'year' Year<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'couprisk' Structural coup risk index, see paper for details.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'recentcoups' Alternative coup risk measure, running count of<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          coups in past 10 years.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'rwar' Country participated in war in past 10 years.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'milreg' 1=Military regime, 0=other<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'wealth' log of GDP per capita<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'instab' Domestic instability and violence.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'coup' Indicator for successful coup.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'africa' Indicator for countries in Africa.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'eurnam' Indicator for countries in Europe and N. America.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'samerica' Indicator for countries in South America.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'camerica' Indicator for countries in Central America.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     'regconf' Regional conflict.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;_&lt;08&gt;S_&lt;08&gt;o_&lt;08&gt;u_&lt;08&gt;r_&lt;08&gt;c_&lt;08&gt;e:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     Belkin, Aaron and Evan Schofer. 2003. ``Toward a structural<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     understanding of coup risk.'' Journal of Conflict Resolution Vol.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     47 No. 5.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;_&lt;08&gt;E_&lt;08&gt;x_&lt;08&gt;a_&lt;08&gt;m_&lt;08&gt;p_&lt;08&gt;l_&lt;08&gt;e_&lt;08&gt;s:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     data(bscoup)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     table(bscoup$coup)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     range(bscoup$year)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Referenced from: /usr/local/bin/pandoc (which was built for Mac OS X 10.15)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Expected in: /usr/lib/libSystem.B.dylib<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;dyld: Symbol not found: ____chkstk_darwin<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Referenced from: /usr/local/bin/pandoc (which was built for Mac OS X 10.15)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Expected in: /usr/lib/libSystem.B.dylib<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'introduction.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;pandoc document conversion failed with error 6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘introduction.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘introduction.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/spduration-00check.html">r-release-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

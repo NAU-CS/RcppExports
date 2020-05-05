@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package magick</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/magick/index.html"> magick </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:56 CEST.
+</p>
+<table border="1" summary="CRAN check results for package magick">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 2.3 </td> <td class="r"> 155.15 </td> <td class="r"> 217.45 </td> <td class="r"> 372.60 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/magick-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 2.3 </td> <td class="r"> 92.13 </td> <td class="r"> 127.01 </td> <td class="r"> 219.14 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/magick-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 512.68 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/magick-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 429.49 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/magick-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 2.3 </td> <td class="r"> 379.00 </td> <td class="r"> 359.00 </td> <td class="r"> 738.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/magick-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 2.3 </td> <td class="r"> 118.82 </td> <td class="r"> 143.98 </td> <td class="r"> 262.80 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/magick-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 210.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/magick-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 2.3 </td> <td class="r"> 115.72 </td> <td class="r"> 148.06 </td> <td class="r"> 263.78 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/magick-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/magick-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 2.3 </td> <td class="r"> 316.00 </td> <td class="r"> 370.00 </td> <td class="r"> 686.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/magick-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 2.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/magick-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 2.3 </td> <td class="r"> 307.00 </td> <td class="r"> 305.00 </td> <td class="r"> 612.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/magick-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 2.3
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 14.5Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc    6.7Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   7.5Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/magick-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/magick-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/magick-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/magick-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/magick-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/magick-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/magick-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.3
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Packages suggested but not available for checking:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'av', 'rsvg', 'tesseract', 'gifski'
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/magick-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 2.3
+
+
+<br/>
+
+Check: Rd cross-references
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Packages unavailable to check Rd xrefs: ‘rsvg’, ‘tesseract’, ‘gifski’, ‘av’
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/magick-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 2.3
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘magick-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: analysis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Image Analysis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: analysis image_compare image_compare_dist image_fft<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; out1 &lt;- image_blur(logo, 3)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 2c, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 1: magick_image_blur(image, radius, sigma)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 2: image_blur(logo, 3)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/magick-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 2.3
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘intro.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  there is no package called 'rsvg'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  there is no package called 'rsvg'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 2c, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 1: magick_image_blur(image, radius, sigma)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 2: image_blur(frink, 10, 5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 3: eval(expr, envir, enclos)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 4: eval(expr, envir, enclos)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 5: withVisible(eval(expr, envir, enclos))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 6: withCallingHandlers(withVisible(eval(expr, envir, enclos)), warning = wHandler,     error = eHandler, message = mHandler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 7: handle(ev &lt;- withCallingHandlers(withVisible(eval(expr, envir,     enclos)), warning = wHandler, error = eHandler, message = mHandler))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 8: timing_fn(handle(ev &lt;- withCallingHandlers(withVisible(eval(expr,     envir, enclos)), warning = wHandler, error = eHandler, message = mHandler)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 9: evaluate_call(expr, parsed$src[[i]], envir = envir, enclos = enclos,     debug = debug, last = i == length(out), use_try = stop_on_error !=         2L, keep_warning = keep_warning, keep_message = keep_message,     output_handler = output_handler, include_timing = include_timing)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10: evaluate::evaluate(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11: evaluate(code, envir = env, new_device = FALSE, keep_warning = !isFALSE(options$warning),     keep_message = !isFALSE(options$message), stop_on_error = if (options$error &amp;&amp;         options$include) 0L else 2L, output_handler = knit_handlers(options$render,         options))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12: in_dir(input_dir(), evaluate(code, envir = env, new_device = FALSE,     keep_warning = !isFALSE(options$warning), keep_message = !isFALSE(options$message),     stop_on_error = if (options$error &amp;&amp; options$include) 0L else 2L,     output_handler = knit_handlers(options$render, options)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13: block_exec(params)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14: call_block(x)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15: process_group.block(group)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16: process_group(group)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17: withCallingHandlers(if (tangle) process_tangle(group) else process_group(group),     error = function(e) {        setwd(wd)        cat(res, sep = "\n", file = output %n% "")        message("Quitting from lines ", paste(current_lines(i),             collapse = "-"), " (", knit_concord$get("infile"),             ") ")    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18: process_file(text, output)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19: knit(input, text = text, envir = envir, quiet = quiet)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20: knit2html(..., force_v1 = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21: (if (grepl("\\.[Rr]md$", file)) knit2html_v1 else if (grepl("\\.[Rr]rst$",     file)) knit2pandoc else knit)(file, encoding = encoding,     quiet = quiet, envir = globalenv(), ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22: vweave(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23: engine$weave(file, quiet = quiet, encoding = enc)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27: tryCatch({    engine$weave(file, quiet = quiet, encoding = enc)    setwd(startdir)    output &lt;- find_vignette_product(name, by = "weave", engine = engine)    if (!have.makefile &amp;&amp; vignette_is_tex(output)) {        texi2pdf(file = output, clean = FALSE, quiet = quiet)        output &lt;- find_vignette_product(name, by = "texi2pdf",             engine = engine)    }    outputs &lt;- c(outputs, output)}, error = function(e) {    thisOK &lt;&lt;- FALSE    fails &lt;&lt;- c(fails, file)    message(gettextf("Error: processing vignette '%s' failed with diagnostics:\n%s",         file, conditionMessage(e)))})<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28: tools:::buildVignettes(dir = "/home/ripley/R/packages/tests32/magick.Rcheck/vign_test/magick",     ser_elibs = "/tmp/RtmpYxaG.1/file6bf4bbb8f1.rds")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/magick-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

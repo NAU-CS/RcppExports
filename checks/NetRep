@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package NetRep</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/NetRep/index.html"> NetRep </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:58 CEST.
+</p>
+<table border="1" summary="CRAN check results for package NetRep">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.2.1 </td> <td class="r"> 156.77 </td> <td class="r"> 151.92 </td> <td class="r"> 308.69 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/NetRep-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.2.1 </td> <td class="r"> 102.06 </td> <td class="r"> 117.34 </td> <td class="r"> 219.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/NetRep-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 403.17 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NetRep-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 386.17 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/NetRep-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 382.00 </td> <td class="r"> 258.00 </td> <td class="r"> 640.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/NetRep-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 128.35 </td> <td class="r"> 149.71 </td> <td class="r"> 278.06 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/NetRep-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 273.80 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/NetRep-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 125.89 </td> <td class="r"> 150.13 </td> <td class="r"> 276.02 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/NetRep-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/NetRep-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 325.00 </td> <td class="r"> 259.00 </td> <td class="r"> 584.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/NetRep-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.2.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/NetRep-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.2.1 </td> <td class="r"> 280.00 </td> <td class="r"> 215.00 </td> <td class="r"> 495.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/NetRep-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.2.1
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  9.9Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc    1.8Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   7.0Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NetRep-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/NetRep-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/NetRep-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/NetRep-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/NetRep-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.2.1
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘NetRep-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: permutationTest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Permutation test P-values for module preservation statistics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: permutationTest permutation permuted<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Keywords: internal<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data("NetRep")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # Set up input lists for each input matrix type across datasets. The list<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # elements can have any names, so long as they are consistent between the<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # inputs.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; network_list &lt;- list(discovery=discovery_network, test=test_network)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data_list &lt;- list(discovery=discovery_data, test=test_data)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; correlation_list &lt;- list(discovery=discovery_correlation, test=test_correlation)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; labels_list &lt;- list(discovery=module_labels)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # Note that we recommend running at least 10,000 permutations to make sure <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # that the null distributions are representative.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; preservation &lt;- modulePreservation(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+  network=network_list, data=data_list, correlation=correlation_list, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+  moduleAssignments=labels_list, nPerm=1000, discovery="discovery", <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+  test="test"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[2020-04-26 09:15:54 BST] Validating user input...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[2020-04-26 09:15:54 BST]   Checking matrices for problems...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[2020-04-26 09:15:54 BST] Input ok!<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[2020-04-26 09:15:54 BST] Calculating preservation of network subsets from<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                          dataset "discovery" in dataset "test".<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[2020-04-26 09:15:54 BST]   Pre-computing network properties in dataset<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                            "discovery"...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[2020-04-26 09:15:54 BST]   Calculating observed test statistics...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[2020-04-26 09:15:54 BST]   Generating null distributions from 1000<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                            permutations using 15 threads...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    0% completed.Warning in value[[3L]](cond) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Failed with error:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;BLAS/LAPACK routine 'DORGQRNo transposeCo' gave error code -3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Skipping to next comparison<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;terminate called after throwing an instance of 'std::bad_alloc'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  what():  std::bad_alloc
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/NetRep-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.2.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘NetRep.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: C stack usage  302519048 is too close to the limit<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: no more error handlers available (recursive errors?); invoking 'abort' restart<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 0, cause 'memory not mapped'
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/NetRep-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.2.1
+
+
+<br/>
+
+Check: for non-standard things in the check directory
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following files/directories:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘core’
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/NetRep-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

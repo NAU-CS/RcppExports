@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package bigutilsr</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/bigutilsr/index.html"> bigutilsr </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:47 CEST.
+</p>
+<table border="1" summary="CRAN check results for package bigutilsr">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.3.0 </td> <td class="r"> 38.80 </td> <td class="r"> 192.80 </td> <td class="r"> 231.60 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.3.0 </td> <td class="r"> 23.87 </td> <td class="r"> 140.78 </td> <td class="r"> 164.65 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 284.16 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 270.28 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 92.00 </td> <td class="r"> 471.00 </td> <td class="r"> 563.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 25.42 </td> <td class="r"> 186.21 </td> <td class="r"> 211.63 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 619.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 29.92 </td> <td class="r"> 188.58 </td> <td class="r"> 218.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/bigutilsr-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 68.00 </td> <td class="r"> 482.00 </td> <td class="r"> 550.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 65.00 </td> <td class="r"> 473.00 </td> <td class="r"> 538.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/bigutilsr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3><a href="check_issue_kinds.html">Additional issues</a></h3>
+<p>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/Rblas/OpenBLAS/bigutilsr.out"><span class="check_ko">OpenBLAS</span></a>
+</p>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.3.0
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘spelling.R’ [0s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [116s/144s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/testthat.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(bigutilsr)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("bigutilsr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 1. Failure: covrob_ogk() is the same as rrcov::CovOgk() (@test-OGK.R#20)  ───<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  test$cov not equal to true@cov.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  100/100 mismatches (average diff: 0.859)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 2019.91 - 2020.56 == -0.6565<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [2]  -22.04 -  -21.70 == -0.3369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [3]   62.53 -   62.57 == -0.0369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [4]   24.76 -   24.07 ==  0.6945<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [5]   -7.48 -   -7.17 == -0.3128<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [6]  -65.67 -  -64.71 == -0.9633<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [7]  -58.58 -  -58.80 ==  0.2208<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [8]   45.28 -   45.90 == -0.6202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [9]   34.13 -   33.95 ==  0.1843<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 2. Failure: covrob_ogk() is the same as rrcov::CovOgk() (@test-OGK.R#20)  ───<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  test$center not equal to true@center.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10/10 mismatches (average diff: 0.022)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] -0.9900 - -1.007 ==  0.016797<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [2]  1.6683 -  1.680 == -0.011857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [3]  0.1657 -  0.166 == -0.000043<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [4]  0.9329 -  0.909 ==  0.024037<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [5]  2.0517 -  2.062 == -0.010756<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [6] -1.3379 - -1.304 == -0.033948<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [7]  0.7372 -  0.731 ==  0.006359<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [8]  0.0668 -  0.087 == -0.020163<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [9] -0.7319 - -0.739 ==  0.006913<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ testthat results  ═══════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 250 | SKIPPED: 0 | WARNINGS: 0 | FAILED: 2 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Failure: covrob_ogk() is the same as rrcov::CovOgk() (@test-OGK.R#20) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. Failure: covrob_ogk() is the same as rrcov::CovOgk() (@test-OGK.R#20) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/bigutilsr-00check.html">r-release-linux-x86_64</a>
+
+</p>
+
+</body>
+</html>

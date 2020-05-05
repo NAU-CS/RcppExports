@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package cusum</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/cusum/index.html"> cusum </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:49 CEST.
+</p>
+<table border="1" summary="CRAN check results for package cusum">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.4.1 </td> <td class="r"> 22.47 </td> <td class="r"> 86.96 </td> <td class="r"> 109.43 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.4.1 </td> <td class="r"> 13.92 </td> <td class="r"> 64.44 </td> <td class="r"> 78.36 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.4.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 130.87 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.4.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 128.51 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.4.1 </td> <td class="r"> 57.00 </td> <td class="r"> 186.00 </td> <td class="r"> 243.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.4.1 </td> <td class="r"> 17.42 </td> <td class="r"> 84.63 </td> <td class="r"> 102.05 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.4.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 157.90 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/cusum-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.4.1 </td> <td class="r"> 16.11 </td> <td class="r"> 82.90 </td> <td class="r"> 99.01 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.4.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.4.1 </td> <td class="r"> 39.00 </td> <td class="r"> 186.00 </td> <td class="r"> 225.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.4.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.4.1 </td> <td class="r"> 45.00 </td> <td class="r"> 171.00 </td> <td class="r"> 216.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/cusum-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.4.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘cusum.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘cusum.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Segmentation Fault - core dumped<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘gscusum.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address cf52008, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 1: gscusum(input_outcomes = input_outcomes, failure_probability = failure_probability,     odds_multiplier = 2, limit = cusum_limit, max_num_shuffles = 1000,     quantiles = c(0, 0.05, 0.25, 0.5, 0.75, 0.95, 1))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 2: eval(expr, envir, enclos)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 3: eval(expr, envir, enclos)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 4: withVisible(eval(expr, envir, enclos))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 5: withCallingHandlers(withVisible(eval(expr, envir, enclos)), warning = wHandler,     error = eHandler, message = mHandler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 6: handle(ev &lt;- withCallingHandlers(withVisible(eval(expr, envir,     enclos)), warning = wHandler, error = eHandler, message = mHandler))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 7: timing_fn(handle(ev &lt;- withCallingHandlers(withVisible(eval(expr,     envir, enclos)), warning = wHandler, error = eHandler, message = mHandler)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 8: evaluate_call(expr, parsed$src[[i]], envir = envir, enclos = enclos,     debug = debug, last = i == length(out), use_try = stop_on_error !=         2L, keep_warning = keep_warning, keep_message = keep_message,     output_handler = output_handler, include_timing = include_timing)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 9: evaluate::evaluate(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10: evaluate(code, envir = env, new_device = FALSE, keep_warning = !isFALSE(options$warning),     keep_message = !isFALSE(options$message), stop_on_error = if (options$error &amp;&amp;         options$include) 0L else 2L, output_handler = knit_handlers(options$render,         options))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11: in_dir(input_dir(), evaluate(code, envir = env, new_device = FALSE,     keep_warning = !isFALSE(options$warning), keep_message = !isFALSE(options$message),     stop_on_error = if (options$error &amp;&amp; options$include) 0L else 2L,     output_handler = knit_handlers(options$render, options)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12: block_exec(params)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13: call_block(x)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14: process_group.block(group)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15: process_group(group)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16: withCallingHandlers(if (tangle) process_tangle(group) else process_group(group),     error = function(e) {        setwd(wd)        cat(res, sep = "\n", file = output %n% "")        message("Quitting from lines ", paste(current_lines(i),             collapse = "-"), " (", knit_concord$get("infile"),             ") ")    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17: process_file(text, output)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18: knit(input, text = text, envir = envir, quiet = quiet)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19: knit2html(..., force_v1 = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20: (if (grepl("\\.[Rr]md$", file)) knit2html_v1 else if (grepl("\\.[Rr]rst$",     file)) knit2pandoc else knit)(file, encoding = encoding,     quiet = quiet, envir = globalenv(), ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21: vweave(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22: engine$weave(file, quiet = quiet, encoding = enc)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26: tryCatch({    engine$weave(file, quiet = quiet, encoding = enc)    setwd(startdir)    output &lt;- find_vignette_product(name, by = "weave", engine = engine)    if (!have.makefile &amp;&amp; vignette_is_tex(output)) {        texi2pdf(file = output, clean = FALSE, quiet = quiet)        output &lt;- find_vignette_product(name, by = "texi2pdf",             engine = engine)    }}, error = function(e) {    OK &lt;&lt;- FALSE    message(gettextf("Error: processing vignette '%s' failed with diagnostics:\n%s",         file, conditionMessage(e)))})<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27: tools:::.buildOneVignette("gscusum.Rmd", "/home/ripley/R/packages/tests32/cusum.Rcheck/vign_test/cusum",     TRUE, FALSE, "gscusum", "UTF-8", "/tmp/RtmpNAaGhS/working_dir/RtmpV0aaJb/file31816907cda.rds")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;An irrecoverable exception occurred. R is aborting now ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘gscusum.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/cusum-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

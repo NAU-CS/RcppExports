@@ -1,0 +1,1476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package TAM</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/TAM/index.html"> TAM </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:07 CEST.
+</p>
+<table border="1" summary="CRAN check results for package TAM">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 3.4-26 </td> <td class="r"> 224.67 </td> <td class="r"> 161.91 </td> <td class="r"> 386.58 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/TAM-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 3.4-26 </td> <td class="r"> 128.29 </td> <td class="r"> 123.01 </td> <td class="r"> 251.30 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/TAM-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 3.4-26 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 497.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/TAM-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 3.4-26 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 455.07 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/TAM-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 3.4-26 </td> <td class="r"> 505.00 </td> <td class="r"> 175.00 </td> <td class="r"> 680.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/TAM-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 3.4-26 </td> <td class="r"> 173.67 </td> <td class="r"> 161.24 </td> <td class="r"> 334.91 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/TAM-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 3.4-26 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 458.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/TAM-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 3.4-26 </td> <td class="r"> 168.28 </td> <td class="r"> 170.92 </td> <td class="r"> 339.20 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/TAM-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 3.4-26 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/TAM-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 3.4-26 </td> <td class="r"> 366.00 </td> <td class="r"> 277.00 </td> <td class="r"> 643.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/TAM-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 3.4-26 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/TAM-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 3.4-26 </td> <td class="r"> 358.00 </td> <td class="r"> 220.00 </td> <td class="r"> 578.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/TAM-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'TAM-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; base::assign(".ptime", proc.time(), pos = "CheckExEnv")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: IRT.irfprob<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Extracting Item Response Functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: IRT.irfprob.tam IRT.irfprob.tam.mml IRT.irfprob.tam.mml.3pl<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   IRT.irfprob.tamaan IRT.irfprob.tam.np<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # EXAMPLE 1: Dichotomous data data.sim.rasch - item response functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # 1PL estimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mod1 &lt;- TAM::tam.mml(resp=data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Processing Data      2020-05-03 21:14:51 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Response Data: 2000 Persons and  40 Items <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Numerical integration with 21 nodes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Created Design Matrices   ( 2020-05-03 21:14:51 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Calculated Sufficient Statistics   ( 2020-05-03 21:14:52 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 1     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |----<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84803.9272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.33272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.125876<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 2     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84201.8406 | Absolute change: 602.0866 | Relative change: 0.00715052<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.044568<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.167316<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 3     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84162.1461 | Absolute change: 39.6945 | Relative change: 0.00047164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.017468<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.069771<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 4     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84156.6153 | Absolute change: 5.5308 | Relative change: 6.572e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.006594<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.026369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 5     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.879 | Absolute change: 0.7363 | Relative change: 8.75e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00247<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.00966<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 6     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7823 | Absolute change: 0.0966 | Relative change: 1.15e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000952<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.0035<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 7     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7696 | Absolute change: 0.0128 | Relative change: 1.5e-07<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000396<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.001263<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 8     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7678 | Absolute change: 0.0018 | Relative change: 2e-08<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000455<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 9     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7674 | Absolute change: 4e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000111<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 10     2020-05-03 21:14:52<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7672 | Absolute change: 2e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 7.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 5.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Item Parameters<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   xsi.index xsi.label     est<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1          1        I1 -1.9590<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2          2        I2 -1.8570<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3          3        I3 -1.7444<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4          4        I4 -1.6407<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5          5        I5 -1.5448<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;6          6        I6 -1.5344<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7          7        I7 -1.3466<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8          8        I8 -1.3499<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9          9        I9 -1.2603<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10        10       I10 -1.0469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11        11       I11 -1.0233<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12        12       I12 -0.8563<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13        13       I13 -0.8002<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14        14       I14 -0.7447<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15        15       I15 -0.5202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16        16       I16 -0.3962<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17        17       I17 -0.3727<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18        18       I18 -0.2298<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19        19       I19 -0.1062<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20        20       I20 -0.0522<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21        21       I21  0.0376<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22        22       I22  0.1044<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23        23       I23  0.3343<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24        24       I24  0.4232<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25        25       I25  0.5209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26        26       I26  0.6415<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27        27       I27  0.6443<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28        28       I28  0.8484<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;29        29       I29  0.9395<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;30        30       I30  1.0179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;31        31       I31  1.1160<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;32        32       I32  1.1372<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;33        33       I33  1.3117<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;34        34       I34  1.3149<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35        35       I35  1.5559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;36        36       I36  1.6198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;37        37       I37  1.7039<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;38        38       I38  1.7490<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39        39       I39  1.9352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;40        40       I40  2.0502<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;...................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Regression Coefficients<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,]    0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Variance:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,] 1.404<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EAP Reliability:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 0.899<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start:  2020-05-03 21:14:51<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;End:  2020-05-03 21:14:52 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Time difference of 0.4264488 secs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in as.POSIXct.default(e) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  do not know how to convert 'e' to class "POSIXct"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: &lt;Anonymous&gt; ... unlist -&gt; lapply -&gt; FUN -&gt; as.POSIXct -&gt; as.POSIXct.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/TAM-00check.html">r-devel-linux-x86_64-debian-clang</a>
+
+</p>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘TAM-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; base::assign(".ptime", proc.time(), pos = "CheckExEnv")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: IRT.irfprob<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Extracting Item Response Functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: IRT.irfprob.tam IRT.irfprob.tam.mml IRT.irfprob.tam.mml.3pl<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   IRT.irfprob.tamaan IRT.irfprob.tam.np<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # EXAMPLE 1: Dichotomous data data.sim.rasch - item response functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # 1PL estimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mod1 &lt;- TAM::tam.mml(resp=data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Processing Data      2020-05-04 07:13:53 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Response Data: 2000 Persons and  40 Items <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Numerical integration with 21 nodes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Created Design Matrices   ( 2020-05-04 07:13:53 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Calculated Sufficient Statistics   ( 2020-05-04 07:13:53 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 1     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |----<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84803.9272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.33272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.125876<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 2     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84201.8406 | Absolute change: 602.0866 | Relative change: 0.00715052<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.044568<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.167316<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 3     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84162.1461 | Absolute change: 39.6945 | Relative change: 0.00047164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.017468<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.069771<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 4     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84156.6153 | Absolute change: 5.5308 | Relative change: 6.572e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.006594<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.026369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 5     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.879 | Absolute change: 0.7363 | Relative change: 8.75e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00247<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.00966<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 6     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7823 | Absolute change: 0.0966 | Relative change: 1.15e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000952<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.0035<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 7     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7696 | Absolute change: 0.0128 | Relative change: 1.5e-07<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000396<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.001263<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 8     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7678 | Absolute change: 0.0018 | Relative change: 2e-08<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000455<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 9     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7674 | Absolute change: 4e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000111<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 10     2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7672 | Absolute change: 2e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 7.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 5.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Item Parameters<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   xsi.index xsi.label     est<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1          1        I1 -1.9590<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2          2        I2 -1.8570<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3          3        I3 -1.7444<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4          4        I4 -1.6407<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5          5        I5 -1.5448<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;6          6        I6 -1.5344<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7          7        I7 -1.3466<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8          8        I8 -1.3499<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9          9        I9 -1.2603<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10        10       I10 -1.0469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11        11       I11 -1.0233<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12        12       I12 -0.8563<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13        13       I13 -0.8002<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14        14       I14 -0.7447<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15        15       I15 -0.5202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16        16       I16 -0.3962<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17        17       I17 -0.3727<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18        18       I18 -0.2298<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19        19       I19 -0.1062<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20        20       I20 -0.0522<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21        21       I21  0.0376<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22        22       I22  0.1044<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23        23       I23  0.3343<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24        24       I24  0.4232<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25        25       I25  0.5209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26        26       I26  0.6415<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27        27       I27  0.6443<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28        28       I28  0.8484<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;29        29       I29  0.9395<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;30        30       I30  1.0179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;31        31       I31  1.1160<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;32        32       I32  1.1372<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;33        33       I33  1.3117<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;34        34       I34  1.3149<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35        35       I35  1.5559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;36        36       I36  1.6198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;37        37       I37  1.7039<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;38        38       I38  1.7490<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39        39       I39  1.9352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;40        40       I40  2.0502<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;...................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Regression Coefficients<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,]    0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Variance:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,] 1.404<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EAP Reliability:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 0.899<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start:  2020-05-04 07:13:53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;End:  2020-05-04 07:13:53 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Time difference of 0.1486712 secs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in as.POSIXct.default(e) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  do not know how to convert 'e' to class “POSIXct”<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: &lt;Anonymous&gt; ... unlist -&gt; lapply -&gt; FUN -&gt; as.POSIXct -&gt; as.POSIXct.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/TAM-00check.html">r-devel-linux-x86_64-debian-gcc</a>
+
+</p>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  7.9Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    R      1.3Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   5.6Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/TAM-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/TAM-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/TAM-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘TAM-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: IRT.irfprob<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Extracting Item Response Functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: IRT.irfprob.tam IRT.irfprob.tam.mml IRT.irfprob.tam.mml.3pl<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   IRT.irfprob.tamaan IRT.irfprob.tam.np<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # EXAMPLE 1: Dichotomous data data.sim.rasch - item response functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # 1PL estimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mod1 &lt;- TAM::tam.mml(resp=data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Processing Data      2020-05-02 12:58:47 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Response Data: 2000 Persons and  40 Items <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Numerical integration with 21 nodes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Created Design Matrices   ( 2020-05-02 12:58:47 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Calculated Sufficient Statistics   ( 2020-05-02 12:58:47 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 1     2020-05-02 12:58:47<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |----<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84803.9272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.33272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.125876<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 2     2020-05-02 12:58:47<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84201.8406 | Absolute change: 602.0866 | Relative change: 0.00715052<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.044568<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.167316<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 3     2020-05-02 12:58:47<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84162.1461 | Absolute change: 39.6945 | Relative change: 0.00047164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.017468<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.069771<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 4     2020-05-02 12:58:47<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84156.6153 | Absolute change: 5.5308 | Relative change: 6.572e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.006594<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.026369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 5     2020-05-02 12:58:47<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.879 | Absolute change: 0.7363 | Relative change: 8.75e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00247<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.00966<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 6     2020-05-02 12:58:47<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7823 | Absolute change: 0.0966 | Relative change: 1.15e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000952<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.0035<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 7     2020-05-02 12:58:48<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7696 | Absolute change: 0.0128 | Relative change: 1.5e-07<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000396<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.001263<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 8     2020-05-02 12:58:48<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7678 | Absolute change: 0.0018 | Relative change: 2e-08<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000455<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 9     2020-05-02 12:58:48<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7674 | Absolute change: 4e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000111<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 10     2020-05-02 12:58:48<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7672 | Absolute change: 2e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 7.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 5.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Item Parameters<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   xsi.index xsi.label     est<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1          1        I1 -1.9590<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2          2        I2 -1.8570<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3          3        I3 -1.7444<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4          4        I4 -1.6407<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5          5        I5 -1.5448<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;6          6        I6 -1.5344<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7          7        I7 -1.3466<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8          8        I8 -1.3499<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9          9        I9 -1.2603<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10        10       I10 -1.0469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11        11       I11 -1.0233<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12        12       I12 -0.8563<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13        13       I13 -0.8002<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14        14       I14 -0.7447<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15        15       I15 -0.5202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16        16       I16 -0.3962<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17        17       I17 -0.3727<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18        18       I18 -0.2298<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19        19       I19 -0.1062<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20        20       I20 -0.0522<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21        21       I21  0.0376<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22        22       I22  0.1044<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23        23       I23  0.3343<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24        24       I24  0.4232<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25        25       I25  0.5209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26        26       I26  0.6415<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27        27       I27  0.6443<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28        28       I28  0.8484<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;29        29       I29  0.9395<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;30        30       I30  1.0179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;31        31       I31  1.1160<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;32        32       I32  1.1372<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;33        33       I33  1.3117<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;34        34       I34  1.3149<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35        35       I35  1.5559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;36        36       I36  1.6198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;37        37       I37  1.7039<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;38        38       I38  1.7490<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39        39       I39  1.9352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;40        40       I40  2.0502<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;...................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Regression Coefficients<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,]    0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Variance:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,] 1.404<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EAP Reliability:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 0.899<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start:  2020-05-02 12:58:47<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;End:  2020-05-02 12:58:48 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Time difference of 0.3384926 secs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in as.POSIXct.default(e) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  do not know how to convert 'e' to class “POSIXct”<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: &lt;Anonymous&gt; ... unlist -&gt; lapply -&gt; FUN -&gt; as.POSIXct -&gt; as.POSIXct.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/TAM-00check.html">r-devel-linux-x86_64-fedora-clang</a>
+
+</p>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘TAM-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: IRT.irfprob<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Extracting Item Response Functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: IRT.irfprob.tam IRT.irfprob.tam.mml IRT.irfprob.tam.mml.3pl<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   IRT.irfprob.tamaan IRT.irfprob.tam.np<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # EXAMPLE 1: Dichotomous data data.sim.rasch - item response functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # 1PL estimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mod1 &lt;- TAM::tam.mml(resp=data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Processing Data      2020-05-03 16:31:14 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Response Data: 2000 Persons and  40 Items <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Numerical integration with 21 nodes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Created Design Matrices   ( 2020-05-03 16:31:14 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Calculated Sufficient Statistics   ( 2020-05-03 16:31:14 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 1     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |----<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84803.9272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.33272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.125876<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 2     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84201.8406 | Absolute change: 602.0866 | Relative change: 0.00715052<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.044568<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.167316<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 3     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84162.1461 | Absolute change: 39.6945 | Relative change: 0.00047164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.017468<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.069771<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 4     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84156.6153 | Absolute change: 5.5308 | Relative change: 6.572e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.006594<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.026369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 5     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.879 | Absolute change: 0.7363 | Relative change: 8.75e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00247<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.00966<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 6     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7823 | Absolute change: 0.0966 | Relative change: 1.15e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000952<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.0035<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 7     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7696 | Absolute change: 0.0128 | Relative change: 1.5e-07<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000396<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.001263<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 8     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7678 | Absolute change: 0.0018 | Relative change: 2e-08<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000455<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 9     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7674 | Absolute change: 4e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000111<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 10     2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7672 | Absolute change: 2e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 7.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 5.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Item Parameters<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   xsi.index xsi.label     est<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1          1        I1 -1.9590<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2          2        I2 -1.8570<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3          3        I3 -1.7444<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4          4        I4 -1.6407<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5          5        I5 -1.5448<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;6          6        I6 -1.5344<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7          7        I7 -1.3466<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8          8        I8 -1.3499<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9          9        I9 -1.2603<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10        10       I10 -1.0469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11        11       I11 -1.0233<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12        12       I12 -0.8563<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13        13       I13 -0.8002<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14        14       I14 -0.7447<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15        15       I15 -0.5202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16        16       I16 -0.3962<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17        17       I17 -0.3727<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18        18       I18 -0.2298<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19        19       I19 -0.1062<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20        20       I20 -0.0522<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21        21       I21  0.0376<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22        22       I22  0.1044<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23        23       I23  0.3343<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24        24       I24  0.4232<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25        25       I25  0.5209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26        26       I26  0.6415<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27        27       I27  0.6443<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28        28       I28  0.8484<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;29        29       I29  0.9395<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;30        30       I30  1.0179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;31        31       I31  1.1160<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;32        32       I32  1.1372<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;33        33       I33  1.3117<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;34        34       I34  1.3149<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35        35       I35  1.5559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;36        36       I36  1.6198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;37        37       I37  1.7039<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;38        38       I38  1.7490<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39        39       I39  1.9352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;40        40       I40  2.0502<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;...................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Regression Coefficients<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,]    0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Variance:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,] 1.404<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EAP Reliability:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 0.899<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start:  2020-05-03 16:31:14<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;End:  2020-05-03 16:31:14 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Time difference of 0.33129 secs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in as.POSIXct.default(e) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  do not know how to convert 'e' to class “POSIXct”<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: &lt;Anonymous&gt; ... unlist -&gt; lapply -&gt; FUN -&gt; as.POSIXct -&gt; as.POSIXct.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/TAM-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: running examples for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'TAM-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: IRT.irfprob<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Extracting Item Response Functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: IRT.irfprob.tam IRT.irfprob.tam.mml IRT.irfprob.tam.mml.3pl<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   IRT.irfprob.tamaan IRT.irfprob.tam.np<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # EXAMPLE 1: Dichotomous data data.sim.rasch - item response functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # 1PL estimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mod1 &lt;- TAM::tam.mml(resp=data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Processing Data      2020-05-01 09:51:17 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Response Data: 2000 Persons and  40 Items <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Numerical integration with 21 nodes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Created Design Matrices   ( 2020-05-01 09:51:17 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Calculated Sufficient Statistics   ( 2020-05-01 09:51:17 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 1     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |----<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84803.9272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.33272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.125876<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 2     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84201.8406 | Absolute change: 602.0866 | Relative change: 0.00715052<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.044568<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.167316<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 3     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84162.1461 | Absolute change: 39.6945 | Relative change: 0.00047164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.017468<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.069771<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 4     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84156.6153 | Absolute change: 5.5308 | Relative change: 6.572e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.006594<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.026369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 5     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.879 | Absolute change: 0.7363 | Relative change: 8.75e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00247<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.00966<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 6     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7823 | Absolute change: 0.0966 | Relative change: 1.15e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000952<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.0035<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 7     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7696 | Absolute change: 0.0128 | Relative change: 1.5e-07<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000396<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.001263<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 8     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7678 | Absolute change: 0.0018 | Relative change: 2e-08<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000455<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 9     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7674 | Absolute change: 4e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000111<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 10     2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7672 | Absolute change: 2e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 7.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 5.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Item Parameters<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   xsi.index xsi.label     est<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1          1        I1 -1.9590<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2          2        I2 -1.8570<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3          3        I3 -1.7444<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4          4        I4 -1.6407<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5          5        I5 -1.5448<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;6          6        I6 -1.5344<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7          7        I7 -1.3466<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8          8        I8 -1.3499<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9          9        I9 -1.2603<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10        10       I10 -1.0469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11        11       I11 -1.0233<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12        12       I12 -0.8563<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13        13       I13 -0.8002<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14        14       I14 -0.7447<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15        15       I15 -0.5202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16        16       I16 -0.3962<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17        17       I17 -0.3727<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18        18       I18 -0.2298<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19        19       I19 -0.1062<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20        20       I20 -0.0522<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21        21       I21  0.0376<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22        22       I22  0.1044<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23        23       I23  0.3343<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24        24       I24  0.4232<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25        25       I25  0.5209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26        26       I26  0.6415<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27        27       I27  0.6443<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28        28       I28  0.8484<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;29        29       I29  0.9395<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;30        30       I30  1.0179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;31        31       I31  1.1160<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;32        32       I32  1.1372<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;33        33       I33  1.3117<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;34        34       I34  1.3149<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35        35       I35  1.5559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;36        36       I36  1.6198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;37        37       I37  1.7039<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;38        38       I38  1.7490<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39        39       I39  1.9352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;40        40       I40  2.0502<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;...................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Regression Coefficients<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,]    0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Variance:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,] 1.404<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EAP Reliability:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 0.899<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start:  2020-05-01 09:51:17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;End:  2020-05-01 09:51:17 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Time difference of 0.1716001 secs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in as.POSIXct.default(e) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  do not know how to convert 'e' to class "POSIXct"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: &lt;Anonymous&gt; ... unlist -&gt; lapply -&gt; FUN -&gt; as.POSIXct -&gt; as.POSIXct.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/TAM-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: running examples for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'TAM-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: IRT.irfprob<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Extracting Item Response Functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: IRT.irfprob.tam IRT.irfprob.tam.mml IRT.irfprob.tam.mml.3pl<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   IRT.irfprob.tamaan IRT.irfprob.tam.np<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # EXAMPLE 1: Dichotomous data data.sim.rasch - item response functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # 1PL estimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mod1 &lt;- TAM::tam.mml(resp=data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Processing Data      2020-05-01 09:51:18 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Response Data: 2000 Persons and  40 Items <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Numerical integration with 21 nodes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Created Design Matrices   ( 2020-05-01 09:51:18 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Calculated Sufficient Statistics   ( 2020-05-01 09:51:18 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 1     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |----<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84803.9272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.33272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.125876<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 2     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84201.8406 | Absolute change: 602.0866 | Relative change: 0.00715052<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.044568<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.167316<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 3     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84162.1461 | Absolute change: 39.6945 | Relative change: 0.00047164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.017468<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.069771<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 4     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84156.6153 | Absolute change: 5.5308 | Relative change: 6.572e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.006594<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.026369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 5     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.879 | Absolute change: 0.7363 | Relative change: 8.75e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00247<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.00966<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 6     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7823 | Absolute change: 0.0966 | Relative change: 1.15e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000952<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.0035<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 7     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7696 | Absolute change: 0.0128 | Relative change: 1.5e-07<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000396<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.001263<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 8     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7678 | Absolute change: 0.0018 | Relative change: 2e-08<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000455<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 9     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7674 | Absolute change: 4e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000111<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 10     2020-05-01 09:51:19<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7672 | Absolute change: 2e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 7.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 5.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Item Parameters<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   xsi.index xsi.label     est<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1          1        I1 -1.9590<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2          2        I2 -1.8570<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3          3        I3 -1.7444<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4          4        I4 -1.6407<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5          5        I5 -1.5448<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;6          6        I6 -1.5344<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7          7        I7 -1.3466<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8          8        I8 -1.3499<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9          9        I9 -1.2603<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10        10       I10 -1.0469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11        11       I11 -1.0233<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12        12       I12 -0.8563<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13        13       I13 -0.8002<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14        14       I14 -0.7447<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15        15       I15 -0.5202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16        16       I16 -0.3962<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17        17       I17 -0.3727<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18        18       I18 -0.2298<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19        19       I19 -0.1062<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20        20       I20 -0.0522<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21        21       I21  0.0376<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22        22       I22  0.1044<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23        23       I23  0.3343<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24        24       I24  0.4232<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25        25       I25  0.5209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26        26       I26  0.6415<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27        27       I27  0.6443<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28        28       I28  0.8484<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;29        29       I29  0.9395<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;30        30       I30  1.0179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;31        31       I31  1.1160<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;32        32       I32  1.1372<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;33        33       I33  1.3117<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;34        34       I34  1.3149<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35        35       I35  1.5559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;36        36       I36  1.6198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;37        37       I37  1.7039<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;38        38       I38  1.7490<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39        39       I39  1.9352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;40        40       I40  2.0502<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;...................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Regression Coefficients<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,]    0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Variance:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,] 1.404<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EAP Reliability:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 0.899<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start:  2020-05-01 09:51:18<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;End:  2020-05-01 09:51:19 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Time difference of 0.2028 secs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in as.POSIXct.default(e) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  do not know how to convert 'e' to class "POSIXct"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: &lt;Anonymous&gt; ... unlist -&gt; lapply -&gt; FUN -&gt; as.POSIXct -&gt; as.POSIXct.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/TAM-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 3.4-26
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘TAM-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; base::assign(".ptime", proc.time(), pos = "CheckExEnv")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: IRT.irfprob<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Extracting Item Response Functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: IRT.irfprob.tam IRT.irfprob.tam.mml IRT.irfprob.tam.mml.3pl<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   IRT.irfprob.tamaan IRT.irfprob.tam.np<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # EXAMPLE 1: Dichotomous data data.sim.rasch - item response functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #############################################################################<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # 1PL estimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mod1 &lt;- TAM::tam.mml(resp=data.sim.rasch)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Processing Data      2020-05-04 12:35:24 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Response Data: 2000 Persons and  40 Items <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Numerical integration with 21 nodes<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Created Design Matrices   ( 2020-05-04 12:35:24 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    * Calculated Sufficient Statistics   ( 2020-05-04 12:35:24 )<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 1     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |----<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84803.9272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.33272<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.125876<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 2     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84201.8406 | Absolute change: 602.0866 | Relative change: 0.00715052<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.044568<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.167316<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 3     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84162.1461 | Absolute change: 39.6945 | Relative change: 0.00047164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.017468<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.069771<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 4     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84156.6153 | Absolute change: 5.5308 | Relative change: 6.572e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.006594<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.026369<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 5     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.879 | Absolute change: 0.7363 | Relative change: 8.75e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00247<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.00966<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 6     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7823 | Absolute change: 0.0966 | Relative change: 1.15e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000952<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.0035<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 7     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7696 | Absolute change: 0.0128 | Relative change: 1.5e-07<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000396<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.001263<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 8     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7678 | Absolute change: 0.0018 | Relative change: 2e-08<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.00019<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000455<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 9     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |--<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7674 | Absolute change: 4e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 0.000111<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 0.000164<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Iteration 10     2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;E Step<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;M Step Intercepts   |-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Deviance = 84155.7672 | Absolute change: 2e-04 | Relative change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item intercept parameter change: 7.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum item slope parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum regression parameter change: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Maximum variance parameter change: 5.9e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;....................................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Item Parameters<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   xsi.index xsi.label     est<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1          1        I1 -1.9590<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;2          2        I2 -1.8570<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;3          3        I3 -1.7444<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;4          4        I4 -1.6407<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;5          5        I5 -1.5448<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;6          6        I6 -1.5344<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;7          7        I7 -1.3466<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;8          8        I8 -1.3499<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;9          9        I9 -1.2603<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;10        10       I10 -1.0469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;11        11       I11 -1.0233<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;12        12       I12 -0.8563<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;13        13       I13 -0.8002<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;14        14       I14 -0.7447<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;15        15       I15 -0.5202<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;16        16       I16 -0.3962<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;17        17       I17 -0.3727<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;18        18       I18 -0.2298<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;19        19       I19 -0.1062<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;20        20       I20 -0.0522<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;21        21       I21  0.0376<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;22        22       I22  0.1044<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;23        23       I23  0.3343<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;24        24       I24  0.4232<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;25        25       I25  0.5209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26        26       I26  0.6415<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;27        27       I27  0.6443<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;28        28       I28  0.8484<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;29        29       I29  0.9395<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;30        30       I30  1.0179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;31        31       I31  1.1160<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;32        32       I32  1.1372<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;33        33       I33  1.3117<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;34        34       I34  1.3149<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;35        35       I35  1.5559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;36        36       I36  1.6198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;37        37       I37  1.7039<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;38        38       I38  1.7490<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39        39       I39  1.9352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;40        40       I40  2.0502<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;...................................<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Regression Coefficients<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,]    0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Variance:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      [,1]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1,] 1.404<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EAP Reliability:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 0.899<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;-----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Start:  2020-05-04 12:35:24<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;End:  2020-05-04 12:35:24 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Time difference of 0.1841826 secs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in as.POSIXct.default(e) : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  do not know how to convert 'e' to class “POSIXct”<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: &lt;Anonymous&gt; ... unlist -&gt; lapply -&gt; FUN -&gt; as.POSIXct -&gt; as.POSIXct.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/TAM-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+</body>
+</html>

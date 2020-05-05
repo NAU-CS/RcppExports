@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package quanteda</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/quanteda/index.html"> quanteda </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:01 CEST.
+</p>
+<table border="1" summary="CRAN check results for package quanteda">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 2.0.1 </td> <td class="r"> 292.89 </td> <td class="r"> 401.69 </td> <td class="r"> 694.58 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/quanteda-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 2.0.1 </td> <td class="r"> 215.98 </td> <td class="r"> 306.93 </td> <td class="r"> 522.91 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/quanteda-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 2.0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 649.27 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/quanteda-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 2.0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 309.44 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/quanteda-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 2.0.1 </td> <td class="r"> 761.00 </td> <td class="r"> 847.00 </td> <td class="r"> 1608.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/quanteda-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 2.0.1 </td> <td class="r"> 255.86 </td> <td class="r"> 386.28 </td> <td class="r"> 642.14 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/quanteda-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 2.0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1138.60 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/quanteda-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 2.0.1 </td> <td class="r"> 245.04 </td> <td class="r"> 388.53 </td> <td class="r"> 633.57 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/quanteda-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 2.0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/quanteda-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 2.0.1 </td> <td class="r"> 615.00 </td> <td class="r"> 861.00 </td> <td class="r"> 1476.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/quanteda-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 2.0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/quanteda-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 2.0.1 </td> <td class="r"> 447.00 </td> <td class="r"> 804.00 </td> <td class="r"> 1251.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/quanteda-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+</table>
+<h3><a href="check_issue_kinds.html">Additional issues</a></h3>
+<p>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/gcc10/quanteda.log"><span class="check_ko">gcc10</span></a>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/gcc10/quanteda.out"><span class="check_ko">gcc10</span></a>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/noLD/quanteda.out"><span class="check_ko">noLD</span></a>
+</p>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 2.0.1
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 16.9Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    R      1.0Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs  13.7Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/quanteda-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/quanteda-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/quanteda-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/quanteda-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/quanteda-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/quanteda-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.1
+
+
+<br/>
+
+Check: data for non-ASCII characters
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Note: found 2 marked UTF-8 strings
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/quanteda-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/quanteda-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/quanteda-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/quanteda-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/quanteda-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.1
+
+
+<br/>
+
+Check: if this is a source package
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Subdirectory ‘quanteda/src’ contains apparent object files/libraries<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  RcppExports.o collocations_mt_.o dist_mt.o fcm_mt.o kwic_mt.o<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  tokens_chunk_mt.o tokens_compound_mt.o tokens_lookup_mt.o<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  tokens_ngrams_mt.o tokens_recompile_mt.o tokens_replace_mt.o<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  tokens_segment_mt.o tokens_select_mt.o utility.o wordcloud.o<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Object files/libraries should not be included in a source package.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Subdirectory ‘src’ contains:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  symbols.rds<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;These are unlikely file names for src files.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/quanteda-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 2.0.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building 'quickstart.Rmd' using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Package version: 2.0.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Parallel computing: 2 of 32 threads used.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See https://quanteda.io for tutorials and examples.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Attaching package: 'quanteda'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The following object is masked from 'package:utils':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    View<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in block_exec(params) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Failed to tidy R code in chunk 'unnamed-chunk-14'. Reason:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in loadNamespace(name) : there is no package called 'formatR'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 381-396 (quickstart.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'quickstart.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;cannot open the connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building 'quickstart.Rmd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'quickstart.Rmd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/quanteda-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/quanteda-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/quanteda-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.1
+
+
+<br/>
+
+Check: for unstated dependencies in ‘tests’
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/quanteda-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

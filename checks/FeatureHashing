@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package FeatureHashing</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/FeatureHashing/index.html"> FeatureHashing </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:52 CEST.
+</p>
+<table border="1" summary="CRAN check results for package FeatureHashing">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.9.1.4 </td> <td class="r"> 80.24 </td> <td class="r"> 117.01 </td> <td class="r"> 197.25 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.9.1.4 </td> <td class="r"> 53.66 </td> <td class="r"> 92.02 </td> <td class="r"> 145.68 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.9.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 260.82 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/FeatureHashing-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.9.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 243.01 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.9.1.4 </td> <td class="r"> 202.00 </td> <td class="r"> 174.00 </td> <td class="r"> 376.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.9.1.4 </td> <td class="r"> 66.24 </td> <td class="r"> 112.11 </td> <td class="r"> 178.35 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.9.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 300.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.9.1.4 </td> <td class="r"> 65.86 </td> <td class="r"> 111.97 </td> <td class="r"> 177.83 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.9.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.9.1.4 </td> <td class="r"> 169.00 </td> <td class="r"> 274.00 </td> <td class="r"> 443.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.9.1.4 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/FeatureHashing-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.9.1.4 </td> <td class="r"> 151.00 </td> <td class="r"> 244.00 </td> <td class="r"> 395.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/FeatureHashing-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.9.1.4
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  5.4Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   4.7Mb
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/FeatureHashing-00check.html">r-devel-linux-x86_64-fedora-clang</a>
+
+</p>
+
+<p>
+
+Version: 0.9.1.4
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘test-as-dgCMatrix.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘test-empty_array.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘test-existence_collision.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘test-hash.mapping.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘test-hashing.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/test-hashing.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Last 13 lines of output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     if (class(e)[1] != "std::invalid_argument") stop(e)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     if (conditionMessage(e) != "Failed to find the column:PlAnT") stop(e)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   m &lt;- hashed.model.matrix(~ Plant:Type:Treatment, CO2, create.mapping = TRUE, signed.hash = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   map &lt;- hash.mapping(m)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   map &lt;- map[grepl("\\w+:\\w+:\\w+", names(map))]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   checkTrue(all(hashed.interaction.value(names(map)) %% (2^18) + 1== map),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +             "The hashed.interaction.value gives inconsistent result of hashed.model.matrix")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required package: RUnit<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in .hashed.model.matrix.dataframe(tf, data, hash.size, transpose,  : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    c++ exception (unknown reason)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Calls: tryCatch -&gt; tryCatchList -&gt; tryCatchOne -&gt; &lt;Anonymous&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/FeatureHashing-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

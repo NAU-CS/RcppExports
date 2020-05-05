@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package lime</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/lime/index.html"> lime </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:56 CEST.
+</p>
+<table border="1" summary="CRAN check results for package lime">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.5.1 </td> <td class="r"> 49.36 </td> <td class="r"> 183.64 </td> <td class="r"> 233.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.5.1 </td> <td class="r"> 29.78 </td> <td class="r"> 152.81 </td> <td class="r"> 182.59 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.5.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 288.59 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.5.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 296.33 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.5.1 </td> <td class="r"> 128.00 </td> <td class="r"> 425.00 </td> <td class="r"> 553.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.5.1 </td> <td class="r"> 39.83 </td> <td class="r"> 192.51 </td> <td class="r"> 232.34 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.5.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 655.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/lime-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.5.1 </td> <td class="r"> 38.34 </td> <td class="r"> 191.49 </td> <td class="r"> 229.83 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.5.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.5.1 </td> <td class="r"> 107.00 </td> <td class="r"> 425.00 </td> <td class="r"> 532.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.5.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/lime-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.5.1 </td> <td class="r"> 86.00 </td> <td class="r"> 357.00 </td> <td class="r"> 443.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/lime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.5.1
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘lime-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: plot_superpixels<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Test super pixel segmentation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: plot_superpixels<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; image &lt;- system.file('extdata', 'produce.png', package = 'lime')<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # plot with default settings<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; plot_superpixels(image)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # Test different settings<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; plot_superpixels(image, n_superpixels = 100, colour = 'white')<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 2c, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 1: magick_image_convolve_kernel(image, kernel, iterations, scaling,     bias)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 2: magick::image_convolve(contour, "Laplacian")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 3: plot_superpixels(image, n_superpixels = 100, colour = "white")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/lime-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 0.5.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘Understanding_lime.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 262-263 (Understanding_lime.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'Understanding_lime.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;there is no package called 'webshot'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘Understanding_lime.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘Understanding_lime.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/lime-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 0.5.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘Understanding_lime.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 262-263 (Understanding_lime.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'Understanding_lime.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;cannot open the connection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘Understanding_lime.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘Understanding_lime.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/lime-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>
