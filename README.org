@@ -1,5 +1,56 @@
 Database of all RcppExports.cpp files, to support [[https://github.com/NAU-CS/RcppDeepState][RcppDeepState]]
 project.
+** 5 May 2020
+
+- [[file:checks-download.R]] downloads CRAN check pages from all packages
+  under [[file:packages]].
+- [[file:checks-analyze.R]] parses "Additional issues" from the downloaded
+  CRAN check pages. Will be useful when we compare RcppDeepState fuzz
+  testing with standard CRAN tests, to answer the question, "how many
+  more issues are we able to detect with fuzz testing, which we not
+  already revealed using existing testing approaches?"
+
+#+BEGIN_SRC 
+> issue.dt[, .(pkgs=.N), by=type][order(pkgs)]
+           type pkgs
+ 1:  clang-ASAN    1
+ 2:    gcc-ASAN    1
+ 3:         MKL    1
+ 4:       ATLAS    1
+ 5:    OpenBLAS    2
+ 6:     clang11    2
+ 7:        noLD    3
+ 8:         LTO    5
+ 9:        rchk    7
+10:       gcc10    9
+11:   gcc-UBSAN   12
+12:    valgrind   18
+13: clang-UBSAN   26
+> type.dt[, .(pkgs=.N), by=type][order(pkgs)]
+          type pkgs
+1:  clang-ASAN    1
+2:    gcc-ASAN    1
+3:   gcc-UBSAN   12
+4:    valgrind   18
+5: clang-UBSAN   26
+> unique(type.dt$pkg)
+ [1] "AGread"              "bigmemory"           "BuyseTest"          
+ [4] "cld2"                "cld3"                "compboost"          
+ [7] "dggridR"             "DStree"              "fastAdaboost"       
+[10] "FLSSS"               "FRegSigCom"          "glamlasso"          
+[13] "glmmsr"              "GMKMcharlie"         "GreedySBTM"         
+[16] "iptools"             "isotree"             "kernelboot"         
+[19] "later"               "lda.svi"             "milr"               
+[22] "mined"               "mixggm"              "OneArmPhaseTwoStudy"
+[25] "pdftools"            "PP"                  "PRIMME"             
+[28] "protolite"           "pts2polys"           "r2sundials"         
+[31] "RcppDE"              "Rdimtools"           "Rdtq"               
+[34] "RMKL"                "rTRNG"               "sboost"             
+[37] "Scalelink"           "scPDSI"              "scrypt"             
+[40] "TDA"                 "tesseract"           "TreeLS"             
+[43] "volesti"            
+> 
+#+END_SRC
 
 ** 8 Apr 2020
 Simplified pattern for matching a type in
