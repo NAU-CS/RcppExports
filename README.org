@@ -9,6 +9,10 @@ project.
   testing with standard CRAN tests, to answer the question, "how many
   more issues are we able to detect with fuzz testing, which we not
   already revealed using existing testing approaches?"
+- [[https://github.com/ropenscilabs/cchecksapi/issues/57]] does list
+  additional issues but does NOT yet implement search functionality so
+  basically the same as asking CRAN directly (need to download N check
+  pages where N is the number of packages).
 
 #+BEGIN_SRC 
 > issue.dt[, .(pkgs=.N), by=type][order(pkgs)]
