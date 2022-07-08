@@ -1,0 +1,2628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package sf</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/sf/index.html"> sf </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:04 CEST.
+</p>
+<table border="1" summary="CRAN check results for package sf">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.9-2 </td> <td class="r"> 213.10 </td> <td class="r"> 248.30 </td> <td class="r"> 461.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/sf-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.9-2 </td> <td class="r"> 138.56 </td> <td class="r"> 188.20 </td> <td class="r"> 326.76 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/sf-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.9-2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 585.36 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/sf-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.9-3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 600.55 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/sf-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.9-2 </td> <td class="r"> 540.00 </td> <td class="r"> 795.00 </td> <td class="r"> 1335.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/sf-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.9-2 </td> <td class="r"> 164.22 </td> <td class="r"> 239.75 </td> <td class="r"> 403.97 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/sf-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.9-3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 570.10 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/sf-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.9-2 </td> <td class="r"> 163.23 </td> <td class="r"> 243.34 </td> <td class="r"> 406.57 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/sf-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.9-2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/sf-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.9-2 </td> <td class="r"> 412.00 </td> <td class="r"> 810.00 </td> <td class="r"> 1222.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/sf-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.9-2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/sf-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.9-3 </td> <td class="r"> 624.00 </td> <td class="r"> 947.00 </td> <td class="r"> 1571.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/sf-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'aggregate.R' [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'aggregate.Rout' to 'aggregate.Rout.save' ...4c4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Linking to GEOS 3.8.1, GDAL 3.0.4, PROJ 7.0.0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'cast.R' [1s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'cast.Rout' to 'cast.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'crs.R' [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'crs.Rout' to 'crs.Rout.save' ...53,55c53,55<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'dist.R' [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'dist.Rout' to 'dist.Rout.save' ...54c54<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'dplyr.R' [8s/10s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'dplyr.Rout' to 'dplyr.Rout.save' ...73c73<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;80c80<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4 (0.15,0.2~       0.190  (((-8685774 4073056, -8684147 4070879, -8683670 40671~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4 (0.15,0.2~       0.190  (((-8532272 4151181, -8529886 4149052, -8543756 41433~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;105c105<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;120c120<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;135c135<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;153,155c153,155<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;179c179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;183c183<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2.593234e-06 (((705429.2 49248.34, 705861.5 27435.66, 698897.7 18679.88, 6485~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 2.593234e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 84006~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;189c189<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;193c193<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1     2.589362e-06 (((724644.4 62316.58, 714305.9 49733.25, 711692 35996.55, 70~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1     2.589362e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 8~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;201c201<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;205c205<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((705429.2 49248.34, 705861.5 27435.66, 698897.7 18679.88~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;211c211<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;215c215<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((724644.4 62316.58, 714305.9 49733.25, 711692 35996.55, ~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'empty.R' [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'empty.Rout' to 'empty.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'gdal_geom.R' [2s/3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'gdal_geom.Rout' to 'gdal_geom.Rout.save' ...245c245<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; [1,] 1760244967 0.114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; [1,] 1760244757 0.114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;278c278<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Error : cannot convert km into arc_degree<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Error : cannot convert km into °<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;285,287d284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; In st_buffer.sfc(sfc, units::set_units(0.1, rad)) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   st_buffer does not correctly buffer longitude/latitude data<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'geos.R' [12s/14s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'geos.Rout' to 'geos.Rout.save' ...85c85<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;560,573d559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Geometry set for 1 feature <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Simple feature collection with 1 feature and 1 field<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   a                       geom<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2 LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'graticule.R' [4s/5s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'graticule.Rout' to 'graticule.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'grid.R' [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'grid.Rout' to 'grid.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'maps.R' [4s/4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'maps.Rout' to 'maps.Rout.save' ...12c12<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26c26<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39c39<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;57c57<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;75c75<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;93c93<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'plot.R' [11s/12s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'plot.Rout' to 'plot.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'read.R' [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'roundtrip.R' [9s/9s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'roundtrip.Rout' to 'roundtrip.Rout.save' ...98,100d97<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; In CPL_crs_from_input(x) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   GDAL Message 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;148c145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-devel-clang/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;153c150<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;156a154<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; [3] "Component 15: Attributes: &lt; Component \"crs\": Component \"input\": 1 string mismatch &gt;"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sample.R' [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sample.Rout' to 'sample.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sfc.R' [13s/13s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sfc.Rout' to 'sfc.Rout.save' ...161c161<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;335c335<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; "3.8.1" "3.0.4" "7.0.0" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; "3.6.1" "2.2.3" "4.9.3" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;469c469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   User input: NAD27 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   User input: 4267 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;471,484c471,476<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; GEOGCRS["NAD27",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     DATUM["North American Datum 1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             LENGTHUNIT["metre",1]]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     PRIMEM["Greenwich",0,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     CS[ellipsoidal,2],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AXIS["latitude",north,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ORDER[1],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AXIS["longitude",east,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ORDER[2],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     ID["EPSG",4267]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; GEOGCS["GCS_North_American_1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     DATUM["North_American_Datum_1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;         SPHEROID["Clarke_1866",6378206.4,294.9786982]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     PRIMEM["Greenwich",0],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     UNIT["Degree",0.017453292519943295],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;641c633<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc' from data source `/home/hornik/tmp/R.check/r-devel-clang/Work/build/Packages/sf/shape/nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;646c638<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;658c650<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina (ftUS)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:2264<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;692c684<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;718c710<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;739c731<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;775c767<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina (ftUS)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:2264<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;790c782<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;946c938<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;954c946<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;969c961<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;980c972<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;992c984<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1005c997<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sfg.R' [1s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sfg.Rout' to 'sfg.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spatstat.R' [5s/6s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'spatstat.Rout' to 'spatstat.Rout.save' ...198c198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-devel-clang/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;203c203<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'stars.R' [4s/4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'stars.Rout' to 'stars.Rout.save' ...107c107<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;118c118<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;125c125<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-devel-clang/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;131c131<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;144,145c144,145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; x    1 461 -84.3239  0.0192484  NAD27 FALSE   NULL [x]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; y    1 141  36.5896 -0.0192484  NAD27 FALSE   NULL [y]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; x    1 461 -84.3239  0.0192484 GEOGCS["NAD27",DATUM["Nor... FALSE   NULL [x]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; y    1 141  36.5896 -0.0192484 GEOGCS["NAD27",DATUM["Nor... FALSE   NULL [y]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;150c150<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;167c167<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;184c184<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [1s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'testthat.Rout' to 'testthat.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'units.R' [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'units.Rout' to 'units.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'wkb.R' [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'wkb.Rout' to 'wkb.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/read.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; Sys.setenv(TZ="UTC")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; suppressPackageStartupMessages(library(sf))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), "nc.gpkg", crs = 4267, quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), quiet = TRUE) # default layer name<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE) # no layer specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # data from https://github.com/edzer/sfr/issues/6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) { # read Int64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE, int64_as_string = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 1028678842<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "1028678842"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # see https://github.com/edzer/sfr/issues/45 :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("OSM" %in% st_drivers()$name &amp;&amp; Sys.info()['sysname'] != "Darwin") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	osm = system.file("osm/overpass.osm", package="sf")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	print(st_layers(osm))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_layers(osm, do_count = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_read(osm, "multipolygons", quiet = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point       NA     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String       NA      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon       NA     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point        0     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String        0      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon        3     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 3 features and 25 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -1.556254 ymin: 53.79519 xmax: -1.550716 ymax: 53.80341<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    osm_id osm_way_id name type aeroway amenity admin_level barrier boundary<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1   &lt;NA&gt;  263958111 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2   &lt;NA&gt;  301461256 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3   &lt;NA&gt;  462227487 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    building craft geological historic land_area landuse leisure man_made<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    military natural office place shop sport tourism other_tags<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                          geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1 MULTIPOLYGON (((-1.550719 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2 MULTIPOLYGON (((-1.555763 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 MULTIPOLYGON (((-1.551502 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # layer opening option:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	options = c("ADJUST_TYPE=YES", "ENCODING=CPL_ENC_UTF8"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 100 features and 14 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -84.32385 ymin: 33.88199 xmax: -75.45698 ymax: 36.58965<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  First 10 features:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      AREA PERIMETER CNTY_ CNTY_ID        NAME  FIPS FIPSNO CRESS_ID BIR74 SID74<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1  0.114     1.442  1825    1825        Ashe 37009  37009        5  1091     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2  0.061     1.231  1827    1827   Alleghany 37005  37005        3   487     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3  0.143     1.630  1828    1828       Surry 37171  37171       86  3188     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4  0.070     2.968  1831    1831   Currituck 37053  37053       27   508     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  0.153     2.206  1832    1832 Northampton 37131  37131       66  1421     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6  0.097     1.670  1833    1833    Hertford 37091  37091       46  1452     7<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7  0.062     1.547  1834    1834      Camden 37029  37029       15   286     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8  0.091     1.284  1835    1835       Gates 37073  37073       37   420     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9  0.118     1.421  1836    1836      Warren 37185  37185       93   968     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10 0.124     1.428  1837    1837      Stokes 37169  37169       85  1612     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     NWBIR74 BIR79 SID79 NWBIR79                       geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1       10  1364     0      19 MULTIPOLYGON (((-81.47276 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2       10   542     3      12 MULTIPOLYGON (((-81.23989 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3      208  3616     6     260 MULTIPOLYGON (((-80.45634 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4      123   830     2     145 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5     1066  1606     3    1197 MULTIPOLYGON (((-77.21767 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6      954  1838     5    1237 MULTIPOLYGON (((-76.74506 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7      115   350     2     139 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8      254   594     2     371 MULTIPOLYGON (((-76.56251 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9      748  1190     2     844 MULTIPOLYGON (((-78.30876 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10     160  2038     5     176 MULTIPOLYGON (((-80.02567 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; x &lt;- st_sf(a = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_layers("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cannot open data source foo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_get_layers(dsn, options, do_count) : Open failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "foo"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("x.gpkg", "xyz")) # cannot open layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "x.gpkg"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in UseMethod("st_write") : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    no applicable method for 'st_write' applied to an object of class "character"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in guess_driver(dns) : length(dsn) == 1 is not TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, "foo", driver = "foo"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  driver `foo' not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_write_ogr(obj, dsn, layer, driver, as.character(dataset_options),  : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    Driver not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (Sys.getenv("USER") == "travis") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(x, "/x", driver = "ESRI Shapefile"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg", append = TRUE, quiet = FALSE) # appends to layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	y &lt;- st_sf(b = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(y, "xxx.gpkg"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `geom' to data source `geom.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom1.gpkg", layer = "foo")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `foo' to data source `geom1.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; df &lt;- data.frame(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     a = c(0, 1, NA, -Inf, Inf),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     b = c("a", "b", NA, "c", ""),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     c = c(as.Date("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     d = c(as.POSIXct("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     x = 1:5,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     y = 1:5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in as.Date.numeric(e) : 'origin' must be supplied<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Calls: data.frame ... unlist -&gt; lapply -&gt; FUN -&gt; as.Date -&gt; as.Date.numeric<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/sf-00check.html">r-devel-linux-x86_64-debian-clang</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘aggregate.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘aggregate.Rout’ to ‘aggregate.Rout.save’ ...4c4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Linking to GEOS 3.8.1, GDAL 3.0.4, PROJ 7.0.0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘cast.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘cast.Rout’ to ‘cast.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘crs.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘crs.Rout’ to ‘crs.Rout.save’ ...53,55c53,55<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘dist.R’ [1s/3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘dist.Rout’ to ‘dist.Rout.save’ ...54c54<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘dplyr.R’ [6s/8s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘dplyr.Rout’ to ‘dplyr.Rout.save’ ...73c73<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;77,80c77,80<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 (0,0.1]          0.0760 (((-8678517 4054264, -8679088 4061405, -8680136 40615…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2 (0.1,0.12]       0.112  (((-9383227 4192541, -9375980 4199500, -9370835 41966…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3 (0.12,0.1…       0.134  (((-8520830 4108031, -8522040 4111119, -8520104 41115…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4 (0.15,0.2…       0.190  (((-8685774 4073056, -8684147 4070879, -8683670 40671…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 (0,0.1]          0.0760 (((-8678517 4054264, -8679088 4061405, -8680136 40615~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2 (0.1,0.12]       0.112  (((-9383227 4192541, -9375980 4199500, -9370835 41966~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3 (0.12,0.1~       0.134  (((-8520830 4108031, -8522040 4111119, -8520104 41115~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4 (0.15,0.2~       0.190  (((-8532272 4151181, -8529886 4149052, -8543756 41433~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;105c105<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;109,114c109,114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1    95 (((-8588146 4131923, -8589850 4133303, -8589356 4135198, -8… SID79     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2    96 (((-8711999 4081959, -8719511 4077863, -8731642 4078864, -8… SID79     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3    97 (((-8685774 4073056, -8697387 4077823, -8700120 4077570, -8… SID79     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4    98 (((-8755885 4021935, -8802506 4069795, -8798771 4071779, -8… SID79    17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5    99 (((-8678517 4054264, -8679088 4061405, -8680136 4061550, -8… SID79     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6   100 (((-8755885 4021935, -8753548 4025868, -8753052 4030195, -8… SID79     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1    95 (((-8588146 4131923, -8589850 4133303, -8589356 4135198, -8~ SID79     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2    96 (((-8711999 4081959, -8719511 4077863, -8731642 4078864, -8~ SID79     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3    97 (((-8685774 4073056, -8697387 4077823, -8700120 4077570, -8~ SID79     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4    98 (((-8755885 4021935, -8802506 4069795, -8798771 4071779, -8~ SID79    17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5    99 (((-8678517 4054264, -8679088 4061405, -8680136 4061550, -8~ SID79     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6   100 (((-8755885 4021935, -8753548 4025868, -8753052 4030195, -8~ SID79     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;120c120<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;124,129c124,129<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1     1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9…     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2     2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9…     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3     3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8…     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4     4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8…     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5     5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8…     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6     6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8…     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1     1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9~     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2     2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9~     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3     3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8~     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4     4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8~     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5     5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8~     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6     6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8~     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;135c135<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;139,144c139,144<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9…     1     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9…     2     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8…     3     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8…     4     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8…     5     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8…     6     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9~     1     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9~     2     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8~     3     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8~     4     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8~     5     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8~     6     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;153,155c153,155<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;179c179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;183c183<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2.593234e-06 (((705429.2 49248.34, 705861.5 27435.66, 698897.7 18679.88, 6485…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 2.593234e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 84006~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;189c189<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;193c193<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1     2.589362e-06 (((724644.4 62316.58, 714305.9 49733.25, 711692 35996.55, 70…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1     2.589362e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 8~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;201c201<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;205c205<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((705429.2 49248.34, 705861.5 27435.66, 698897.7 18679.88…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;211c211<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;213c213<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   `sum(A * new_dens…                                                    geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   `sum(A * new_dens~                                                    geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;215c215<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((724644.4 62316.58, 714305.9 49733.25, 711692 35996.55, …<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘empty.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘empty.Rout’ to ‘empty.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘gdal_geom.R’ [2s/4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘gdal_geom.Rout’ to ‘gdal_geom.Rout.save’ ...245c245<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; [1,] 1760244967 0.114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; [1,] 1760244757 0.114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;278c278<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Error : cannot convert km into °<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Error : cannot convert km into &lt;b0&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;285,287d284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; In st_buffer.sfc(sfc, units::set_units(0.1, rad)) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   st_buffer does not correctly buffer longitude/latitude data<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘geos.R’ [9s/11s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘geos.Rout’ to ‘geos.Rout.save’ ...85c85<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;560,573d559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Geometry set for 1 feature <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Simple feature collection with 1 feature and 1 field<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   a                       geom<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2 LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘graticule.R’ [3s/4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘graticule.Rout’ to ‘graticule.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘grid.R’ [2s/3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘grid.Rout’ to ‘grid.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘maps.R’ [3s/5s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘maps.Rout’ to ‘maps.Rout.save’ ...12c12<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26c26<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39c39<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;57c57<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;75c75<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;93c93<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘plot.R’ [9s/13s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘plot.Rout’ to ‘plot.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘read.R’ [1s/3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘roundtrip.R’ [7s/9s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘roundtrip.Rout’ to ‘roundtrip.Rout.save’ ...98,100d97<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; In CPL_crs_from_input(x) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   GDAL Message 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;148c145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-devel-gcc/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;153c150<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;156a154<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; [3] "Component 15: Attributes: &lt; Component \"crs\": Component \"input\": 1 string mismatch &gt;"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sample.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sample.Rout’ to ‘sample.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sfc.R’ [10s/13s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sfc.Rout’ to ‘sfc.Rout.save’ ...161c161<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;335c335<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; "3.8.1" "3.0.4" "7.0.0" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; "3.6.1" "2.2.3" "4.9.3" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;469c469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   User input: NAD27 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   User input: 4267 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;471,484c471,476<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; GEOGCRS["NAD27",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     DATUM["North American Datum 1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             LENGTHUNIT["metre",1]]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     PRIMEM["Greenwich",0,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     CS[ellipsoidal,2],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AXIS["latitude",north,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ORDER[1],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AXIS["longitude",east,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ORDER[2],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     ID["EPSG",4267]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; GEOGCS["GCS_North_American_1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     DATUM["North_American_Datum_1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;         SPHEROID["Clarke_1866",6378206.4,294.9786982]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     PRIMEM["Greenwich",0],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     UNIT["Degree",0.017453292519943295],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;641c633<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc' from data source `/home/hornik/tmp/R.check/r-devel-gcc/Work/build/Packages/sf/shape/nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;646c638<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;658c650<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina (ftUS)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:2264<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;692c684<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;718c710<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;739c731<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;775c767<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina (ftUS)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:2264<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;790c782<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;946c938<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;954c946<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;969c961<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;980c972<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;992c984<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1005c997<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sfg.R’ [1s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sfg.Rout’ to ‘sfg.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘spatstat.R’ [4s/6s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘spatstat.Rout’ to ‘spatstat.Rout.save’ ...198c198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-devel-gcc/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;203c203<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘stars.R’ [2s/4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘stars.Rout’ to ‘stars.Rout.save’ ...107c107<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;118c118<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;125c125<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-devel-gcc/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;131c131<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;144,145c144,145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; x    1 461 -84.3239  0.0192484  NAD27 FALSE   NULL [x]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; y    1 141  36.5896 -0.0192484  NAD27 FALSE   NULL [y]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; x    1 461 -84.3239  0.0192484 GEOGCS["NAD27",DATUM["Nor... FALSE   NULL [x]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; y    1 141  36.5896 -0.0192484 GEOGCS["NAD27",DATUM["Nor... FALSE   NULL [y]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;150c150<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;167c167<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;184c184<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘testthat.Rout’ to ‘testthat.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘units.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘units.Rout’ to ‘units.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘wkb.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘wkb.Rout’ to ‘wkb.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/read.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; Sys.setenv(TZ="UTC")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; suppressPackageStartupMessages(library(sf))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), "nc.gpkg", crs = 4267, quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), quiet = TRUE) # default layer name<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE) # no layer specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # data from https://github.com/edzer/sfr/issues/6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) { # read Int64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE, int64_as_string = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 1028678842<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "1028678842"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # see https://github.com/edzer/sfr/issues/45 :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("OSM" %in% st_drivers()$name &amp;&amp; Sys.info()['sysname'] != "Darwin") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	osm = system.file("osm/overpass.osm", package="sf")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	print(st_layers(osm))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_layers(osm, do_count = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_read(osm, "multipolygons", quiet = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point       NA     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String       NA      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon       NA     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point        0     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String        0      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon        3     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 3 features and 25 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -1.556254 ymin: 53.79519 xmax: -1.550716 ymax: 53.80341<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    osm_id osm_way_id name type aeroway amenity admin_level barrier boundary<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1   &lt;NA&gt;  263958111 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2   &lt;NA&gt;  301461256 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3   &lt;NA&gt;  462227487 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    building craft geological historic land_area landuse leisure man_made<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    military natural office place shop sport tourism other_tags<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                          geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1 MULTIPOLYGON (((-1.550719 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2 MULTIPOLYGON (((-1.555763 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 MULTIPOLYGON (((-1.551502 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # layer opening option:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	options = c("ADJUST_TYPE=YES", "ENCODING=CPL_ENC_UTF8"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 100 features and 14 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -84.32385 ymin: 33.88199 xmax: -75.45698 ymax: 36.58965<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  First 10 features:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      AREA PERIMETER CNTY_ CNTY_ID        NAME  FIPS FIPSNO CRESS_ID BIR74 SID74<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1  0.114     1.442  1825    1825        Ashe 37009  37009        5  1091     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2  0.061     1.231  1827    1827   Alleghany 37005  37005        3   487     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3  0.143     1.630  1828    1828       Surry 37171  37171       86  3188     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4  0.070     2.968  1831    1831   Currituck 37053  37053       27   508     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  0.153     2.206  1832    1832 Northampton 37131  37131       66  1421     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6  0.097     1.670  1833    1833    Hertford 37091  37091       46  1452     7<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7  0.062     1.547  1834    1834      Camden 37029  37029       15   286     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8  0.091     1.284  1835    1835       Gates 37073  37073       37   420     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9  0.118     1.421  1836    1836      Warren 37185  37185       93   968     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10 0.124     1.428  1837    1837      Stokes 37169  37169       85  1612     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     NWBIR74 BIR79 SID79 NWBIR79                       geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1       10  1364     0      19 MULTIPOLYGON (((-81.47276 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2       10   542     3      12 MULTIPOLYGON (((-81.23989 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3      208  3616     6     260 MULTIPOLYGON (((-80.45634 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4      123   830     2     145 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5     1066  1606     3    1197 MULTIPOLYGON (((-77.21767 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6      954  1838     5    1237 MULTIPOLYGON (((-76.74506 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7      115   350     2     139 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8      254   594     2     371 MULTIPOLYGON (((-76.56251 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9      748  1190     2     844 MULTIPOLYGON (((-78.30876 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10     160  2038     5     176 MULTIPOLYGON (((-80.02567 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; x &lt;- st_sf(a = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_layers("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cannot open data source foo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_get_layers(dsn, options, do_count) : Open failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "foo"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("x.gpkg", "xyz")) # cannot open layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "x.gpkg"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in UseMethod("st_write") : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    no applicable method for 'st_write' applied to an object of class "character"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in guess_driver(dns) : length(dsn) == 1 is not TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, "foo", driver = "foo"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  driver `foo' not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_write_ogr(obj, dsn, layer, driver, as.character(dataset_options),  : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    Driver not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (Sys.getenv("USER") == "travis") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(x, "/x", driver = "ESRI Shapefile"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg", append = TRUE, quiet = FALSE) # appends to layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	y &lt;- st_sf(b = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(y, "xxx.gpkg"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `geom' to data source `geom.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom1.gpkg", layer = "foo")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `foo' to data source `geom1.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; df &lt;- data.frame(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     a = c(0, 1, NA, -Inf, Inf),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     b = c("a", "b", NA, "c", ""),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     c = c(as.Date("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     d = c(as.POSIXct("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     x = 1:5,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     y = 1:5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in as.Date.numeric(e) : 'origin' must be supplied<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Calls: data.frame ... unlist -&gt; lapply -&gt; FUN -&gt; as.Date -&gt; as.Date.numeric<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/sf-00check.html">r-devel-linux-x86_64-debian-gcc</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 26.6Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc     11.9Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs    10.2Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    sqlite   1.5Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/sf-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/sf-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/sf-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/sf-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/sf-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/sf-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘aggregate.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘aggregate.Rout’ to ‘aggregate.Rout.save’ ...4c4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Linking to GEOS 3.7.1, GDAL 2.3.2, PROJ 5.2.0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘cast.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘cast.Rout’ to ‘cast.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘crs.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘crs.Rout’ to ‘crs.Rout.save’ ...53c53<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;55c55<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘dist.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘dist.Rout’ to ‘dist.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘dplyr.R’ [9s/10s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘dplyr.Rout’ to ‘dplyr.Rout.save’ ...77,80c77,80<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 (0,0.1]          0.0760 (((-8678517 4054264, -8679088 4061405, -8680136 40615…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2 (0.1,0.12]       0.112  (((-9383227 4192541, -9375980 4199500, -9370835 41966…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3 (0.12,0.1…       0.134  (((-8520830 4108031, -8522040 4111119, -8520104 41115…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4 (0.15,0.2…       0.190  (((-8532272 4151181, -8529886 4149052, -8543756 41433…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 (0,0.1]          0.0760 (((-8678517 4054264, -8679088 4061405, -8680136 40615~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2 (0.1,0.12]       0.112  (((-9383227 4192541, -9375980 4199500, -9370835 41966~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3 (0.12,0.1~       0.134  (((-8520830 4108031, -8522040 4111119, -8520104 41115~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4 (0.15,0.2~       0.190  (((-8532272 4151181, -8529886 4149052, -8543756 41433~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;109,114c109,114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1    95 (((-8588146 4131923, -8589850 4133303, -8589356 4135198, -8… SID79     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2    96 (((-8711999 4081959, -8719511 4077863, -8731642 4078864, -8… SID79     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3    97 (((-8685774 4073056, -8697387 4077823, -8700120 4077570, -8… SID79     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4    98 (((-8755885 4021935, -8802506 4069795, -8798771 4071779, -8… SID79    17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5    99 (((-8678517 4054264, -8679088 4061405, -8680136 4061550, -8… SID79     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6   100 (((-8755885 4021935, -8753548 4025868, -8753052 4030195, -8… SID79     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1    95 (((-8588146 4131923, -8589850 4133303, -8589356 4135198, -8~ SID79     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2    96 (((-8711999 4081959, -8719511 4077863, -8731642 4078864, -8~ SID79     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3    97 (((-8685774 4073056, -8697387 4077823, -8700120 4077570, -8~ SID79     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4    98 (((-8755885 4021935, -8802506 4069795, -8798771 4071779, -8~ SID79    17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5    99 (((-8678517 4054264, -8679088 4061405, -8680136 4061550, -8~ SID79     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6   100 (((-8755885 4021935, -8753548 4025868, -8753052 4030195, -8~ SID79     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;124,129c124,129<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1     1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9…     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2     2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9…     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3     3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8…     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4     4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8…     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5     5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8…     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6     6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8…     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1     1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9~     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2     2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9~     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3     3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8~     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4     4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8~     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5     5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8~     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6     6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8~     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;139,144c139,144<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9…     1     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9…     2     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8…     3     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8…     4     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8…     5     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8…     6     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9~     1     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9~     2     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8~     3     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8~     4     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8~     5     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8~     6     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;153c153<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;155c155<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;183c183<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2.593234e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 84006…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 2.593234e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 84006~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;193c193<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1     2.589362e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 8…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1     2.589362e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 8~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;205c205<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;213c213<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   `sum(A * new_dens…                                                    geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   `sum(A * new_dens~                                                    geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;215c215<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘empty.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘empty.Rout’ to ‘empty.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘gdal_geom.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘gdal_geom.Rout’ to ‘gdal_geom.Rout.save’ ...278c278<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Error : cannot convert km into °<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Error : cannot convert km into &lt;b0&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;285,287d284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; In st_buffer.sfc(sfc, units::set_units(0.1, rad)) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   st_buffer does not correctly buffer longitude/latitude data<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘geos.R’ [14s/16s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘geos.Rout’ to ‘geos.Rout.save’ ...560,573d559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Geometry set for 1 feature <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Simple feature collection with 1 feature and 1 field<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   a                       geom<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2 LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘graticule.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘graticule.Rout’ to ‘graticule.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘grid.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘grid.Rout’ to ‘grid.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘maps.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘maps.Rout’ to ‘maps.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘plot.R’ [12s/15s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘plot.Rout’ to ‘plot.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘read.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘roundtrip.R’ [10s/11s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘roundtrip.Rout’ to ‘roundtrip.Rout.save’ ...145c145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/data/gannet/ripley/R/packages/tests-clang/sf.Rcheck/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sample.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sample.Rout’ to ‘sample.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sfc.R’ [13s/14s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sfc.Rout’ to ‘sfc.Rout.save’ ...335c335<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; "3.7.1" "2.3.2" "5.2.0" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; "3.6.1" "2.2.3" "4.9.3" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;471c471<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; GEOGCS["NAD27",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; GEOGCS["GCS_North_American_1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;473,479c473,475<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         SPHEROID["Clarke 1866",6378206.4,294.9786982138982,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             AUTHORITY["EPSG","7008"]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AUTHORITY["EPSG","6267"]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     PRIMEM["Greenwich",0,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AUTHORITY["EPSG","8901"]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     UNIT["degree",0.0174532925199433,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AUTHORITY["EPSG","9122"]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;         SPHEROID["Clarke_1866",6378206.4,294.9786982]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     PRIMEM["Greenwich",0],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     UNIT["Degree",0.017453292519943295],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;637c633<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc' from data source `/data/gannet/ripley/R/packages/tests-clang/sf.Rcheck/sf/shape/nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sfg.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sfg.Rout’ to ‘sfg.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘spatstat.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘spatstat.Rout’ to ‘spatstat.Rout.save’ ...198c198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/data/gannet/ripley/R/packages/tests-clang/sf.Rcheck/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘stars.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘stars.Rout’ to ‘stars.Rout.save’ ...125c125<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/data/gannet/ripley/R/packages/tests-clang/sf.Rcheck/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘testthat.Rout’ to ‘testthat.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘units.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘units.Rout’ to ‘units.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘wkb.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘wkb.Rout’ to ‘wkb.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/read.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; Sys.setenv(TZ="UTC")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; suppressPackageStartupMessages(library(sf))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), "nc.gpkg", crs = 4267, quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), quiet = TRUE) # default layer name<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE) # no layer specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # data from https://github.com/edzer/sfr/issues/6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) { # read Int64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE, int64_as_string = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 1028678842<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "1028678842"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # see https://github.com/edzer/sfr/issues/45 :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("OSM" %in% st_drivers()$name &amp;&amp; Sys.info()['sysname'] != "Darwin") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	osm = system.file("osm/overpass.osm", package="sf")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	print(st_layers(osm))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_layers(osm, do_count = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_read(osm, "multipolygons", quiet = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point       NA     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String       NA      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon       NA     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point        0     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String        0      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon        3     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 3 features and 25 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -1.556254 ymin: 53.79519 xmax: -1.550716 ymax: 53.80341<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    osm_id osm_way_id name type aeroway amenity admin_level barrier boundary<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1   &lt;NA&gt;  263958111 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2   &lt;NA&gt;  301461256 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3   &lt;NA&gt;  462227487 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    building craft geological historic land_area landuse leisure man_made<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    military natural office place shop sport tourism other_tags<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                          geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1 MULTIPOLYGON (((-1.550719 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2 MULTIPOLYGON (((-1.555763 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 MULTIPOLYGON (((-1.551502 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # layer opening option:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	options = c("ADJUST_TYPE=YES", "ENCODING=CPL_ENC_UTF8"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 100 features and 14 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -84.32385 ymin: 33.88199 xmax: -75.45698 ymax: 36.58965<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  First 10 features:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      AREA PERIMETER CNTY_ CNTY_ID        NAME  FIPS FIPSNO CRESS_ID BIR74 SID74<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1  0.114     1.442  1825    1825        Ashe 37009  37009        5  1091     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2  0.061     1.231  1827    1827   Alleghany 37005  37005        3   487     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3  0.143     1.630  1828    1828       Surry 37171  37171       86  3188     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4  0.070     2.968  1831    1831   Currituck 37053  37053       27   508     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  0.153     2.206  1832    1832 Northampton 37131  37131       66  1421     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6  0.097     1.670  1833    1833    Hertford 37091  37091       46  1452     7<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7  0.062     1.547  1834    1834      Camden 37029  37029       15   286     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8  0.091     1.284  1835    1835       Gates 37073  37073       37   420     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9  0.118     1.421  1836    1836      Warren 37185  37185       93   968     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10 0.124     1.428  1837    1837      Stokes 37169  37169       85  1612     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     NWBIR74 BIR79 SID79 NWBIR79                       geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1       10  1364     0      19 MULTIPOLYGON (((-81.47276 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2       10   542     3      12 MULTIPOLYGON (((-81.23989 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3      208  3616     6     260 MULTIPOLYGON (((-80.45634 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4      123   830     2     145 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5     1066  1606     3    1197 MULTIPOLYGON (((-77.21767 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6      954  1838     5    1237 MULTIPOLYGON (((-76.74506 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7      115   350     2     139 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8      254   594     2     371 MULTIPOLYGON (((-76.56251 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9      748  1190     2     844 MULTIPOLYGON (((-78.30876 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10     160  2038     5     176 MULTIPOLYGON (((-80.02567 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; x &lt;- st_sf(a = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_layers("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cannot open data source foo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_get_layers(dsn, options, do_count) : Open failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "foo"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("x.gpkg", "xyz")) # cannot open layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "x.gpkg"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in UseMethod("st_write") : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    no applicable method for 'st_write' applied to an object of class "character"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in guess_driver(dns) : length(dsn) == 1 is not TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, "foo", driver = "foo"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  driver `foo' not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_write_ogr(obj, dsn, layer, driver, as.character(dataset_options),  : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    Driver not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (Sys.getenv("USER") == "travis") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(x, "/x", driver = "ESRI Shapefile"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg", append = TRUE, quiet = FALSE) # appends to layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	y &lt;- st_sf(b = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(y, "xxx.gpkg"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `geom' to data source `geom.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom1.gpkg", layer = "foo")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `foo' to data source `geom1.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; df &lt;- data.frame(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     a = c(0, 1, NA, -Inf, Inf),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     b = c("a", "b", NA, "c", ""),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     c = c(as.Date("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     d = c(as.POSIXct("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     x = 1:5,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     y = 1:5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in as.Date.numeric(e) : 'origin' must be supplied<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Calls: data.frame ... unlist -&gt; lapply -&gt; FUN -&gt; as.Date -&gt; as.Date.numeric<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/sf-00check.html">r-devel-linux-x86_64-fedora-clang</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: running tests for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'aggregate.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'aggregate.Rout' to 'aggregate.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'cast.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'cast.Rout' to 'cast.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'crs.R' [3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'crs.Rout' to 'crs.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'dist.R' [3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'dist.Rout' to 'dist.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'dplyr.R' [10s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'dplyr.Rout' to 'dplyr.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'empty.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'empty.Rout' to 'empty.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'gdal_geom.R' [3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'gdal_geom.Rout' to 'gdal_geom.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'geos.R' [16s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'geos.Rout' to 'geos.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'graticule.R' [6s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'graticule.Rout' to 'graticule.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'grid.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'grid.Rout' to 'grid.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'maps.R' [5s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'maps.Rout' to 'maps.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'plot.R' [14s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'plot.Rout' to 'plot.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'read.R' [3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'roundtrip.R' [9s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'roundtrip.Rout' to 'roundtrip.Rout.save' ...145c145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sample.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sample.Rout' to 'sample.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sfc.R' [15s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sfc.Rout' to 'sfc.Rout.save' ...633c633<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sfg.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sfg.Rout' to 'sfg.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spatstat.R' [6s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'spatstat.Rout' to 'spatstat.Rout.save' ...198c198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'stars.R' [4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'stars.Rout' to 'stars.Rout.save' ...125c125<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'testthat.Rout' to 'testthat.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'units.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'units.Rout' to 'units.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'wkb.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'wkb.Rout' to 'wkb.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/read.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; Sys.setenv(TZ="UTC")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; suppressPackageStartupMessages(library(sf))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), "nc.gpkg", crs = 4267, quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), quiet = TRUE) # default layer name<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE) # no layer specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # data from https://github.com/edzer/sfr/issues/6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) { # read Int64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE, int64_as_string = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 1028678842<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "1028678842"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # see https://github.com/edzer/sfr/issues/45 :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("OSM" %in% st_drivers()$name &amp;&amp; Sys.info()['sysname'] != "Darwin") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	osm = system.file("osm/overpass.osm", package="sf")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	print(st_layers(osm))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_layers(osm, do_count = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_read(osm, "multipolygons", quiet = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point       NA     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String       NA      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon       NA     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point        0     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String        0      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon        3     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 3 features and 25 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -1.556254 ymin: 53.79519 xmax: -1.550716 ymax: 53.80341<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    osm_id osm_way_id name type aeroway amenity admin_level barrier boundary<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1   &lt;NA&gt;  263958111 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2   &lt;NA&gt;  301461256 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3   &lt;NA&gt;  462227487 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    building craft geological historic land_area landuse leisure man_made<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    military natural office place shop sport tourism other_tags<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                          geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1 MULTIPOLYGON (((-1.550719 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2 MULTIPOLYGON (((-1.555763 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 MULTIPOLYGON (((-1.551502 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # layer opening option:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	options = c("ADJUST_TYPE=YES", "ENCODING=CPL_ENC_UTF8"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 100 features and 14 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -84.32385 ymin: 33.88199 xmax: -75.45698 ymax: 36.58965<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  First 10 features:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      AREA PERIMETER CNTY_ CNTY_ID        NAME  FIPS FIPSNO CRESS_ID BIR74 SID74<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1  0.114     1.442  1825    1825        Ashe 37009  37009        5  1091     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2  0.061     1.231  1827    1827   Alleghany 37005  37005        3   487     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3  0.143     1.630  1828    1828       Surry 37171  37171       86  3188     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4  0.070     2.968  1831    1831   Currituck 37053  37053       27   508     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  0.153     2.206  1832    1832 Northampton 37131  37131       66  1421     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6  0.097     1.670  1833    1833    Hertford 37091  37091       46  1452     7<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7  0.062     1.547  1834    1834      Camden 37029  37029       15   286     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8  0.091     1.284  1835    1835       Gates 37073  37073       37   420     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9  0.118     1.421  1836    1836      Warren 37185  37185       93   968     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10 0.124     1.428  1837    1837      Stokes 37169  37169       85  1612     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     NWBIR74 BIR79 SID79 NWBIR79                       geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1       10  1364     0      19 MULTIPOLYGON (((-81.47276 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2       10   542     3      12 MULTIPOLYGON (((-81.23989 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3      208  3616     6     260 MULTIPOLYGON (((-80.45634 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4      123   830     2     145 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5     1066  1606     3    1197 MULTIPOLYGON (((-77.21767 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6      954  1838     5    1237 MULTIPOLYGON (((-76.74506 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7      115   350     2     139 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8      254   594     2     371 MULTIPOLYGON (((-76.56251 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9      748  1190     2     844 MULTIPOLYGON (((-78.30876 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10     160  2038     5     176 MULTIPOLYGON (((-80.02567 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; x &lt;- st_sf(a = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_layers("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cannot open data source foo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_get_layers(dsn, options, do_count) : Open failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "foo"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("x.gpkg", "xyz")) # cannot open layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "x.gpkg"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in UseMethod("st_write") : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    no applicable method for 'st_write' applied to an object of class "character"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in guess_driver(dns) : length(dsn) == 1 is not TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, "foo", driver = "foo"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  driver `foo' not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_write_ogr(obj, dsn, layer, driver, as.character(dataset_options),  : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    Driver not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (Sys.getenv("USER") == "travis") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(x, "/x", driver = "ESRI Shapefile"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg", append = TRUE, quiet = FALSE) # appends to layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	y &lt;- st_sf(b = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(y, "xxx.gpkg"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `geom' to data source `geom.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom1.gpkg", layer = "foo")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `foo' to data source `geom1.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; df &lt;- data.frame(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     a = c(0, 1, NA, -Inf, Inf),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     b = c("a", "b", NA, "c", ""),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     c = c(as.Date("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     d = c(as.POSIXct("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     x = 1:5,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     y = 1:5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in as.Date.numeric(e) : 'origin' must be supplied<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Calls: data.frame ... unlist -&gt; lapply -&gt; FUN -&gt; as.Date -&gt; as.Date.numeric<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/sf-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: running tests for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'aggregate.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'aggregate.Rout' to 'aggregate.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'cast.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'cast.Rout' to 'cast.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'crs.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'crs.Rout' to 'crs.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'dist.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'dist.Rout' to 'dist.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'dplyr.R' [9s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'dplyr.Rout' to 'dplyr.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'empty.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'empty.Rout' to 'empty.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'gdal_geom.R' [3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'gdal_geom.Rout' to 'gdal_geom.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'geos.R' [15s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'geos.Rout' to 'geos.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'graticule.R' [6s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'graticule.Rout' to 'graticule.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'grid.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'grid.Rout' to 'grid.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'maps.R' [5s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'maps.Rout' to 'maps.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'plot.R' [15s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'plot.Rout' to 'plot.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'read.R' [3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'roundtrip.R' [10s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'roundtrip.Rout' to 'roundtrip.Rout.save' ...145c145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sample.R' [3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sample.Rout' to 'sample.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sfc.R' [16s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sfc.Rout' to 'sfc.Rout.save' ...633c633<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'sfg.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'sfg.Rout' to 'sfg.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spatstat.R' [6s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'spatstat.Rout' to 'spatstat.Rout.save' ...198c198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'stars.R' [5s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'stars.Rout' to 'stars.Rout.save' ...125c125<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `D:\temp\RtmpMlEXhx\RLIBS_2929063cb1061\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'testthat.Rout' to 'testthat.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'units.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'units.Rout' to 'units.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'wkb.R' [2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing 'wkb.Rout' to 'wkb.Rout.save' ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/read.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; Sys.setenv(TZ="UTC")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; suppressPackageStartupMessages(library(sf))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), "nc.gpkg", crs = 4267, quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), quiet = TRUE) # default layer name<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE) # no layer specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # data from https://github.com/edzer/sfr/issues/6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) { # read Int64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE, int64_as_string = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 1028678842<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "1028678842"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # see https://github.com/edzer/sfr/issues/45 :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("OSM" %in% st_drivers()$name &amp;&amp; Sys.info()['sysname'] != "Darwin") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	osm = system.file("osm/overpass.osm", package="sf")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	print(st_layers(osm))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_layers(osm, do_count = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_read(osm, "multipolygons", quiet = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point       NA     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String       NA      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon       NA     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point        0     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String        0      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon        3     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 3 features and 25 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -1.556254 ymin: 53.79519 xmax: -1.550716 ymax: 53.80341<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    osm_id osm_way_id name type aeroway amenity admin_level barrier boundary<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1   &lt;NA&gt;  263958111 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2   &lt;NA&gt;  301461256 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3   &lt;NA&gt;  462227487 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    building craft geological historic land_area landuse leisure man_made<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    military natural office place shop sport tourism other_tags<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                          geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1 MULTIPOLYGON (((-1.550719 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2 MULTIPOLYGON (((-1.555763 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 MULTIPOLYGON (((-1.551502 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # layer opening option:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	options = c("ADJUST_TYPE=YES", "ENCODING=CPL_ENC_UTF8"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 100 features and 14 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -84.32385 ymin: 33.88199 xmax: -75.45698 ymax: 36.58965<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  First 10 features:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      AREA PERIMETER CNTY_ CNTY_ID        NAME  FIPS FIPSNO CRESS_ID BIR74 SID74<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1  0.114     1.442  1825    1825        Ashe 37009  37009        5  1091     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2  0.061     1.231  1827    1827   Alleghany 37005  37005        3   487     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3  0.143     1.630  1828    1828       Surry 37171  37171       86  3188     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4  0.070     2.968  1831    1831   Currituck 37053  37053       27   508     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  0.153     2.206  1832    1832 Northampton 37131  37131       66  1421     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6  0.097     1.670  1833    1833    Hertford 37091  37091       46  1452     7<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7  0.062     1.547  1834    1834      Camden 37029  37029       15   286     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8  0.091     1.284  1835    1835       Gates 37073  37073       37   420     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9  0.118     1.421  1836    1836      Warren 37185  37185       93   968     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10 0.124     1.428  1837    1837      Stokes 37169  37169       85  1612     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     NWBIR74 BIR79 SID79 NWBIR79                       geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1       10  1364     0      19 MULTIPOLYGON (((-81.47276 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2       10   542     3      12 MULTIPOLYGON (((-81.23989 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3      208  3616     6     260 MULTIPOLYGON (((-80.45634 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4      123   830     2     145 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5     1066  1606     3    1197 MULTIPOLYGON (((-77.21767 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6      954  1838     5    1237 MULTIPOLYGON (((-76.74506 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7      115   350     2     139 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8      254   594     2     371 MULTIPOLYGON (((-76.56251 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9      748  1190     2     844 MULTIPOLYGON (((-78.30876 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10     160  2038     5     176 MULTIPOLYGON (((-80.02567 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; x &lt;- st_sf(a = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_layers("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cannot open data source foo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_get_layers(dsn, options, do_count) : Open failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "foo"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("x.gpkg", "xyz")) # cannot open layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "x.gpkg"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in UseMethod("st_write") : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    no applicable method for 'st_write' applied to an object of class "character"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in guess_driver(dns) : length(dsn) == 1 is not TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, "foo", driver = "foo"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  driver `foo' not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_write_ogr(obj, dsn, layer, driver, as.character(dataset_options),  : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    Driver not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (Sys.getenv("USER") == "travis") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(x, "/x", driver = "ESRI Shapefile"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg", append = TRUE, quiet = FALSE) # appends to layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	y &lt;- st_sf(b = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(y, "xxx.gpkg"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `geom' to data source `geom.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom1.gpkg", layer = "foo")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `foo' to data source `geom1.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; df &lt;- data.frame(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     a = c(0, 1, NA, -Inf, Inf),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     b = c("a", "b", NA, "c", ""),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     c = c(as.Date("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     d = c(as.POSIXct("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     x = 1:5,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     y = 1:5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in as.Date.numeric(e) : 'origin' must be supplied<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Calls: data.frame ... unlist -&gt; lapply -&gt; FUN -&gt; as.Date -&gt; as.Date.numeric<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/sf-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘aggregate.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘aggregate.Rout’ to ‘aggregate.Rout.save’ ...4c4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Linking to GEOS 3.8.1, GDAL 3.0.4, PROJ 7.0.0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘cast.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘cast.Rout’ to ‘cast.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘crs.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘crs.Rout’ to ‘crs.Rout.save’ ...53,55c53,55<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘dist.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘dist.Rout’ to ‘dist.Rout.save’ ...54c54<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘dplyr.R’ [8s/9s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘dplyr.Rout’ to ‘dplyr.Rout.save’ ...73c73<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;77,80c77,80<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 (0,0.1]          0.0760 (((-8678517 4054264, -8679088 4061405, -8680136 40615…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2 (0.1,0.12]       0.112  (((-9383227 4192541, -9375980 4199500, -9370835 41966…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3 (0.12,0.1…       0.134  (((-8520830 4108031, -8522040 4111119, -8520104 41115…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4 (0.15,0.2…       0.190  (((-8685774 4073056, -8684147 4070879, -8683670 40671…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 (0,0.1]          0.0760 (((-8678517 4054264, -8679088 4061405, -8680136 40615~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2 (0.1,0.12]       0.112  (((-9383227 4192541, -9375980 4199500, -9370835 41966~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3 (0.12,0.1~       0.134  (((-8520830 4108031, -8522040 4111119, -8520104 41115~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4 (0.15,0.2~       0.190  (((-8532272 4151181, -8529886 4149052, -8543756 41433~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;105c105<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;109,114c109,114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1    95 (((-8588146 4131923, -8589850 4133303, -8589356 4135198, -8… SID79     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2    96 (((-8711999 4081959, -8719511 4077863, -8731642 4078864, -8… SID79     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3    97 (((-8685774 4073056, -8697387 4077823, -8700120 4077570, -8… SID79     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4    98 (((-8755885 4021935, -8802506 4069795, -8798771 4071779, -8… SID79    17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5    99 (((-8678517 4054264, -8679088 4061405, -8680136 4061550, -8… SID79     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6   100 (((-8755885 4021935, -8753548 4025868, -8753052 4030195, -8… SID79     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1    95 (((-8588146 4131923, -8589850 4133303, -8589356 4135198, -8~ SID79     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2    96 (((-8711999 4081959, -8719511 4077863, -8731642 4078864, -8~ SID79     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3    97 (((-8685774 4073056, -8697387 4077823, -8700120 4077570, -8~ SID79     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4    98 (((-8755885 4021935, -8802506 4069795, -8798771 4071779, -8~ SID79    17<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5    99 (((-8678517 4054264, -8679088 4061405, -8680136 4061550, -8~ SID79     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6   100 (((-8755885 4021935, -8753548 4025868, -8753052 4030195, -8~ SID79     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;120c120<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;124,129c124,129<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1     1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9…     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2     2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9…     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3     3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8…     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4     4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8…     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5     5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8…     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6     6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8…     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1     1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9~     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2     2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9~     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3     3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8~     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4     4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8~     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5     5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8~     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6     6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8~     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;135c135<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;139,144c139,144<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9…     1     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9…     2     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8…     3     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8…     4     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8…     5     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8…     6     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 (((-9069486 4332934, -9077066 4338201, -9079419 4338351, -9~     1     1     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 2 (((-9043562 4351030, -9043652 4352973, -9046117 4356516, -9~     2     0     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 3 (((-8956335 4334068, -8958566 4335747, -8965300 4336025, -8~     3     5     6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 4 (((-8461241 4344709, -8462173 4347214, -8463902 4346972, -8~     4     1     2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 5 (((-8595797 4333852, -8597683 4330212, -8604808 4329788, -8~     5     9     3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 6 (((-8543185 4332878, -8569416 4332369, -8570981 4333107, -8~     6     7     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;153,155c153,155<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 0 ymin: 0 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  WGS 84 / Pseudo-Mercator<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; POINT (0 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; bbox:           xmin: 0 ymin: -7.081155e-10 xmax: 111319.5 ymax: 111325.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:3857<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; POINT (0 -7.081155e-10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;179c179<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;183c183<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2.593234e-06 (((705429.2 49248.34, 705861.5 27435.66, 698897.7 18679.88, 6485…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1 2.593234e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 84006~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;189c189<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;193c193<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1     2.589362e-06 (((724644.4 62316.58, 714305.9 49733.25, 711692 35996.55, 70…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1     2.589362e-06 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72, 8~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;201c201<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;205c205<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((705429.2 49248.34, 705861.5 27435.66, 698897.7 18679.88…<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;211c211<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:32119<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;213c213<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   `sum(A * new_dens…                                                    geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   `sum(A * new_dens~                                                    geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;215c215<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1             329962 (((724644.4 62316.58, 714305.9 49733.25, 711692 35996.55, …<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; 1             329962 (((834893.7 95747.49, 833834.2 98254.6, 835420.2 98655.72,~<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘empty.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘empty.Rout’ to ‘empty.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘gdal_geom.R’ [2s/3s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘gdal_geom.Rout’ to ‘gdal_geom.Rout.save’ ...245c245<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; [1,] 1760244967 0.114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; [1,] 1760244757 0.114<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;278c278<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Error : cannot convert km into °<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Error : cannot convert km into &lt;b0&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;285,287d284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; In st_buffer.sfc(sfc, units::set_units(0.1, rad)) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   st_buffer does not correctly buffer longitude/latitude data<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘geos.R’ [12s/13s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘geos.Rout’ to ‘geos.Rout.save’ ...85c85<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;560,573d559<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Geometry set for 1 feature <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Simple feature collection with 1 feature and 1 field<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geometry type:  LINESTRING<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; bbox:           xmin: 1 ymin: 1 xmax: 3 ymax: 3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; CRS:            NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   a                       geom<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; 1 2 LINESTRING (3 3, 2 2, 1 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘graticule.R’ [4s/5s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘graticule.Rout’ to ‘graticule.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘grid.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘grid.Rout’ to ‘grid.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘maps.R’ [3s/4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘maps.Rout’ to ‘maps.Rout.save’ ...12c12<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;26c26<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;39c39<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;57c57<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;75c75<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;93c93<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘plot.R’ [11s/11s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘plot.Rout’ to ‘plot.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘read.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘roundtrip.R’ [9s/9s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘roundtrip.Rout’ to ‘roundtrip.Rout.save’ ...98,100d97<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; In CPL_crs_from_input(x) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   GDAL Message 1: +init=epsg:XXXX syntax is deprecated. It might return a CRS with a non-EPSG compliant axis order.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;148c145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-patched-gcc/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;153c150<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;156a154<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; [3] "Component 15: Attributes: &lt; Component \"crs\": Component \"input\": 1 string mismatch &gt;"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sample.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sample.Rout’ to ‘sample.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sfc.R’ [12s/13s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sfc.Rout’ to ‘sfc.Rout.save’ ...161c161<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;335c335<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; "3.8.1" "3.0.4" "7.0.0" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; "3.6.1" "2.2.3" "4.9.3" <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;469c469<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;   User input: NAD27 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   User input: 4267 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;471,484c471,476<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; GEOGCRS["NAD27",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     DATUM["North American Datum 1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             LENGTHUNIT["metre",1]]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     PRIMEM["Greenwich",0,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     CS[ellipsoidal,2],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AXIS["latitude",north,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ORDER[1],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;         AXIS["longitude",east,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ORDER[2],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;             ANGLEUNIT["degree",0.0174532925199433]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;     ID["EPSG",4267]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; GEOGCS["GCS_North_American_1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     DATUM["North_American_Datum_1927",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;         SPHEROID["Clarke_1866",6378206.4,294.9786982]],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     PRIMEM["Greenwich",0],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     UNIT["Degree",0.017453292519943295],<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;     AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;641c633<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc' from data source `/home/hornik/tmp/R.check/r-patched-gcc/Work/build/Packages/sf/shape/nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\shape\nc.shp' using driver `ESRI Shapefile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;646c638<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;658c650<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina (ftUS)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:2264<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;692c684<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;718c710<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;739c731<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;775c767<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; projected CRS:  NAD83 / North Carolina (ftUS)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:2264<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;790c782<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;946c938<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;954c946<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;969c961<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;980c972<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;992c984<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;1005c997<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘sfg.R’ [1s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘sfg.Rout’ to ‘sfg.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘spatstat.R’ [5s/5s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘spatstat.Rout’ to ‘spatstat.Rout.save’ ...198c198<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-patched-gcc/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;203c203<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘stars.R’ [3s/4s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘stars.Rout’ to ‘stars.Rout.save’ ...107c107<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;118c118<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            EPSG:4326<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;125c125<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; Reading layer `nc.gpkg' from data source `/home/hornik/tmp/R.check/r-patched-gcc/Work/build/Packages/sf/gpkg/nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Reading layer `nc.gpkg' from data source `D:\temp\Rtmp8qxg3B\RLIBS_1b15869f17642\sf\gpkg\nc.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;131c131<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            4267<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;144,145c144,145<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; x    1 461 -84.3239  0.0192484  NAD27 FALSE   NULL [x]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; y    1 141  36.5896 -0.0192484  NAD27 FALSE   NULL [y]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; x    1 461 -84.3239  0.0192484 GEOGCS["NAD27",DATUM["Nor... FALSE   NULL [x]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; y    1 141  36.5896 -0.0192484 GEOGCS["NAD27",DATUM["Nor... FALSE   NULL [y]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;150c150<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;167c167<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;184c184<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt; geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;---<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; CRS:            GEOGCS["NAD27",DATUM["North_American_Datum_1927",SPHEROID["Clarke 1866",6378206.4,294.9786982138982,AUTHORITY["EPSG","7008"]],AUTHORITY["EPSG","6267"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4267"]]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [1s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘testthat.Rout’ to ‘testthat.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘units.R’ [2s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘units.Rout’ to ‘units.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘wkb.R’ [1s/2s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Comparing ‘wkb.Rout’ to ‘wkb.Rout.save’ ... OK<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/read.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; Sys.setenv(TZ="UTC")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; suppressPackageStartupMessages(library(sf))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), "nc.gpkg", crs = 4267, quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	tst = st_read(system.file("gpkg/nc.gpkg", package="sf"), quiet = TRUE) # default layer name<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE) # no layer specified<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # data from https://github.com/edzer/sfr/issues/6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyz_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYZ"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; tst = st_read(system.file("shape/storms_xyzm_feature.shp", package="sf"), quiet = TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "sfc_LINESTRING" "sfc"           <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; class(st_geometry(tst)[[1]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "XYM"        "LINESTRING" "sfg"       <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("GPKG" %in% st_drivers()$name) { # read Int64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     print(st_read(system.file("gpkg/tl.gpkg", package="sf"), quiet = TRUE, int64_as_string = TRUE)$AWATER)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 1028678842<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] "1028678842"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # see https://github.com/edzer/sfr/issues/45 :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if ("OSM" %in% st_drivers()$name &amp;&amp; Sys.info()['sysname'] != "Darwin") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	osm = system.file("osm/overpass.osm", package="sf")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	print(st_layers(osm))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_layers(osm, do_count = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	suppressWarnings(print(st_read(osm, "multipolygons", quiet = TRUE)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point       NA     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String       NA      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon       NA     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection       NA      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Driver: OSM <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Available layers:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;          layer_name       geometry_type features fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1           points               Point        0     10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2            lines         Line String        0      9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 multilinestrings   Multi Line String        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4    multipolygons       Multi Polygon        3     25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  other_relations Geometry Collection        0      4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 3 features and 25 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -1.556254 ymin: 53.79519 xmax: -1.550716 ymax: 53.80341<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geographic CRS: WGS 84<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    osm_id osm_way_id name type aeroway amenity admin_level barrier boundary<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1   &lt;NA&gt;  263958111 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2   &lt;NA&gt;  301461256 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3   &lt;NA&gt;  462227487 &lt;NA&gt; &lt;NA&gt;    &lt;NA&gt;    &lt;NA&gt;        &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    building craft geological historic land_area landuse leisure man_made<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;     &lt;NA&gt;      &lt;NA&gt;    &lt;NA&gt;    park     &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    military natural office place shop sport tourism other_tags<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3     &lt;NA&gt;    &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt; &lt;NA&gt;  &lt;NA&gt;    &lt;NA&gt;       &lt;NA&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;                          geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1 MULTIPOLYGON (((-1.550719 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2 MULTIPOLYGON (((-1.555763 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3 MULTIPOLYGON (((-1.551502 5...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # layer opening option:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_read(system.file("shape/nc.shp", package="sf"), quiet = TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	options = c("ADJUST_TYPE=YES", "ENCODING=CPL_ENC_UTF8"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Simple feature collection with 100 features and 14 fields<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geometry type:  MULTIPOLYGON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dimension:      XY<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bbox:           xmin: -84.32385 ymin: 33.88199 xmax: -75.45698 ymax: 36.58965<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  geographic CRS: NAD27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  First 10 features:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      AREA PERIMETER CNTY_ CNTY_ID        NAME  FIPS FIPSNO CRESS_ID BIR74 SID74<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1  0.114     1.442  1825    1825        Ashe 37009  37009        5  1091     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2  0.061     1.231  1827    1827   Alleghany 37005  37005        3   487     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3  0.143     1.630  1828    1828       Surry 37171  37171       86  3188     5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4  0.070     2.968  1831    1831   Currituck 37053  37053       27   508     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5  0.153     2.206  1832    1832 Northampton 37131  37131       66  1421     9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6  0.097     1.670  1833    1833    Hertford 37091  37091       46  1452     7<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7  0.062     1.547  1834    1834      Camden 37029  37029       15   286     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8  0.091     1.284  1835    1835       Gates 37073  37073       37   420     0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9  0.118     1.421  1836    1836      Warren 37185  37185       93   968     4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10 0.124     1.428  1837    1837      Stokes 37169  37169       85  1612     1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;     NWBIR74 BIR79 SID79 NWBIR79                       geometry<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1       10  1364     0      19 MULTIPOLYGON (((-81.47276 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2       10   542     3      12 MULTIPOLYGON (((-81.23989 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3      208  3616     6     260 MULTIPOLYGON (((-80.45634 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4      123   830     2     145 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5     1066  1606     3    1197 MULTIPOLYGON (((-77.21767 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6      954  1838     5    1237 MULTIPOLYGON (((-76.74506 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7      115   350     2     139 MULTIPOLYGON (((-76.00897 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8      254   594     2     371 MULTIPOLYGON (((-76.56251 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9      748  1190     2     844 MULTIPOLYGON (((-78.30876 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10     160  2038     5     176 MULTIPOLYGON (((-80.02567 3...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; x &lt;- st_sf(a = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_layers("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cannot open data source foo<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_get_layers(dsn, options, do_count) : Open failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("foo")) # cannot open datasource<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "foo"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_read("x.gpkg", "xyz")) # cannot open layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error : Cannot open "x.gpkg"; The file doesn't seem to exist.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in UseMethod("st_write") : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    no applicable method for 'st_write' applied to an object of class "character"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, c("foo", "bar")))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in guess_driver(dns) : length(dsn) == 1 is not TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; try(st_write(x, "foo", driver = "foo"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  driver `foo' not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in CPL_write_ogr(obj, dsn, layer, driver, as.character(dataset_options),  : <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    Driver not available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (Sys.getenv("USER") == "travis") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(x, "/x", driver = "ESRI Shapefile"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	st_write(x, "xxx.gpkg", append = TRUE, quiet = FALSE) # appends to layer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	y &lt;- st_sf(b = 1:2, geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2))))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + 	try(st_write(y, "xxx.gpkg"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; geom = st_sfc(st_point(0:1), st_multipoint(matrix(1:4,2,2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom.gpkg")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `geom' to data source `geom.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; st_write(geom, "geom1.gpkg", layer = "foo")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing layer `foo' to data source `geom1.gpkg' using driver `GPKG'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Writing 2 features with 0 fields and geometry type Unknown (any).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; df &lt;- data.frame(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     a = c(0, 1, NA, -Inf, Inf),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     b = c("a", "b", NA, "c", ""),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     c = c(as.Date("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     d = c(as.POSIXct("2001-01-01"), NA, -99, 0, 1),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     x = 1:5,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     y = 1:5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error in as.Date.numeric(e) : 'origin' must be supplied<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Calls: data.frame ... unlist -&gt; lapply -&gt; FUN -&gt; as.Date -&gt; as.Date.numeric<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/sf-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Package suggested but not available for checking: ‘RPostgres’
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/sf-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 0.9-2
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘sf1.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘sf1.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘sf2.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘sf2.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘sf3.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘sf3.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘sf4.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘sf4.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘sf5.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 208-210 (sf5.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'sf5.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;package or namespace load failed for 'tmap':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; object 'st_make_valid' is not exported by 'namespace:lwgeom'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘sf5.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘sf6.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- finished re-building ‘sf6.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘sf5.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/sf-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.9-3
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 105.8Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc     11.9Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    gdal     2.1Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs    81.4Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    proj     6.0Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    sqlite   1.5Mb
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/sf-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

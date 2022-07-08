@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package FDRreg</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/FDRreg/index.html"> FDRreg </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:52 CEST.
+</p>
+<table border="1" summary="CRAN check results for package FDRreg">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.1 </td> <td class="r"> 41.69 </td> <td class="r"> 87.59 </td> <td class="r"> 129.28 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.1 </td> <td class="r"> 28.47 </td> <td class="r"> 68.92 </td> <td class="r"> 97.39 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 170.95 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 161.57 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 119.00 </td> <td class="r"> 146.00 </td> <td class="r"> 265.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 0.25 </td> <td class="r"> 2.29 </td> <td class="r"> 2.54 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/FDRreg-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 210.20 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 35.73 </td> <td class="r"> 85.33 </td> <td class="r"> 121.06 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 99.00 </td> <td class="r"> 197.00 </td> <td class="r"> 296.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.1 </td> <td class="r"> 100.00 </td> <td class="r"> 147.00 </td> <td class="r"> 247.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/FDRreg-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;FDRreg: no visible global function definition for 'dnorm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;colnormalize: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'median'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'hist'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'glm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible binding for global variable 'poisson'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'qchisq'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'predict'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'quantile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'lm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for 'coef'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;make.bspline.matrix: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'quantile'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for 'hist'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for 'axis'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for 'legend'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for 'rug'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for 'title'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  axis coef dnorm glm hist legend lines lm median par poisson predict<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  qchisq quantile rug sd title<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "axis", "hist", "legend", "lines", "par", "rug",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "title")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "coef", "dnorm", "glm", "lm", "median", "poisson",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "predict", "qchisq", "quantile", "sd")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/FDRreg-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/FDRreg-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/FDRreg-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/FDRreg-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/FDRreg-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/FDRreg-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/FDRreg-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/FDRreg-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/FDRreg-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: compiled code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;File ‘FDRreg/libs/FDRreg.so’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Found no calls to: ‘R_registerRoutines’, ‘R_useDynamicSymbols’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;It is good practice to register native routines and to disable symbol<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;search.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/FDRreg-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/FDRreg-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Package required but not available: ‘mosaic’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;manual.
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/FDRreg-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;FDRreg: no visible global function definition for ‘dnorm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;colnormalize: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘median’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘hist’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘glm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible binding for global variable ‘poisson’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘qchisq’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘predict’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘quantile’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘lm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;efron: no visible global function definition for ‘coef’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;make.bspline.matrix: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘quantile’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘hist’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘axis’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘legend’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘rug’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plotFDR: no visible global function definition for ‘title’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  axis coef dnorm glm hist legend lines lm median par plot poisson<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  predict qchisq quantile rug sd title<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "axis", "hist", "legend", "lines", "par",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "plot", "rug", "title")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "coef", "dnorm", "glm", "lm", "median", "poisson",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "predict", "qchisq", "quantile", "sd")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/FDRreg-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/FDRreg-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

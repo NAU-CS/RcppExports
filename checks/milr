@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package milr</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/milr/index.html"> milr </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:57 CEST.
+</p>
+<table border="1" summary="CRAN check results for package milr">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.3.0 </td> <td class="r"> 106.37 </td> <td class="r"> 669.68 </td> <td class="r"> 776.05 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/milr-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.3.0 </td> <td class="r"> 67.77 </td> <td class="r"> 494.95 </td> <td class="r"> 562.72 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1029.59 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 940.03 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 262.00 </td> <td class="r"> 871.00 </td> <td class="r"> 1133.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 82.47 </td> <td class="r"> 667.63 </td> <td class="r"> 750.10 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/milr-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1474.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 79.79 </td> <td class="r"> 663.98 </td> <td class="r"> 743.77 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 202.00 </td> <td class="r"> 874.00 </td> <td class="r"> 1076.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.3.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/milr-00check.html">FAIL</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.3.0 </td> <td class="r"> 164.00 </td> <td class="r"> 771.00 </td> <td class="r"> 935.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/milr-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3><a href="check_issue_kinds.html">Additional issues</a></h3>
+<p>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/memtests/clang-UBSAN/milr"><span class="check_ko">clang-UBSAN</span></a>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/memtests/gcc-UBSAN/milr"><span class="check_ko">gcc-UBSAN</span></a>
+</p>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.3.0
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building 'milr-intro.Rmd' using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion BIC to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth BIC is 3.6867.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 50 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion BIC to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth BIC is 4.9895.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 50 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion deviance to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth deviance is 2.8390.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;trying URL 'http://www.cs.columbia.edu/~andrews/mil/data/MIL-Data-2002-Musk-Corel-Trec9.tgz'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Content type 'application/x-gzip' length 6249673 bytes (6.0 MB)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;==================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;downloaded 6.0 MB<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning: 'switch' is deprecated.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use 'strip.position' instead.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See help("Deprecated")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 100 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion deviance to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth deviance is 3.2909.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Killed
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/milr-00check.html">r-devel-linux-x86_64-debian-clang</a>
+
+</p>
+
+<p>
+
+Version: 0.3.0
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘milr-intro.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion BIC to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth BIC is 3.6867.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 50 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion BIC to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth BIC is 4.9895.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 50 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion deviance to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth deviance is 2.8390.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;trying URL ‘http://www.cs.columbia.edu/~andrews/mil/data/MIL-Data-2002-Musk-Corel-Trec9.tgz’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Content type 'application/x-gzip' length 6249673 bytes (6.0 MB)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;==================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;downloaded 6.0 MB<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning: 'switch' is deprecated.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use 'strip.position' instead.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See help("Deprecated")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 100 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion deviance to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth deviance is 3.2909.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Killed
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/milr-00check.html">r-patched-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.3.0
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘milr-intro.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion BIC to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth BIC is 3.6867.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 50 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion BIC to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth BIC is 4.9895.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 50 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion deviance to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth deviance is 2.8390.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;trying URL 'http://www.cs.columbia.edu/~andrews/mil/data/MIL-Data-2002-Musk-Corel-Trec9.tgz'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Content type 'application/x-gzip' length 6249673 bytes (6.0 MB)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;==================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;downloaded 6.0 MB<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning: 'switch' is deprecated.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use 'strip.position' instead.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See help("Deprecated")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The penalty term is selected automatically with 100 candidates.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Using the criterion deviance to choose optimized penalty.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The chosen penalty throuth deviance is 3.2909.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Use the user-defined lambda vector.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/milr-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.3.0
+
+
+<br/>
+
+Check: PDF version of manual
+
+
+<br/>
+
+Result: FAIL
+
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/milr-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

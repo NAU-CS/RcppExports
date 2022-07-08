@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package facilitation</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/facilitation/index.html"> facilitation </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:51 CEST.
+</p>
+<table border="1" summary="CRAN check results for package facilitation">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.5.2 </td> <td class="r"> 59.39 </td> <td class="r"> 80.52 </td> <td class="r"> 139.91 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/facilitation-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.5.2 </td> <td class="r"> 34.60 </td> <td class="r"> 59.34 </td> <td class="r"> 93.94 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/facilitation-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.5.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 175.57 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/facilitation-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.5.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 159.46 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/facilitation-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.5.2 </td> <td class="r"> 133.00 </td> <td class="r"> 127.00 </td> <td class="r"> 260.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/facilitation-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.5.2 </td> <td class="r"> 42.33 </td> <td class="r"> 74.38 </td> <td class="r"> 116.71 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/facilitation-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.5.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 191.30 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/facilitation-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.5.2 </td> <td class="r"> 42.47 </td> <td class="r"> 73.99 </td> <td class="r"> 116.46 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/facilitation-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.5.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/facilitation-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.5.2 </td> <td class="r"> 113.00 </td> <td class="r"> 165.00 </td> <td class="r"> 278.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/facilitation-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.5.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/facilitation-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.5.2 </td> <td class="r"> 102.00 </td> <td class="r"> 157.00 </td> <td class="r"> 259.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/facilitation-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.5.2
+
+
+<br/>
+
+Check: for non-standard things in the check directory
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following files/directories:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'facilitationmovie.gif' 'ts.gif'
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/facilitation-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/facilitation-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/facilitation-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/facilitation-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/facilitation-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/facilitation-00check.html">r-release-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.5.2
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘facilitation-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: spatialanimation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Function for ploting simulation as a gif<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: spatialanimation plotsnapshot<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(twospecies)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; spatialanimation(twospecies,draw=c(5,3),times=seq(0,10,1),movie.name="ts.gif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Output at: ts.gif<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] TRUE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data(twospecies)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; plotsnapshot(twospecies,t=10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 0, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 1: magick_image_write(image, format, quality, depth, density, comment)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 2: magick::image_write(anim, path = output)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 3: magick.convert(files = files, output = output, loop = loop, interval = interval,     dispose = dispose)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 4: im.convert(img.files, output = path.expand(movie.name), convert = convert,     cmd.fun = cmd.fun, clean = clean, extra.opts = extra.opts)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 5: saveGIF(spatialplot(dtlist, times = times, xlim = xlim, ylim = ylim,     sp = draw, color, radius), interval = interval, movie.name = movie.name)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 6: spatialanimation(data, c(t, t), ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 7: plotsnapshot(twospecies, t = 10)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/facilitation-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 0.5.2
+
+
+<br/>
+
+Check: for non-standard things in the check directory
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following files/directories:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘ts.gif’
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/facilitation-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

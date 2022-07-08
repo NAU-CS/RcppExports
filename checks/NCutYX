@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package NCutYX</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/NCutYX/index.html"> NCutYX </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:58 CEST.
+</p>
+<table border="1" summary="CRAN check results for package NCutYX">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.1.0 </td> <td class="r"> 34.11 </td> <td class="r"> 68.27 </td> <td class="r"> 102.38 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/NCutYX-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.1.0 </td> <td class="r"> 22.05 </td> <td class="r"> 52.36 </td> <td class="r"> 74.41 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/NCutYX-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 127.04 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NCutYX-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 123.59 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/NCutYX-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 79.00 </td> <td class="r"> 133.00 </td> <td class="r"> 212.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/NCutYX-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 26.42 </td> <td class="r"> 66.67 </td> <td class="r"> 93.09 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/NCutYX-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 117.10 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/NCutYX-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 25.51 </td> <td class="r"> 67.30 </td> <td class="r"> 92.81 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/NCutYX-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/NCutYX-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 52.00 </td> <td class="r"> 158.00 </td> <td class="r"> 210.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/NCutYX-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/NCutYX-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.1.0 </td> <td class="r"> 47.00 </td> <td class="r"> 150.00 </td> <td class="r"> 197.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/NCutYX-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.1.0
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  6.4Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    data   1.5Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   4.0Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NCutYX-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/NCutYX-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/NCutYX-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1.0
+
+
+<br/>
+
+Check: dependencies in R code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Namespaces in Imports field not imported from:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘MASS’ ‘fields’ ‘mvtnorm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  All declared Imports should be used.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/NCutYX-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/NCutYX-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/NCutYX-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/NCutYX-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/NCutYX-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.1.0
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘NCutYX-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: ancut<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Cluster the Columns of Y into K Groups with the Help of External<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   Features X.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: ancut<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #This sets up the initial parameters for the simulation.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; library(MASS)#for mvrnorm<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; library(fields)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: spam<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: dotCall64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: grid<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Spam version 2.5-1 (2019-12-12) is loaded.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Type 'help( Spam)' or 'demo( spam)' for a short introduction <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;and overview of this package.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Help for individual functions is also obtained by adding the<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;suffix '.spam' to the function name, e.g. 'help( chol.spam)'.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Attaching package: ‘spam’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The following objects are masked from ‘package:base’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    backsolve, forwardsolve<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: maps<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See https://github.com/NCAR/Fields for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; an extensive vignette, other supplements and source code <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; n=30 #Sample size<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; B=50 #Number of iterations in the simulated annealing algorithm.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; L=10000 #Temperature coefficient.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; p=50 #Number of columns of Y.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; q=p #Number of columns of X.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; h1=0.15<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; h2=0.25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; S=matrix(0.2,q,q)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; S[1:(q/2),(q/2+1):q]=0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; S[(q/2+1):q,1:(q/2)]=0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; S=S-diag(diag(S))+diag(q)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mu=rep(0,q)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; W0=matrix(1,p,p)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; W0[1:(p/2),1:(p/2)]=0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; W0[(p/2+1):p,(p/2+1):p]=0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Denum=sum(W0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; B2=matrix(0,q,p)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; for (i in 1:(p/2)){<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+    B2[1:(q/2),i]=runif(q/2,h1,h2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+    in1=sample.int(q/2,6)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+    B2[-in1,i]=0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; for (i in (p/2+1):p){<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+    B2[(q/2+1):q,i]=runif(q/2,h1,h2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+    in2=sample(seq(q/2+1,q),6)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+    B2[-in2,i]=0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; X=mvrnorm(n, mu, S)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Z=X%*%B2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Y=Z+matrix(rnorm(n*p,0,1),n,p)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; #Our method<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Res=ancut(Y=Y,X=X,B=B,L=L,alpha=0,ncv=3)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error in if (J2 &gt; J) { : missing value where TRUE/FALSE needed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Calls: ancut<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/NCutYX-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

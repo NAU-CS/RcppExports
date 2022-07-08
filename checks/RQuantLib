@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package RQuantLib</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/RQuantLib/index.html"> RQuantLib </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:03 CEST.
+</p>
+<table border="1" summary="CRAN check results for package RQuantLib">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.4.12 </td> <td class="r"> 736.79 </td> <td class="r"> 57.20 </td> <td class="r"> 793.99 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/RQuantLib-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.4.12 </td> <td class="r"> 723.50 </td> <td class="r"> 44.26 </td> <td class="r"> 767.76 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/RQuantLib-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.4.12 </td> <td class="r"> 2552.00 </td> <td class="r"> 180.00 </td> <td class="r"> 2732.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/RQuantLib-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.4.12 </td> <td class="r"> 820.99 </td> <td class="r"> 56.15 </td> <td class="r"> 877.14 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/RQuantLib-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.4.12 </td> <td class="r"> 822.45 </td> <td class="r"> 57.25 </td> <td class="r"> 879.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/RQuantLib-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.4.12 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/RQuantLib-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.4.12 </td> <td class="r"> 2043.00 </td> <td class="r"> 210.00 </td> <td class="r"> 2253.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/RQuantLib-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.4.12 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/RQuantLib-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.4.12 </td> <td class="r"> 2039.00 </td> <td class="r"> 249.00 </td> <td class="r"> 2288.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/RQuantLib-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.4.12
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 27.4Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs  26.8Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/RQuantLib-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/RQuantLib-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/RQuantLib-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/RQuantLib-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/RQuantLib-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.4.12
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘RQuantLib-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: AffineSwaption<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Affine swaption valuation using several short-rate models<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: AffineSwaption AffineSwaption.default<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   summary.G2AnalyticAffineSwaption summary.HWAnalyticAffineSwaption<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   summary.HWTreeAffineSwaption summary.BKTreeAffineSwaption<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Keywords: models<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; if (.Platform$OS.type != "windows" &amp;&amp; .Platform$r_arch != "i386") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ # This data was generated to match the original quantlib example for Bermudan Swaption<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ params &lt;- list(tradeDate=as.Date('2016-2-15'),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                settleDate=as.Date('2016-2-17'),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                startDate=as.Date('2017-2-17'),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                maturity=as.Date('2022-2-17'),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                payFixed=TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                european=FALSE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                dt=.25,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                strike=.06,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                method="G2Analytic",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                interpWhat="discount",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                interpHow="loglinear")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ # Market data used to construct the term structure of interest rates<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ tsQuotes &lt;- list(d1w  =0.0382,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  d1m  =0.0372,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut1=96.2875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut2=96.7875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut3=96.9875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut4=96.6875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut5=96.4875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut6=96.3875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut7=96.2875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  fut8=96.0875,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  s3y  =0.0398,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  s5y  =0.0443,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  s10y =0.05165,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                  s15y =0.055175)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ # Swaption volatility matrix with corresponding maturities and tenors<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ swaptionMaturities &lt;- c(1,2,3,4,5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ swapTenors &lt;- c(1,2,3,4,5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ volMatrix &lt;- matrix(<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     c(0.1490, 0.1340, 0.1228, 0.1189, 0.1148,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+       0.1290, 0.1201, 0.1146, 0.1108, 0.1040,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+       0.1149, 0.1112, 0.1070, 0.1010, 0.0957,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+       0.1047, 0.1021, 0.0980, 0.0951, 0.1270,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+       0.1000, 0.0950, 0.0900, 0.1230, 0.1160),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     ncol=5, byrow=TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ legparams=list(dayCounter="Thirty360",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                fixFreq="Annual",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+                floatFreq="Semiannual")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ setEvaluationDate(as.Date("2016-2-16"))               <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ times&lt;-times &lt;- seq(0,14.75,.25)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ dcurve &lt;- DiscountCurve(params, tsQuotes, times=times,legparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ # Price the Bermudan swaption<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ pricing &lt;- AffineSwaption(params, dcurve,swaptionMaturities, swapTenors, volMatrix,legparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ summary(pricing)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+ }    <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 0x0, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 1: affineWithRebuiltCurveEngine(params, matchlegs, c(ts$table$date),     ts$table$zeroRates, expiry, tenor, vol)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 2: AffineSwaption.default(params, dcurve, swaptionMaturities, swapTenors,     volMatrix, legparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 3: AffineSwaption(params, dcurve, swaptionMaturities, swapTenors,     volMatrix, legparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/RQuantLib-00check.html">r-release-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.4.12
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘RQuantlib.R’ [1s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/RQuantlib.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Last 13 lines of output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +                             settleDate=as.Date('2002-2-15'),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +                             dt=0.25,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +                             interpWhat='discount', interpHow='loglinear')<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; discountCurve &lt;- DiscountCurve(discountCurve.param, list(flat=0.05))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; ZeroCouponBond(bond, discountCurve, dateparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  address 0x0, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1: ZeroBondWithRebuiltCurve(bond, c(discountCurve$table$date), discountCurve$table$zeroRates,     dateparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2: ZeroCouponBond.default(bond, discountCurve, dateparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3: ZeroCouponBond(bond, discountCurve, dateparams)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/RQuantLib-00check.html">r-release-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

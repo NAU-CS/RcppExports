@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package fst</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/fst/index.html"> fst </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:52 CEST.
+</p>
+<table border="1" summary="CRAN check results for package fst">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.9.2 </td> <td class="r"> 137.62 </td> <td class="r"> 78.64 </td> <td class="r"> 216.26 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.9.2 </td> <td class="r"> 77.25 </td> <td class="r"> 58.36 </td> <td class="r"> 135.61 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.9.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 304.36 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/fst-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.9.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 237.44 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.9.2 </td> <td class="r"> 274.00 </td> <td class="r"> 255.00 </td> <td class="r"> 529.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.9.2 </td> <td class="r"> 87.75 </td> <td class="r"> 76.43 </td> <td class="r"> 164.18 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.9.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 218.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/fst-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.9.2 </td> <td class="r"> 90.46 </td> <td class="r"> 74.94 </td> <td class="r"> 165.40 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.9.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/fst-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.9.2 </td> <td class="r"> 212.00 </td> <td class="r"> 265.00 </td> <td class="r"> 477.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.9.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/fst-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.9.2 </td> <td class="r"> 231.00 </td> <td class="r"> 249.00 </td> <td class="r"> 480.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/fst-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3><a href="check_issue_kinds.html">Additional issues</a></h3>
+<p>
+<a href="https://raw.githubusercontent.com/kalibera/cran-checks/master/rchk/results/fst.out"><span class="check_ko">rchk</span></a>
+</p>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.9.2
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  6.9Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   6.8Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/fst-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/fst-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/fst-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.9.2
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [57s/88s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/testthat.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # required packages<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(fst)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(data.table)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(lintr)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(bit64)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required package: bit<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Attaching package bit<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  package:bit (c) 2008-2012 Jens Oehlschlaegel (GPL-2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  creators: bit bitwhich<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  coercion: as.logical as.integer as.bit as.bitwhich which<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  operator: ! &amp; | xor != ==<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  querying: print length any all min max range sum summary<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  bit access: length&lt;- [ [&lt;- [[ [[&lt;-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for more help type ?bit<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Attaching package: 'bit'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  The following object is masked from 'package:data.table':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      setattr<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  The following object is masked from 'package:base':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      xor<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Attaching package bit64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  package:bit64 (c) 2011-2012 Jens Oehlschlaegel<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  creators: integer64 seq :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  coercion: as.integer64 as.vector as.logical as.integer as.double as.character as.bin<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  logical operator: ! &amp; | xor != == &lt; &lt;= &gt;= &gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  arithmetic operator: + - * / %/% %% ^<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  math: sign abs sqrt log log2 log10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  math: floor ceiling trunc round<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  querying: is.integer64 is.vector [is.atomic} [length] format print str<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  values: is.na is.nan is.finite is.infinite<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  aggregation: any all min max range sum prod<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  cumulation: diff cummin cummax cumsum cumprod<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  access: length&lt;- [ [&lt;- [[ [[&lt;-<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  combine: c rep cbind rbind as.data.frame<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  WARNING don't use as subscripts<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  WARNING semantics differ from integer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for more help type ?bit64<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Attaching package: 'bit64'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  The following object is masked from 'package:bit':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      still.identical<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  The following objects are masked from 'package:base':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      %in%, :, is.double, match, order, rank<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(nanotime)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # some helper functions<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; source("testthat/helper_fstwrite.R")  # cross-version testing<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; # run tests<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("fst")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 1. Failure: Medium factor with a single NA level (@test_factor.R#130)  ──────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "A": Mean relative difference: 0.6666124<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 2. Failure: Medium factor with a single NA level (@test_factor.R#130)  ──────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  to_frame(dt[offset:nrow(dt), , drop = FALSE]) not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "A": Mean relative difference: 0.6666124<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 3. Failure: Medium factor with a single NA level (@test_factor.R#130)  ──────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  to_frame(dt[1:(nrow(dt) - cap), , drop = FALSE]) not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "A": Mean relative difference: 0.6666124<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 4. Failure: Medium factor with a single NA level (@test_factor.R#130)  ──────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  to_frame(dt[offset:(nrow(dt) - cap), , drop = FALSE]) not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "A": Mean relative difference: 0.6666124<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 5. Failure: Single uncompressed vectors (@test_fst.R#107)  ──────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Xint": Mean relative difference: 0.6666124<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Xint | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: 1,2,3,4,5,6,7,8,9,10 head data: 1,2,3,4,5,6,7,8,9,10 unequals: 4096 uneq rows sub_dt1 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt3 8193,8194,8195,8196,8197,8198,8199,8200,8201,8202,8203,8204,8205,8206,8207,8208,8209,8210,8211,8212,8213,8214,8215,8216,8217<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 6. Failure: Single uncompressed vectors (@test_fst.R#107)  ──────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Ylog": 'is.NA' value mismatch: 3280 in current 3307 in target<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Ylog | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: FALSE,FALSE,NA,TRUE,TRUE,FALSE,TRUE,NA,FALSE,NA head data: FALSE,FALSE,NA,TRUE,TRUE,FALSE,TRUE,NA,FALSE,NA unequals: NA uneq rows sub_dt1 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA uneq rows sub_dt2 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA uneq rows sub_dt3 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 7. Failure: Single uncompressed vectors (@test_fst.R#107)  ──────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Zdoub": Mean relative difference: 1.399352<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Zdoub | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: 2.560882924872,-0.38465632431912,-0.149522082761521,-0.543518426289816,0.175546971885695,0.326908321271184,0.103333743535118,1.36345019232436,0.294817210511389,0.173430242169472 head data: 2.560882924872,-0.38465632431912,-0.149522082761521,-0.543518426289816,0.175546971885695,0.326908321271184,0.103333743535118,1.36345019232436,0.294817210511389,0.173430242169472 unequals: 4096 uneq rows sub_dt1 -0.519703153200363,0.192772821797838,-1.26151543187857,-0.985101158636312,-0.360675072295933,-0.88248736361335,0.366498574368647,0.155475883287204,-0.451143142566162,-1.51500428495172,0.735939066938774,0.251610135322167,0.267426409581975,1.43438253900351,-2.25113927183421,-0.42949509205645,0.257666591247575,1.26501904887913,0.659451723504855,0.852840143873947,0.653625256316908,0.522956466157743,0.455263151041856,0.742993830162591,0.538610863402344 uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt3 -0.0826782780662389,-0.879714373578029,-0.269488366555929,-1.14143045349316,0.852229711885655,-0.163353487499133,-1.50217556522659,1.02955745208058,0.325684932862511,1.54886467553994,-0.0826672284318639,-1.34261130509983,-1.47670622642894,1.76184462655855,-0.266581990516596,0.389957338365501,0.0565001359794816,1.63735559174655,0.104614932553971,-0.531420661991546,1.43957213577731,0.299716910770952,-1.16594167027901,1.26292146883934,0.118498642465572<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 8. Failure: Single uncompressed vectors (@test_fst.R#107)  ──────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "WFact": 3602 string mismatches<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: WFact | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: P,I,K,P,DB,DB,DB,DB,DB,K head data: P,I,K,P,DB,DB,DB,DB,DB,K unequals: 3602 uneq rows sub_dt1 XCL,P,P,I,XCL,I,V,K,I,DB,DB,WHM,GYL,XCL,P,XCL,WHM,I,GYL,WHM,P,WHM,WHM,GYL,K uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4105,4106,4107,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121,4122,4123 uneq rows sub_dt3 P,I,K,P,DB,DB,DB,DB,K,WHM,K,V,XCL,V,K,WHM,K,GYL,DB,DB,WHM,DB,V,V,GYL<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 9. Failure: Single uncompressed vectors (@test_fst.R#107)  ──────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Ordered": 3591 string mismatches<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Ordered | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: FR,BU,RQ,KVCP,TBME,RQ,EL,EL,EA,RQ head data: FR,BU,RQ,KVCP,TBME,RQ,EL,EL,EA,RQ unequals: 3591 uneq rows sub_dt1 BU,EA,KVCP,TBME,FR,KVCP,WY,WY,TBME,TBME,KVCP,KVCP,EL,FR,KVCP,TBME,BU,WY,RQ,BU,EA,BU,KVCP,EA,FR uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4105,4106,4107,4108,4109,4111,4112,4113,4114,4116,4117,4118,4120,4121,4122,4123,4124,4125 uneq rows sub_dt3 FR,BU,RQ,KVCP,TBME,RQ,EL,EA,RQ,BU,EL,WY,RQ,EL,BU,EA,EL,BU,KVCP,WY,KVCP,WY,WY,RQ,RQ<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 10. Failure: Single uncompressed vectors (@test_fst.R#107)  ─────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Date": Mean relative difference: 0.6798537<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Date | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: 1988-04-20,1975-01-12,1979-10-24,1980-02-15,1981-03-24,1992-07-04,1993-03-26,1985-02-15,1980-12-06,1982-12-29 head data: 1988-04-20,1975-01-12,1979-10-24,1980-02-15,1981-03-24,1992-07-04,1993-03-26,1985-02-15,1980-12-06,1982-12-29 unequals: 4096 uneq rows sub_dt1 1986-10-28,1978-01-14,1978-08-19,1991-04-19,1972-04-02,1988-10-16,1989-02-01,1991-02-13,1996-05-22,1991-06-09,1994-11-15,1995-10-07,1983-11-17,1973-04-12,1977-04-17,1992-02-12,1986-06-15,1992-05-16,1982-12-06,1971-05-19,1979-09-28,1995-11-12,1993-01-05,1973-02-28,1996-07-01 uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt3 1993-02-17,1989-11-07,1991-11-02,1985-10-22,1992-07-19,1992-03-10,1983-06-10,1982-03-22,1972-09-29,1973-02-03,1991-01-07,1992-03-05,1996-11-17,1976-12-08,1984-09-12,1994-01-06,1982-02-03,1970-05-16,1980-05-24,1982-03-18,1977-08-19,1984-01-02,1987-02-26,1982-11-14,1989-02-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 11. Failure: Single uncompressed vectors (@test_fst.R#107)  ─────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "DateDouble": Mean relative difference: 0.1813955<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: DateDouble | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: 2015-01-02,2015-01-03,2015-01-04,2015-01-05,2015-01-06,2015-01-07,2015-01-08,2015-01-09,2015-01-10,2015-01-11 head data: 2015-01-02,2015-01-03,2015-01-04,2015-01-05,2015-01-06,2015-01-07,2015-01-08,2015-01-09,2015-01-10,2015-01-11 unequals: 4096 uneq rows sub_dt1 2026-03-21,2026-03-22,2026-03-23,2026-03-24,2026-03-25,2026-03-26,2026-03-27,2026-03-28,2026-03-29,2026-03-30,2026-03-31,2026-04-01,2026-04-02,2026-04-03,2026-04-04,2026-04-05,2026-04-06,2026-04-07,2026-04-08,2026-04-09,2026-04-10,2026-04-11,2026-04-12,2026-04-13,2026-04-14 uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt3 2037-06-07,2037-06-08,2037-06-09,2037-06-10,2037-06-11,2037-06-12,2037-06-13,2037-06-14,2037-06-15,2037-06-16,2037-06-17,2037-06-18,2037-06-19,2037-06-20,2037-06-21,2037-06-22,2037-06-23,2037-06-24,2037-06-25,2037-06-26,2037-06-27,2037-06-28,2037-06-29,2037-06-30,2037-07-01<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 12. Failure: Single uncompressed vectors (@test_fst.R#107)  ─────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Difftime": Mean relative difference: 0.6666125<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Difftime | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: 0.998974561691284,1.99897456169128,2.99897456169128,3.99897456169128,4.99897456169128,5.99897456169128,6.99897456169128,7.99897456169128,8.99897456169128,9.99897456169128 head data: 0.998974561691284,1.99897456169128,2.99897456169128,3.99897456169128,4.99897456169128,5.99897456169128,6.99897456169128,7.99897456169128,8.99897456169128,9.99897456169128 unequals: 4096 uneq rows sub_dt1 4096.99897456169,4097.99897456169,4098.99897456169,4099.99897456169,4100.99897456169,4101.99897456169,4102.99897456169,4103.99897456169,4104.99897456169,4105.99897456169,4106.99897456169,4107.99897456169,4108.99897456169,4109.99897456169,4110.99897456169,4111.99897456169,4112.99897456169,4113.99897456169,4114.99897456169,4115.99897456169,4116.99897456169,4117.99897456169,4118.99897456169,4119.99897456169,4120.99897456169 uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt3 8192.99897456169,8193.99897456169,8194.99897456169,8195.99897456169,8196.99897456169,8197.99897456169,8198.99897456169,8199.99897456169,8200.99897456169,8201.99897456169,8202.99897456169,8203.99897456169,8204.99897456169,8205.99897456169,8206.99897456169,8207.99897456169,8208.99897456169,8209.99897456169,8210.99897456169,8211.99897456169,8212.99897456169,8213.99897456169,8214.99897456169,8215.99897456169,8216.99897456169<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 13. Failure: Single uncompressed vectors (@test_fst.R#107)  ─────────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "DiffTime_int": Mean relative difference: 0.6667209<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: DiffTime_int | from: 1 | to: 10000 | setColumns:  | compress: 0 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: 0,1,2,3,4,5,6,7,8,9 head data: 0,1,2,3,4,5,6,7,8,9 unequals: 4096 uneq rows sub_dt1 4096,4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120 uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt3 8192,8193,8194,8195,8196,8197,8198,8199,8200,8201,8202,8203,8204,8205,8206,8207,8208,8209,8210,8211,8212,8213,8214,8215,8216<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 14. Failure: Single weakly compressed vectors (@test_fst.R#122)  ────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Xint": 'is.NA' value mismatch: 2 in current 0 in target<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Xint | from: 1 | to: 10000 | setColumns:  | compress: 30 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: 1,2,3,4,5,6,7,8,9,10 head data: 1,2,3,4,5,6,7,8,9,10 unequals: NA uneq rows sub_dt1 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt2 4097,4098,4099,4100,4101,4102,4103,4104,4105,4106,4107,4108,4109,4110,4111,4112,4113,4114,4115,4116,4117,4118,4119,4120,4121 uneq rows sub_dt3 4,4,65781,65782,0,12189696,0,0,134217732,65540,-16711433,9502968,1287323648,0,0,-1744830464,65540,0,9568504,0,0,0,0,0,9<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 15. Failure: Single weakly compressed vectors (@test_fst.R#122)  ────────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `sub_dt` not equal to `data`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "Ylog": 'is.NA' value mismatch: 2844 in current 3307 in target<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  args: col: Ylog | from: 1 | to: 10000 | setColumns:  | compress: 30 | tot_length 10000  cols sub_dt: 1 , rows sub_dt: 10000 cols data: 1 , rows data: 10000 head sub_dt: FALSE,FALSE,NA,TRUE,TRUE,FALSE,TRUE,NA,FALSE,NA head data: FALSE,FALSE,NA,TRUE,TRUE,FALSE,TRUE,NA,FALSE,NA unequals: NA uneq rows sub_dt1 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA uneq rows sub_dt2 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA uneq rows sub_dt3 NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  address 0, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1: fstretrieve(file_name, columns, from, to)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2: read_fst(path, columns, from, to, as_data_table)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3: fstreadproxy("FactorStore/data1.fst", columns = sel_columns,     from = from, to = to)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4: test_write_read(x, compress = 30L)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5: FUN(X[[i]], ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6: lapply(X = X, FUN = FUN, ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7: sapply(col_names, function(x) {    test_write_read(x, compress = 30L)})<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10: withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13: tryCatchList(expr, names[-nh], parentenv, handlers[-nh])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  15: tryCatchOne(tryCatchList(expr, names[-nh], parentenv, handlers[-nh]),     names[nh], parentenv, handlers[[nh]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  16: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  17: tryCatch(withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error), error = handle_fatal,     skip = function(e) {    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  18: test_code(desc, code, env = parent.frame())<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  19: test_that("Single weakly compressed vectors", {    sapply(col_names, function(x) {        test_write_read(x, compress = 30L)    })})<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  20: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  21: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  22: withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  23: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  24: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  25: tryCatchList(expr, names[-nh], parentenv, handlers[-nh])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  26: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  27: tryCatchOne(tryCatchList(expr, names[-nh], parentenv, handlers[-nh]),     names[nh], parentenv, handlers[[nh]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  28: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  29: tryCatch(withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error), error = handle_fatal,     skip = function(e) {    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  30: test_code(NULL, exprs, env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  31: source_file(path, new.env(parent = env), chdir = TRUE, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  32: force(code)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  33: doWithOneRestart(return(expr), restart)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  34: withOneRestart(expr, restarts[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  35: withRestarts(testthat_abort_reporter = function() NULL, force(code))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  36: with_reporter(reporter = reporter, start_end_reporter = start_end_reporter,     {        reporter$start_file(basename(path))        lister$start_file(basename(path))        source_file(path, new.env(parent = env), chdir = TRUE,             wrap = wrap)        reporter$.end_context()        reporter$end_file()    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  37: FUN(X[[i]], ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  38: lapply(paths, test_file, env = env, reporter = current_reporter,     start_end_reporter = FALSE, load_helpers = FALSE, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  39: force(code)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  40: doWithOneRestart(return(expr), restart)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  41: withOneRestart(expr, restarts[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  42: withRestarts(testthat_abort_reporter = function() NULL, force(code))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  43: with_reporter(reporter = current_reporter, results &lt;- lapply(paths,     test_file, env = env, reporter = current_reporter, start_end_reporter = FALSE,     load_helpers = FALSE, wrap = wrap))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  44: test_files(paths, reporter = reporter, env = env, stop_on_failure = stop_on_failure,     stop_on_warning = stop_on_warning, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  45: test_dir(path = test_path, reporter = reporter, env = env, filter = filter,     ..., stop_on_failure = stop_on_failure, stop_on_warning = stop_on_warning,     wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  46: test_package_dir(package = package, test_path = test_path, filter = filter,     reporter = reporter, ..., stop_on_failure = stop_on_failure,     stop_on_warning = stop_on_warning, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  47: test_check("fst")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/fst-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

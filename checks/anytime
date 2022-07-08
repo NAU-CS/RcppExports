@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package anytime</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/anytime/index.html"> anytime </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:46 CEST.
+</p>
+<table border="1" summary="CRAN check results for package anytime">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.3.7 </td> <td class="r"> 28.29 </td> <td class="r"> 28.81 </td> <td class="r"> 57.10 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.3.7 </td> <td class="r"> 20.30 </td> <td class="r"> 23.58 </td> <td class="r"> 43.88 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.3.7 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 75.09 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/anytime-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.3.7 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 73.69 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/anytime-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.3.7 </td> <td class="r"> 82.00 </td> <td class="r"> 76.00 </td> <td class="r"> 158.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.3.7 </td> <td class="r"> 23.11 </td> <td class="r"> 28.82 </td> <td class="r"> 51.93 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.3.7 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 91.80 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.3.7 </td> <td class="r"> 22.33 </td> <td class="r"> 28.55 </td> <td class="r"> 50.88 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.3.7 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.3.7 </td> <td class="r"> 66.00 </td> <td class="r"> 105.00 </td> <td class="r"> 171.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.3.7 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.3.7 </td> <td class="r"> 62.00 </td> <td class="r"> 96.00 </td> <td class="r"> 158.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/anytime-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.3.7
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘tinytest.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/tinytest.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (requireNamespace("tinytest", quietly=TRUE) &amp;&amp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     utils::packageVersion("tinytest") &gt;= "1.0.0") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## Set a seed to make the test deterministic<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     set.seed(42)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## there are several more granular ways to test files in a tinytest directory,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## see its package vignette; tests can also run once the package is installed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## using the same command `test_package(pkgName)`, or by director or file<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     tinytest::test_package("anytime", ncpu=getOption("Ncpus", 1), side_effects=TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  starting worker pid=20165 on localhost:11725 at 13:41:28.820<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Exited 'test_all_formats.R' at line 24. Skipping Solaris or Windows or Release<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_all_formats.R............    0 tests    <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_assertions.R.............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Exited 'test_bulk.R' at line 27. Skipping Solaris or Windows or Stupid<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_bulk.R...................    0 tests    &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_calc_unique.R............    4 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_100.R...........    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_12.R............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_33.R............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_56.R............    7 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_simple.R.................   34 tests &lt;1b&gt;[0;31m10 fails&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_utilities.R..............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: ----- FAILED[data]: test_simple.R&lt;35--35&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(20160101L + 0:2, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| oldHeuristic = TRUE))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;39--39&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(20160101 + 0:2, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| oldHeuristic = TRUE))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;43--43&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(as.factor(20160101 + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| 0:2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;47--47&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(as.ordered(20160101 + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| 0:2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;51--51&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(as.character(20160101 + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| 0:2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;55--55&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(c("20160101", <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/anytime-00check.html">r-devel-linux-x86_64-fedora-clang</a>
+
+</p>
+
+<p>
+
+Version: 0.3.7
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘tinytest.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/tinytest.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (requireNamespace("tinytest", quietly=TRUE) &amp;&amp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     utils::packageVersion("tinytest") &gt;= "1.0.0") {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## Set a seed to make the test deterministic<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     set.seed(42)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## there are several more granular ways to test files in a tinytest directory,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## see its package vignette; tests can also run once the package is installed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     ## using the same command `test_package(pkgName)`, or by director or file<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +     tinytest::test_package("anytime", ncpu=getOption("Ncpus", 1), side_effects=TRUE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  starting worker pid=37748 on localhost:11137 at 17:13:10.882<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Exited 'test_all_formats.R' at line 24. Skipping Solaris or Windows or Release<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_all_formats.R............    0 tests    <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_assertions.R.............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Exited 'test_bulk.R' at line 27. Skipping Solaris or Windows or Stupid<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_bulk.R...................    0 tests    &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_calc_unique.R............    4 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_100.R...........    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_12.R............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_33.R............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_gh_issue_56.R............    7 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_simple.R.................   34 tests &lt;1b&gt;[0;31m10 fails&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running test_utilities.R..............    2 tests &lt;1b&gt;[0;32mOK&lt;1b&gt;[0m &lt;1b&gt;[0;93m1 side-effects&lt;1b&gt;[0m<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: ----- FAILED[data]: test_simple.R&lt;35--35&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(20160101L + 0:2, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| oldHeuristic = TRUE))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;39--39&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(20160101 + 0:2, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| oldHeuristic = TRUE))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;43--43&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(as.factor(20160101 + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| 0:2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;47--47&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(as.ordered(20160101 + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| 0:2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;51--51&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(as.character(20160101 + <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| 0:2)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   diff| Mean absolute difference: 3600<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----- FAILED[data]: test_simple.R&lt;55--55&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   call| if (!isWindows) expect_equivalent(refT, anytime(c("20160101", <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/anytime-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+</body>
+</html>

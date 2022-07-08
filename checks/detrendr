@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package detrendr</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/detrendr/index.html"> detrendr </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:50 CEST.
+</p>
+<table border="1" summary="CRAN check results for package detrendr">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 0.6.5 </td> <td class="r"> 141.82 </td> <td class="r"> 284.69 </td> <td class="r"> 426.51 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 0.6.5 </td> <td class="r"> 79.27 </td> <td class="r"> 206.73 </td> <td class="r"> 286.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 0.6.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 498.62 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 0.6.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 491.24 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 0.6.5 </td> <td class="r"> 378.00 </td> <td class="r"> 425.00 </td> <td class="r"> 803.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/detrendr-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 0.6.5 </td> <td class="r"> 104.93 </td> <td class="r"> 252.40 </td> <td class="r"> 357.33 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 0.6.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 713.30 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 0.6.5 </td> <td class="r"> 102.90 </td> <td class="r"> 253.37 </td> <td class="r"> 356.27 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 0.6.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 0.6.5 </td> <td class="r"> 311.00 </td> <td class="r"> 414.00 </td> <td class="r"> 725.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/detrendr-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 0.6.5 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/detrendr-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 0.6.5 </td> <td class="r"> 214.00 </td> <td class="r"> 493.00 </td> <td class="r"> 707.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/detrendr-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 0.6.5
+
+
+<br/>
+
+Check: for GNU extensions in Makefiles
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;GNU make is a SystemRequirements.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/detrendr-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/detrendr-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/detrendr-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/detrendr-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/detrendr-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/detrendr-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/detrendr-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/detrendr-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/detrendr-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/detrendr-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/detrendr-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/detrendr-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.6.5
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  6.3Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   5.1Mb
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/detrendr-00check.html">r-devel-linux-x86_64-fedora-clang</a>
+
+</p>
+
+<p>
+
+Version: 0.6.5
+
+
+<br/>
+
+Check: running tests for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [9s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(detrendr)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: best_tau works (@test-best_params.R#4)  ---------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 2. Error: best_l works (@test-best_params.R#40)  ----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 3. Error: best_degree works (@test-best_params.R#81)  -----------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 4. Error: best_swaps() works (@test-best_params.R#113)  ---------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(system.file("extdata", "bleached.tif", package = "detrendr"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 5. Error: detrending works (@test-detrend.R#4)  -----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 6. Error: detrending errors correctly (@test-detrend.R#171)  ----------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 7. Error: file_detrend() deals with other directories correctly (@test-dir-de<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. detrendr:::file_detrend(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff::read_tif(path, msg = msg)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 8. Error: sum_pillars() and mean_pillars() work (@test-utils.R#20)  ---------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   11. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 9. Error: sum_frames() and mean_frames() work (@test-utils.R#26)  -----------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 10. Error: brightness_cols_given_mean() works (@test-utils.R#40)  -----------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 11. Error: var_cols_given_mean() works (@test-utils.R#54)  ------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 12. Error: var_rows_given_mean() works (@test-utils.R#68)  ------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 13. Error: rboxes derivatives error correctly (@test-utils.R#87)  -----------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 1055 | SKIPPED: 9 | WARNINGS: 0 | FAILED: 13 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: best_tau works (@test-best_params.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. Error: best_l works (@test-best_params.R#40) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3. Error: best_degree works (@test-best_params.R#81) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4. Error: best_swaps() works (@test-best_params.R#113) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5. Error: detrending works (@test-detrend.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6. Error: detrending errors correctly (@test-detrend.R#171) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7. Error: file_detrend() deals with other directories correctly (@test-dir-detrend.R#249) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8. Error: sum_pillars() and mean_pillars() work (@test-utils.R#20) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9. Error: sum_frames() and mean_frames() work (@test-utils.R#26) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/detrendr-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/detrendr-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 0.6.5
+
+
+<br/>
+
+Check: running tests for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [10s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(detrendr)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Error: best_tau works (@test-best_params.R#4)  ---------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 2. Error: best_l works (@test-best_params.R#40)  ----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 3. Error: best_degree works (@test-best_params.R#81)  -----------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 4. Error: best_swaps() works (@test-best_params.R#113)  ---------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(system.file("extdata", "bleached.tif", package = "detrendr"))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 5. Error: detrending works (@test-detrend.R#4)  -----------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 6. Error: detrending errors correctly (@test-detrend.R#171)  ----------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. ijtiff::read_tif(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 7. Error: file_detrend() deals with other directories correctly (@test-dir-de<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. detrendr:::file_detrend(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. ijtiff::read_tif(path, msg = msg)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 8. Error: sum_pillars() and mean_pillars() work (@test-utils.R#20)  ---------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   11. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 9. Error: sum_frames() and mean_frames() work (@test-utils.R#26)  -----------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 10. Error: brightness_cols_given_mean() works (@test-utils.R#40)  -----------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 11. Error: var_cols_given_mean() works (@test-utils.R#54)  ------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 12. Error: var_rows_given_mean() works (@test-utils.R#68)  ------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 13. Error: rboxes derivatives error correctly (@test-utils.R#87)  -----------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   The function `ijtiff::read_tif()` is not available on 32-bit windows machines. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * 64-bit windows and any Linux or Mac will work.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      * I am sorry about this, I spent many hours trying to get it to work on 32-bit Windows machines but I failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    1. base::system.file("extdata", "bleached.tif", package = "detrendr")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    8. ijtiff::read_tif(., msg = FALSE)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    9. ijtiff:::err_on_win32bit("read_tif")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   10. ijtiff:::custom_stop(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 1055 | SKIPPED: 9 | WARNINGS: 0 | FAILED: 13 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: best_tau works (@test-best_params.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. Error: best_l works (@test-best_params.R#40) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  3. Error: best_degree works (@test-best_params.R#81) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  4. Error: best_swaps() works (@test-best_params.R#113) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  5. Error: detrending works (@test-detrend.R#4) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  6. Error: detrending errors correctly (@test-detrend.R#171) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  7. Error: file_detrend() deals with other directories correctly (@test-dir-detrend.R#249) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  8. Error: sum_pillars() and mean_pillars() work (@test-utils.R#20) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  9. Error: sum_frames() and mean_frames() work (@test-utils.R#26) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. ...<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/detrendr-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

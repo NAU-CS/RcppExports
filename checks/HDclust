@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package HDclust</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/HDclust/index.html"> HDclust </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:54 CEST.
+</p>
+<table border="1" summary="CRAN check results for package HDclust">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.0.3 </td> <td class="r"> 94.92 </td> <td class="r"> 312.37 </td> <td class="r"> 407.29 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.0.3 </td> <td class="r"> 54.80 </td> <td class="r"> 207.10 </td> <td class="r"> 261.90 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.0.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 491.68 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/HDclust-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.0.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 426.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.0.3 </td> <td class="r"> 228.00 </td> <td class="r"> 304.00 </td> <td class="r"> 532.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.0.3 </td> <td class="r"> 69.06 </td> <td class="r"> 259.83 </td> <td class="r"> 328.89 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.0.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1016.20 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/HDclust-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.0.3 </td> <td class="r"> 70.22 </td> <td class="r"> 268.39 </td> <td class="r"> 338.61 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.0.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.0.3 </td> <td class="r"> 186.00 </td> <td class="r"> 395.00 </td> <td class="r"> 581.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.0.3 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.0.3 </td> <td class="r"> 189.00 </td> <td class="r"> 398.00 </td> <td class="r"> 587.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/HDclust-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.0.3
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is  5.1Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   3.8Mb
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/HDclust-00check.html">r-devel-linux-x86_64-fedora-clang</a>
+
+</p>
+
+<p>
+
+Version: 1.0.3
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘HDclust-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: getNb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Accessor for 'nb' slot<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: getNb getNb,VB-method getNb,HMMVB-method<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # accessing nb in instance of class VB<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Vb &lt;- vb(2, dim=10, bdim=c(4,6), numst=c(3,11), varorder=list(c(1:4),c(5:10)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; getNb(Vb)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # accessing nb in instance of class HMMVB <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; data("sim3")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; Vb &lt;- vb(2, dim=40, bdim=c(10,30), numst=c(3,5), varorder=list(c(1:10),c(11:40)))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; set.seed(12345)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; hmmvb &lt;- hmmvbTrain(sim3[,1:40], VbStructure=Vb)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning: stack imbalance in 'lazyLoadDBfetch', 34 then 38<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 0, cause 'memory not mapped'
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/HDclust-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.0.3
+
+
+<br/>
+
+Check: for non-standard things in the check directory
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following files/directories:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘core’
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/HDclust-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

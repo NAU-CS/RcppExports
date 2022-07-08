@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package vroom</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/vroom/index.html"> vroom </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:09 CEST.
+</p>
+<table border="1" summary="CRAN check results for package vroom">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.2.0 </td> <td class="r"> 226.99 </td> <td class="r"> 79.84 </td> <td class="r"> 306.83 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/vroom-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.2.0 </td> <td class="r"> 149.37 </td> <td class="r"> 63.38 </td> <td class="r"> 212.75 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/vroom-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.2.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 447.04 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/vroom-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.2.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 389.29 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/vroom-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.2.0 </td> <td class="r"> 580.00 </td> <td class="r"> 203.00 </td> <td class="r"> 783.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/vroom-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.2.0 </td> <td class="r"> 181.49 </td> <td class="r"> 78.96 </td> <td class="r"> 260.45 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/vroom-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.2.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 337.20 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/vroom-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.2.0 </td> <td class="r"> 175.84 </td> <td class="r"> 80.32 </td> <td class="r"> 256.16 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/vroom-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.2.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/vroom-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.2.0 </td> <td class="r"> 468.00 </td> <td class="r"> 191.00 </td> <td class="r"> 659.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/vroom-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.2.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/vroom-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.2.0 </td> <td class="r"> 429.00 </td> <td class="r"> 205.00 </td> <td class="r"> 634.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/vroom-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.2.0
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'spelling.R' [0s/1s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running 'testthat.R' [21s/60s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in 'tests/testthat.R' failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(vroom)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (requireNamespace("xml2")) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   test_check("vroom", reporter = MultiReporter$new(reporters = list(JunitReporter$new(file = "test-results.xml"), CheckReporter$new())))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + } else {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   test_check("vroom")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required namespace: xml2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 1. Failure: locale affects am/pm (@test-datetime.R#176)  --------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `res` not equal to `equals`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "X1": 'is.NA' value mismatch: 0 in current 1 in target<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  -- 2. Failure: locale affects am/pm (@test-datetime.R#176)  --------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  `res` not equal to `equals`.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Component "X1": 'is.NA' value mismatch: 0 in current 1 in target<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  == testthat results  ===========================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 691 | SKIPPED: 5 | WARNINGS: 1 | FAILED: 2 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Failure: locale affects am/pm (@test-datetime.R#176) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  2. Failure: locale affects am/pm (@test-datetime.R#176) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/vroom-00check.html">r-devel-linux-x86_64-debian-clang</a>
+
+</p>
+
+<p>
+
+Version: 1.2.0
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 14.0Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs  12.3Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/vroom-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/vroom-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/vroom-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.2.0
+
+
+<br/>
+
+Check: for unstated dependencies in ‘tests’
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in deparse(e[[2L]]) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  it is not known that wchar_t is Unicode on this platform
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/vroom-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.2.0
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘spelling.R’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘testthat.R’ [27s/36s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/testthat.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(vroom)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; if (requireNamespace("xml2")) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   test_check("vroom", reporter = MultiReporter$new(reporters = list(JunitReporter$new(file = "test-results.xml"), CheckReporter$new())))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + } else {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  +   test_check("vroom")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  + }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Loading required namespace: xml2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ── 1. Error: vroom works with many connections (@test-multi-file.R#90)  ────────<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Evaluation error: cannot open the connection.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Backtrace:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1. vroom::vroom(files)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2. vroom:::vroom_(...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ══ testthat results  ═══════════════════════════════════════════════════════════<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [ OK: 691 | SKIPPED: 5 | WARNINGS: 3 | FAILED: 1 ]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  1. Error: vroom works with many connections (@test-multi-file.R#90) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error: testthat unit tests failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  In addition: Warning message:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  closing unused connection 4 (/tmp/RtmpK_aawy/working_dir/RtmpbFaqQL/file4b5272011011/133.csv.gz) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/vroom-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

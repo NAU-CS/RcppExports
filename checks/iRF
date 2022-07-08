@@ -1,0 +1,438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package iRF</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/iRF/index.html"> iRF </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:55 CEST.
+</p>
+<table border="1" summary="CRAN check results for package iRF">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 2.0.0 </td> <td class="r"> 45.11 </td> <td class="r"> 90.90 </td> <td class="r"> 136.01 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/iRF-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 2.0.0 </td> <td class="r"> 27.48 </td> <td class="r"> 70.78 </td> <td class="r"> 98.26 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/iRF-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 2.0.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 179.31 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/iRF-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 2.0.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 161.73 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/iRF-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 2.0.0 </td> <td class="r"> 123.00 </td> <td class="r"> 142.00 </td> <td class="r"> 265.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/iRF-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 2.0.0 </td> <td class="r"> 33.04 </td> <td class="r"> 88.08 </td> <td class="r"> 121.12 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/iRF-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 2.0.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 202.30 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/iRF-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 2.0.0 </td> <td class="r"> 34.04 </td> <td class="r"> 87.75 </td> <td class="r"> 121.79 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/iRF-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 2.0.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/iRF-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 2.0.0 </td> <td class="r"> 99.00 </td> <td class="r"> 187.00 </td> <td class="r"> 286.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/iRF-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 2.0.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/iRF-00check.html">FAIL</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 2.0.0 </td> <td class="r"> 82.00 </td> <td class="r"> 181.00 </td> <td class="r"> 263.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/iRF-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following significant warnings:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rf.c:492:17: warning: expression result unused [-Wunused-value]
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/iRF-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/iRF-00check.html">r-release-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: running examples for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'iRF-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Pass data through a fitted forest, record node characteristics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   [works for binary classification with continuous variables]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   n = 50; p = 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   X = array(rnorm(n*p), c(n, p))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = (X[,1]&gt;0.35 &amp; X[,2]&gt;0.35)|(X[,5]&gt;0.35 &amp; X[,7]&gt;0.35)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = as.factor(as.numeric(Y&gt;0))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   train.id = 1:(n/2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   test.id = setdiff(1:n, train.id)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rf &lt;- randomForest(x=X, y=Y, keep.forest=TRUE, track.nodes=TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     ntree=100)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rforest &lt;- readForest(rfobj=rf, x=X, n.core=2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   head(rforest$tree_info)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;NULL<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;  # count number of leaf nodes with at least 5 observations<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   sum(rforest$tree.info$size.node &gt; 5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; cleanEx()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: connections left open:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11958 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11958 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/iRF-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: running examples for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'iRF-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Pass data through a fitted forest, record node characteristics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   [works for binary classification with continuous variables]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   n = 50; p = 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   X = array(rnorm(n*p), c(n, p))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = (X[,1]&gt;0.35 &amp; X[,2]&gt;0.35)|(X[,5]&gt;0.35 &amp; X[,7]&gt;0.35)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = as.factor(as.numeric(Y&gt;0))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   train.id = 1:(n/2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   test.id = setdiff(1:n, train.id)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rf &lt;- randomForest(x=X, y=Y, keep.forest=TRUE, track.nodes=TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     ntree=100)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rforest &lt;- readForest(rfobj=rf, x=X, n.core=2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   head(rforest$tree_info)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;NULL<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;  # count number of leaf nodes with at least 5 observations<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   sum(rforest$tree.info$size.node &gt; 5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; cleanEx()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: connections left open:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11754 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11754 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/iRF-00check.html">r-devel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: running examples for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'iRF-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Pass data through a fitted forest, record node characteristics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   [works for binary classification with continuous variables]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   n = 50; p = 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   X = array(rnorm(n*p), c(n, p))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = (X[,1]&gt;0.35 &amp; X[,2]&gt;0.35)|(X[,5]&gt;0.35 &amp; X[,7]&gt;0.35)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = as.factor(as.numeric(Y&gt;0))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   train.id = 1:(n/2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   test.id = setdiff(1:n, train.id)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rf &lt;- randomForest(x=X, y=Y, keep.forest=TRUE, track.nodes=TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     ntree=100)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rforest &lt;- readForest(rfobj=rf, x=X, n.core=2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   head(rforest$tree_info)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;NULL<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;  # count number of leaf nodes with at least 5 observations<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   sum(rforest$tree.info$size.node &gt; 5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; cleanEx()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: connections left open:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11153 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11153 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/iRF-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: running examples for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'iRF-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Pass data through a fitted forest, record node characteristics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   [works for binary classification with continuous variables]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   n = 50; p = 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   X = array(rnorm(n*p), c(n, p))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = (X[,1]&gt;0.35 &amp; X[,2]&gt;0.35)|(X[,5]&gt;0.35 &amp; X[,7]&gt;0.35)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = as.factor(as.numeric(Y&gt;0))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   train.id = 1:(n/2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   test.id = setdiff(1:n, train.id)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rf &lt;- randomForest(x=X, y=Y, keep.forest=TRUE, track.nodes=TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     ntree=100)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rforest &lt;- readForest(rfobj=rf, x=X, n.core=2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   head(rforest$tree_info)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;NULL<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;  # count number of leaf nodes with at least 5 observations<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   sum(rforest$tree.info$size.node &gt; 5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; cleanEx()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: connections left open:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11269 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11269 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/iRF-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: whether package can be installed
+
+
+<br/>
+
+Result: FAIL
+
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/iRF-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: running examples for arch ‘i386’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'iRF-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Pass data through a fitted forest, record node characteristics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   [works for binary classification with continuous variables]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   n = 50; p = 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   X = array(rnorm(n*p), c(n, p))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = (X[,1]&gt;0.35 &amp; X[,2]&gt;0.35)|(X[,5]&gt;0.35 &amp; X[,7]&gt;0.35)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = as.factor(as.numeric(Y&gt;0))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   train.id = 1:(n/2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   test.id = setdiff(1:n, train.id)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rf &lt;- randomForest(x=X, y=Y, keep.forest=TRUE, track.nodes=TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     ntree=100)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rforest &lt;- readForest(rfobj=rf, x=X, n.core=2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   head(rforest$tree_info)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;NULL<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;  # count number of leaf nodes with at least 5 observations<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   sum(rforest$tree.info$size.node &gt; 5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 293<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; cleanEx()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: connections left open:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11637 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11637 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/iRF-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 2.0.0
+
+
+<br/>
+
+Check: running examples for arch ‘x64’
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in 'iRF-Ex.R' failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Pass data through a fitted forest, record node characteristics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   [works for binary classification with continuous variables]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: readForest<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   n = 50; p = 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   X = array(rnorm(n*p), c(n, p))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = (X[,1]&gt;0.35 &amp; X[,2]&gt;0.35)|(X[,5]&gt;0.35 &amp; X[,7]&gt;0.35)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   Y = as.factor(as.numeric(Y&gt;0))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   train.id = 1:(n/2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   test.id = setdiff(1:n, train.id)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rf &lt;- randomForest(x=X, y=Y, keep.forest=TRUE, track.nodes=TRUE,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;+     ntree=100)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   rforest &lt;- readForest(rfobj=rf, x=X, n.core=2)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   head(rforest$tree_info)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;NULL<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;  # count number of leaf nodes with at least 5 observations<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;   sum(rforest$tree.info$size.node &gt; 5)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[1] 284<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; cleanEx()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: connections left open:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11394 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	&lt;-CRANwin.fb05.statistik.uni-dortmund.de:11394 (sockconn)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/iRF-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

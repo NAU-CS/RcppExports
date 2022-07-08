@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package polyRAD</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/polyRAD/index.html"> polyRAD </a> </h2>
+<p>
+Last updated on 2020-05-04 22:53:00 CEST.
+</p>
+<table border="1" summary="CRAN check results for package polyRAD">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.1 </td> <td class="r"> 43.67 </td> <td class="r"> 117.40 </td> <td class="r"> 161.07 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.1 </td> <td class="r"> 24.58 </td> <td class="r"> 90.52 </td> <td class="r"> 115.10 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 200.28 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 189.58 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 93.00 </td> <td class="r"> 152.00 </td> <td class="r"> 245.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 29.13 </td> <td class="r"> 114.23 </td> <td class="r"> 143.36 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 253.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 32.70 </td> <td class="r"> 115.01 </td> <td class="r"> 147.71 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 77.00 </td> <td class="r"> 217.00 </td> <td class="r"> 294.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/polyRAD-00check.html"><span class="check_ko">WARN</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 68.00 </td> <td class="r"> 195.00 </td> <td class="r"> 263.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/polyRAD-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.1
+
+
+<br/>
+
+Check: re-building of vignette outputs
+
+
+<br/>
+
+Result: WARN
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Error(s) in re-building vignettes:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- re-building ‘polyRADtutorial.Rmd’ using rmarkdown<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning in engine$weave(file, quiet = quiet, encoding = enc) :<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Pandoc (&gt;= 1.12.3) and/or pandoc-citeproc not available. Falling back to R Markdown v1.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;For example usage please run: vignette('qqman')<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Citation appreciated but not required:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Turner, S.D. qqman: an R package for visualizing GWAS results using Q-Q and manhattan plots. biorXiv DOI: 10.1101/005165 (2014).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: BiocGenerics<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: parallel<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Attaching package: 'BiocGenerics'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The following objects are masked from 'package:parallel':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    clusterExport, clusterMap, parApply, parCapply, parLapply,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    parLapplyLB, parRapply, parSapply, parSapplyLB<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The following objects are masked from 'package:stats':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    IQR, mad, sd, var, xtabs<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The following objects are masked from 'package:base':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    Filter, Find, Map, Position, Reduce, anyDuplicated, append,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    as.data.frame, basename, cbind, colnames, dirname, do.call,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    duplicated, eval, evalq, get, grep, grepl, intersect,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    is.unsorted, lapply, mapply, match, mget, order, paste, pmax,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    pmax.int, pmin, pmin.int, rank, rbind, rownames, sapply,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    setdiff, sort, table, tapply, union, unique, unsplit, which,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    which.max, which.min<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: GenomeInfoDb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: S4Vectors<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning: package 'S4Vectors' was built under R version 3.6.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: stats4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Attaching package: 'S4Vectors'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The following object is masked from 'package:base':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    expand.grid<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Loading required package: IRanges<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Warning: package 'IRanges' was built under R version 3.6.1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: package or namespace load failed for 'GenomeInfoDb' in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; there is no package called 'GenomeInfoDbData'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Quitting from lines 410-413 (polyRADtutorial.Rmd) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: processing vignette 'polyRADtutorial.Rmd' failed with diagnostics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;package 'GenomeInfoDb' could not be loaded<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;--- failed re-building ‘polyRADtutorial.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;SUMMARY: processing the following file failed:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘polyRADtutorial.Rmd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Error: Vignette re-building failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Execution halted
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/polyRAD-00check.html">r-oldrel-osx-x86_64</a>
+
+</p>
+
+</body>
+</html>

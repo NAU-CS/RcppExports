@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package DStree</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/DStree/index.html"> DStree </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:50 CEST.
+</p>
+<table border="1" summary="CRAN check results for package DStree">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.0 </td> <td class="r"> 50.55 </td> <td class="r"> 101.68 </td> <td class="r"> 152.23 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.0 </td> <td class="r"> 32.08 </td> <td class="r"> 79.47 </td> <td class="r"> 111.55 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 197.53 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 178.67 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.0 </td> <td class="r"> 138.00 </td> <td class="r"> 153.00 </td> <td class="r"> 291.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.0 </td> <td class="r"> 39.42 </td> <td class="r"> 98.58 </td> <td class="r"> 138.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 241.50 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.0 </td> <td class="r"> 36.31 </td> <td class="r"> 99.01 </td> <td class="r"> 135.32 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.0 </td> <td class="r"> 120.00 </td> <td class="r"> 232.00 </td> <td class="r"> 352.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.0 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.0 </td> <td class="r"> 127.00 </td> <td class="r"> 214.00 </td> <td class="r"> 341.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/DStree-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3><a href="check_issue_kinds.html">Additional issues</a></h3>
+<p>
+<a href="https://www.stats.ox.ac.uk/pub/bdr/memtests/clang-UBSAN/DStree"><span class="check_ko">clang-UBSAN</span></a>
+</p>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.0
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for 'model.frame'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for 'model.matrix'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for 'model.response'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for 'as.formula'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bag: no visible global function definition for 'model.frame'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bag: no visible global function definition for 'model.response'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for 'rainbow'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for 'legend'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;predict.DStree: no visible global function definition for 'predict'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;print.DStree: no visible global function definition for 'naprint'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;prune.DStree: no visible global function definition for 'median'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;prune.DStree: no visible global function definition for 'predict'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;prune.DStree: no visible binding for global variable 'var'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;summ.MAE: no visible global function definition for 'predict'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;summary.DStree: no visible global function definition for 'naprint'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  as.formula legend lines median model.frame model.matrix<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  model.response naprint par predict rainbow var<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "rainbow")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "legend", "lines", "par")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "as.formula", "median", "model.frame",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "model.matrix", "model.response", "naprint", "predict",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "var")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/DStree-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/DStree-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/DStree-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/DStree-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/DStree-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/DStree-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/DStree-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/DStree-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/DStree-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/DStree-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.0
+
+
+<br/>
+
+Check: compiled code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;File ‘DStree/libs/DStree.so’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Found no calls to: ‘R_registerRoutines’, ‘R_useDynamicSymbols’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;It is good practice to register native routines and to disable symbol<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;search.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/DStree-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/DStree-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 1.0
+
+
+<br/>
+
+Check: DESCRIPTION meta-information
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;NeedsCompilation field should likely be 'yes'
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/DStree-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/DStree-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/DStree-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.0
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for ‘model.frame’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for ‘model.matrix’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for ‘model.response’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DStree: no visible global function definition for ‘as.formula’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bag: no visible global function definition for ‘model.frame’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;bag: no visible global function definition for ‘model.response’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for ‘rainbow’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.DStree: no visible global function definition for ‘legend’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;predict.DStree: no visible global function definition for ‘predict’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;print.DStree: no visible global function definition for ‘naprint’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;prune.DStree: no visible global function definition for ‘median’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;prune.DStree: no visible global function definition for ‘predict’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;prune.DStree: no visible binding for global variable ‘var’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;summ.MAE: no visible global function definition for ‘predict’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;summary.DStree: no visible global function definition for ‘naprint’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  as.formula legend lines median model.frame model.matrix<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  model.response naprint par plot predict rainbow var<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "rainbow")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "legend", "lines", "par", "plot")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "as.formula", "median", "model.frame",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "model.matrix", "model.response", "naprint", "predict",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "var")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/DStree-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/DStree-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

@@ -1,0 +1,844 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package CVXR</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/CVXR/index.html"> CVXR </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:49 CEST.
+</p>
+<table border="1" summary="CRAN check results for package CVXR">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.0-1 </td> <td class="r"> 168.60 </td> <td class="r"> 558.28 </td> <td class="r"> 726.88 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.0-1 </td> <td class="r"> 125.03 </td> <td class="r"> 426.87 </td> <td class="r"> 551.90 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.0-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 920.16 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.0-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 873.87 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.0-1 </td> <td class="r"> 362.00 </td> <td class="r"> 1153.00 </td> <td class="r"> 1515.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.0-1 </td> <td class="r"> 152.11 </td> <td class="r"> 541.02 </td> <td class="r"> 693.13 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.0-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 671.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/CVXR-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.0-1 </td> <td class="r"> 141.04 </td> <td class="r"> 540.19 </td> <td class="r"> 681.23 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.0-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.0-1 </td> <td class="r"> 276.00 </td> <td class="r"> 1183.00 </td> <td class="r"> 1459.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.0-1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.0-1 </td> <td class="r"> 239.00 </td> <td class="r"> 1065.00 </td> <td class="r"> 1304.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/CVXR-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.0-1
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Packages suggested but not available for checking: 'gurobi', 'rcbc'
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/CVXR-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/CVXR-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/CVXR-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/CVXR-00check.html">r-release-linux-x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.0-1
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Packages suggested but not available for checking:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'gurobi', 'Rcplex', 'rcbc'
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/CVXR-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/CVXR-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/CVXR-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/CVXR-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/CVXR-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/CVXR-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/CVXR-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.0-1
+
+
+<br/>
+
+Check: installed package size
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  installed size is 11.3Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  sub-directories of 1Mb or more:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    R      2.6Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    doc    1.2Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    help   1.0Mb<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;    libs   5.9Mb
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/CVXR-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/CVXR-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/CVXR-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/CVXR-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/CVXR-00check.html">r-release-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/CVXR-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/CVXR-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.0-1
+
+
+<br/>
+
+Check: package dependencies
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Packages suggested but not available for checking:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'Rmosek', 'gurobi', 'Rcplex', 'rcbc'
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/CVXR-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.0-1
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘CVXR-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: diag,Expression-method<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Matrix Diagonal<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: diag,Expression-method diag<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; C &lt;- Variable(3,3)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; obj &lt;- Maximize(C[1,3])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; constraints &lt;- list(diag(C) == 1, C[1,2] == 0.6, C[2,3] == -0.3, C == Variable(3,3, PSD = TRUE))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; prob &lt;- Problem(obj, constraints)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; result &lt;- solve(prob)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;address 0, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 1: scs::scs(A = args$A, b = args$b, obj = args$c, cone = cones,     control = control)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 2: solve_via_data(object@solver, data, warm_start, verbose, feastol,     reltol, abstol, num_iter, solver_opts, problem@.solver_cache)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 3: solve_via_data(object@solver, data, warm_start, verbose, feastol,     reltol, abstol, num_iter, solver_opts, problem@.solver_cache)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 4: reduction_solve_via_data(object@.solving_chain, object, data,     warm_start, verbose, feastol, reltol, abstol, num_iter, list(...))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 5: reduction_solve_via_data(object@.solving_chain, object, data,     warm_start, verbose, feastol, reltol, abstol, num_iter, list(...))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 6: psolve(a, solver = NA, ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 7: psolve(a, solver = NA, ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 8: solve(prob)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 9: solve(prob)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/CVXR-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.0-1
+
+
+<br/>
+
+Check: tests
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘group00.R’ [11s/12s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘group01.R’ [136s/185s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘group02.R’ [10s/12s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘group03.R’ [10s/12s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘group04.R’ [10s/13s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Running ‘group05.R’ [14s/16s]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Running the tests in ‘tests/group01.R’ failed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Complete output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(testthat)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; library(CVXR)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Attaching package: 'CVXR'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  The following object is masked from 'package:stats':<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      power<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  &gt; test_check("CVXR", filter="^g01")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       [,1] [,2]<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1,]    1    2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [2,]    3    4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  WARN: m less than n, problem likely degenerate<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  WARN: m less than n, problem likely degenerate<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 150<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 100, constraints m = 201<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	linear vars: 50<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 150, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 7.84e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 5.23e-01  8.02e-01  4.00e-01 -5.83e+00 -2.21e+00  0.00e+00  2.93e-03 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      20| 5.83e-06  1.83e-05  7.46e-06 -1.00e+00 -1.00e+00  5.04e-16  2.90e-02 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 2.90e-02s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 451, avg solve time: 7.47e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 1.23e-03s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 1.22e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 4.2621e-23, dist(y, K*) = 0.0000e+00, s'y/|s||y| = 1.5472e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 5.8315e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 1.8304e-05<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 7.4553e-06<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = -1.0000, -b'y = -1.0000<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -1.656e+00  +2e+02  1e+00  4e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  -4.515e+00  -4.272e+00  +6e+00  4e-01  2e-02  4e-01  3e-02  0.9791  9e-03   1  1  1 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  -2.971e+00  -2.872e+00  +2e+00  2e-01  7e-03  1e-01  1e-02  0.6266  5e-02   1  1  1 |  1  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  -1.833e+00  -1.793e+00  +8e-01  8e-02  3e-03  6e-02  4e-03  0.6266  9e-02   1  1  1 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  -1.247e+00  -1.237e+00  +2e-01  3e-02  9e-04  2e-02  1e-03  0.7833  1e-01   1  1  1 |  3  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  -1.064e+00  -1.062e+00  +5e-02  6e-03  2e-04  4e-03  3e-04  0.7833  2e-02   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  -1.025e+00  -1.024e+00  +2e-02  3e-03  8e-05  1e-03  1e-04  0.6266  5e-02   1  1  1 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  -1.006e+00  -1.005e+00  +4e-03  6e-04  2e-05  3e-04  2e-05  0.7833  1e-02   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  -1.002e+00  -1.002e+00  +2e-03  2e-04  7e-06  1e-04  9e-06  0.6266  5e-02   1  1  1 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  -1.001e+00  -1.000e+00  +4e-04  5e-05  2e-06  3e-05  2e-06  0.7829  1e-02   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  -1.000e+00  -1.000e+00  +2e-04  2e-05  7e-07  1e-05  8e-07  0.6266  5e-02   2  1  1 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  -1.000e+00  -1.000e+00  +3e-05  5e-06  2e-07  2e-06  2e-07  0.7833  1e-02   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  -1.000e+00  -1.000e+00  +1e-05  2e-06  6e-08  9e-07  7e-08  0.6266  5e-02   1  1  1 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  -1.000e+00  -1.000e+00  +3e-06  4e-07  1e-08  2e-07  2e-08  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14  -1.000e+00  -1.000e+00  +1e-06  2e-07  6e-09  7e-08  6e-09  0.6266  5e-02   2  0  0 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  15  -1.000e+00  -1.000e+00  +3e-07  4e-08  1e-09  2e-08  1e-09  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  16  -1.000e+00  -1.000e+00  +1e-07  2e-08  5e-10  6e-09  6e-10  0.6266  5e-02   2  0  0 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  17  -1.000e+00  -1.000e+00  +3e-08  4e-09  1e-10  1e-09  1e-10  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  18  -1.000e+00  -1.000e+00  +1e-08  1e-09  5e-11  5e-10  5e-11  0.6266  5e-02   2  0  0 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=1.4e-09, reltol=9.9e-09, abstol=9.9e-09).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.005982 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -3.281e+00  +2e+01  1e+00  2e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  -3.384e+00  -4.263e+00  +3e+00  3e-01  7e-02  5e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  -2.123e+00  -2.333e+00  +6e-01  9e-02  2e-02  1e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  -1.587e+00  -1.638e+00  +1e-01  3e-02  5e-03  3e-02  8e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  -1.624e+00  -1.635e+00  +3e-02  5e-03  1e-03  7e-03  2e-03  0.7820  8e-04   1  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  -1.610e+00  -1.613e+00  +6e-03  1e-03  2e-04  2e-03  4e-04  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  -1.610e+00  -1.611e+00  +1e-03  3e-04  5e-05  3e-04  9e-05  0.7822  4e-04   2  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  -1.609e+00  -1.610e+00  +3e-04  7e-05  1e-05  9e-05  2e-05  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  -1.609e+00  -1.610e+00  +6e-05  1e-05  2e-06  2e-05  4e-06  0.7824  9e-04   2  0  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  -1.609e+00  -1.609e+00  +1e-05  3e-06  6e-07  4e-06  9e-07  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  -1.609e+00  -1.609e+00  +3e-06  7e-07  1e-07  9e-07  2e-07  0.7822  8e-04   2  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  -1.609e+00  -1.609e+00  +6e-07  2e-07  3e-08  2e-07  4e-08  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  -1.609e+00  -1.609e+00  +2e-07  4e-08  6e-09  5e-08  1e-08  0.7833  2e-04   1  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  -1.609e+00  -1.609e+00  +3e-08  7e-09  1e-09  1e-08  2e-09  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14  -1.609e+00  -1.609e+00  +3e-09  7e-10  6e-11  3e-10  2e-10  0.9791  9e-03   1  0  0 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=7.1e-10, reltol=1.8e-09, abstol=2.9e-09).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.000766 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 15<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 10, constraints m = 16<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 15, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 2.15e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 2.83e+19  1.63e+19  7.40e-01 -8.97e+19 -1.34e+19  9.66e+19  3.15e-04 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      20| 1.44e-09  2.73e-09  1.11e-09 -1.61e+00 -1.61e+00  1.06e-16  6.46e-03 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 6.47e-03s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 41, avg solve time: 1.22e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 2.82e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 1.97e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 5.0444e-17, dist(y, K*) = 0.0000e+00, s'y/|s||y| = -1.4542e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 1.4352e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 2.7344e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 1.1125e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = -1.6094, -b'y = -1.6094<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -6.561e+00  +3e+01  1e+00  2e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  -6.375e+00  -8.297e+00  +7e+00  3e-01  7e-02  5e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  -3.908e+00  -4.394e+00  +1e+00  1e-01  2e-02  1e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  -2.395e+00  -2.523e+00  +2e-01  4e-02  5e-03  5e-02  7e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  -2.352e+00  -2.378e+00  +5e-02  7e-03  1e-03  1e-02  2e-03  0.7833  7e-04   1  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  -2.305e+00  -2.311e+00  +1e-02  2e-03  3e-04  2e-03  4e-04  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  -2.305e+00  -2.306e+00  +3e-03  4e-04  5e-05  5e-04  9e-05  0.7833  8e-04   1  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  -2.303e+00  -2.303e+00  +5e-04  9e-05  1e-05  1e-04  2e-05  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  -2.303e+00  -2.303e+00  +1e-04  2e-05  2e-06  3e-05  4e-06  0.7833  1e-03   2  1  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  -2.303e+00  -2.303e+00  +2e-05  4e-06  6e-07  6e-06  8e-07  0.7833  9e-03   1  1  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  -2.303e+00  -2.303e+00  +6e-06  9e-07  1e-07  1e-06  2e-07  0.7833  9e-04   2  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  -2.303e+00  -2.303e+00  +1e-06  2e-07  3e-08  3e-07  4e-08  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  -2.303e+00  -2.303e+00  +3e-07  5e-08  6e-09  7e-08  1e-08  0.7833  1e-04   1  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  -2.303e+00  -2.303e+00  +6e-08  1e-08  1e-09  1e-08  2e-09  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14  -2.303e+00  -2.303e+00  +5e-09  7e-10  5e-11  4e-10  2e-10  0.9791  9e-03   1  0  0 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=7.4e-10, reltol=2.2e-09, abstol=5.1e-09).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.001129 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 30<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 20, constraints m = 31<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 30, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 2.56e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 4.26e+19  2.33e+19  6.67e-01 -2.29e+20 -4.56e+19  2.75e+20  5.71e-04 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      20| 8.26e-11  1.58e-11  4.83e-10 -2.30e+00 -2.30e+00  1.11e-15  1.23e-02 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 1.23e-02s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 81, avg solve time: 1.86e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 5.50e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 2.85e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 1.0075e-16, dist(y, K*) = 0.0000e+00, s'y/|s||y| = 2.6463e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 8.2615e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 1.5797e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 4.8312e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = -2.3026, -b'y = -2.3026<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -1.640e+01  +8e+01  1e+00  2e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  -1.513e+01  -2.022e+01  +2e+01  3e-01  7e-02  5e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  -8.736e+00  -1.010e+01  +3e+00  1e-01  2e-02  2e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  -4.185e+00  -4.589e+00  +6e-01  5e-02  6e-03  7e-02  8e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  -3.377e+00  -3.469e+00  +1e-01  1e-02  1e-03  2e-02  2e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  -3.222e+00  -3.224e+00  +3e-03  2e-04  3e-05  3e-04  4e-05  0.9791  1e-04   1  1  1 |  0  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  -3.219e+00  -3.219e+00  +8e-05  7e-06  8e-07  9e-06  1e-06  0.9791  9e-03   1  1  1 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  -3.219e+00  -3.219e+00  +2e-05  4e-06  4e-07  5e-06  3e-07  0.6266  5e-02   2  1  1 |  2  2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  -3.219e+00  -3.219e+00  +6e-06  8e-07  9e-08  1e-06  8e-08  0.7833  1e-04   1  1  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  -3.219e+00  -3.219e+00  +1e-06  2e-07  2e-08  3e-07  2e-08  0.7833  9e-03   2  1  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  -3.219e+00  -3.219e+00  +3e-07  4e-08  5e-09  5e-08  4e-09  0.7833  1e-04   1  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  -3.219e+00  -3.219e+00  +5e-08  8e-09  1e-09  1e-08  7e-10  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  -3.219e+00  -3.219e+00  +5e-09  6e-10  3e-11  3e-10  7e-11  0.9791  9e-03   1  0  0 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=6.0e-10, reltol=1.7e-09, abstol=5.4e-09).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.001990 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 75<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 50, constraints m = 76<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 75, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 4.15e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 7.23e+19  3.82e+19  6.52e-01 -8.32e+20 -1.75e+20  1.10e+21  1.35e-03 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      17| 6.81e-11  9.10e-11  2.52e-10 -3.22e+00 -3.22e+00  2.79e-15  2.40e-02 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 2.40e-02s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 201, avg solve time: 3.73e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 1.26e-03s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 5.62e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 5.2026e-17, dist(y, K*) = 0.0000e+00, s'y/|s||y| = 6.5803e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 6.8054e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 9.0966e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 2.5241e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = -3.2189, -b'y = -3.2189<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -1.450e+00  +2e+01  1e+00  2e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  +2.499e+00  +2.167e+00  +3e+00  3e-01  6e-02  4e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  +5.310e+00  +5.257e+00  +6e-01  1e-01  2e-02  2e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  +5.878e+00  +5.866e+00  +1e-01  2e-02  4e-03  4e-02  1e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  +6.067e+00  +6.065e+00  +3e-02  6e-03  1e-03  9e-03  2e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  +6.095e+00  +6.094e+00  +7e-03  1e-03  2e-04  2e-03  5e-04  0.7828  3e-04   1  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  +6.105e+00  +6.105e+00  +1e-03  3e-04  5e-05  5e-04  1e-04  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  +6.106e+00  +6.106e+00  +3e-04  6e-05  1e-05  1e-04  2e-05  0.7833  8e-04   2  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  +6.107e+00  +6.107e+00  +7e-05  1e-05  3e-06  2e-05  5e-06  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  +6.107e+00  +6.107e+00  +2e-05  3e-06  5e-07  5e-06  1e-06  0.7833  9e-04   2  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  +6.107e+00  +6.107e+00  +3e-06  7e-07  1e-07  1e-06  2e-07  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  +6.107e+00  +6.107e+00  +8e-07  1e-07  2e-08  3e-07  6e-08  0.7833  4e-04   1  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  +6.107e+00  +6.107e+00  +1e-07  3e-08  6e-09  6e-08  1e-08  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  +6.107e+00  +6.107e+00  +4e-08  7e-09  1e-09  1e-08  3e-09  0.7833  1e-04   0  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=7.3e-09, reltol=6.4e-09, abstol=3.9e-08).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.000775 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 15<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 10, constraints m = 16<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 15, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 2.18e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 2.01e+19  3.36e+19  1.00e+00 -8.97e+19  2.03e+20  9.66e+19  1.93e-04 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      17| 7.32e-12  1.51e-11  9.22e-12  6.11e+00  6.11e+00  7.97e-17  1.06e-02 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 1.06e-02s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 41, avg solve time: 1.69e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 5.54e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 2.25e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 7.5782e-17, dist(y, K*) = 0.0000e+00, s'y/|s||y| = 1.6005e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 7.3183e-12<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 1.5141e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 9.2195e-12<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = 6.1070, -b'y = 6.1070<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -2.900e+00  +3e+01  1e+00  2e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  +4.551e+00  +3.800e+00  +7e+00  3e-01  6e-02  4e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  +9.819e+00  +9.634e+00  +1e+00  1e-01  2e-02  1e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  +1.066e+01  +1.062e+01  +3e-01  2e-02  4e-03  3e-02  1e-02  0.7833  1e-02   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  +1.099e+01  +1.098e+01  +6e-02  5e-03  1e-03  8e-03  2e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  +1.103e+01  +1.103e+01  +1e-02  1e-03  2e-04  2e-03  5e-04  0.7833  6e-04   2  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  +1.105e+01  +1.105e+01  +3e-03  3e-04  5e-05  4e-04  1e-04  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  +1.105e+01  +1.105e+01  +7e-04  5e-05  9e-06  9e-05  2e-05  0.7833  1e-03   2  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  +1.105e+01  +1.105e+01  +1e-04  1e-05  2e-06  2e-05  5e-06  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  +1.105e+01  +1.105e+01  +3e-05  3e-06  5e-07  5e-06  1e-06  0.7833  1e-03   2  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  +1.105e+01  +1.105e+01  +7e-06  7e-07  1e-07  1e-06  2e-07  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  +1.105e+01  +1.105e+01  +2e-06  1e-07  2e-08  2e-07  6e-08  0.7833  4e-04   2  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  +1.105e+01  +1.105e+01  +3e-07  3e-08  6e-09  5e-08  1e-08  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  +1.105e+01  +1.105e+01  +8e-08  7e-09  1e-09  1e-08  3e-09  0.7833  1e-04   0  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=7.1e-09, reltol=7.4e-09, abstol=8.2e-08).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.001096 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 30<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 20, constraints m = 31<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 30, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 2.94e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 3.04e+19  5.26e+19  1.00e+00 -2.29e+20  5.40e+20  2.75e+20  3.33e-04 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      16| 9.45e-11  9.53e-11  3.78e-11  1.11e+01  1.11e+01  1.44e-15  1.34e-02 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 1.34e-02s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 81, avg solve time: 2.24e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 7.45e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 3.20e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 5.7904e-17, dist(y, K*) = 0.0000e+00, s'y/|s||y| = -1.5818e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 9.4474e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 9.5314e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 3.7752e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = 11.0517, -b'y = 11.0517<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -7.249e+00  +8e+01  1e+00  2e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  +1.072e+01  +8.729e+00  +2e+01  3e-01  6e-02  4e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  +2.340e+01  +2.285e+01  +3e+00  1e-01  2e-02  1e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  +2.513e+01  +2.500e+01  +8e-01  2e-02  4e-03  3e-02  1e-02  0.7833  1e-02   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  +2.590e+01  +2.587e+01  +2e-01  5e-03  1e-03  8e-03  2e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  +2.597e+01  +2.597e+01  +4e-02  1e-03  2e-04  2e-03  5e-04  0.7833  8e-04   1  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  +2.602e+01  +2.601e+01  +7e-03  3e-04  5e-05  4e-04  1e-04  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  +2.602e+01  +2.602e+01  +2e-03  5e-05  9e-06  8e-05  2e-05  0.7833  1e-03   1  1  1 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  +2.602e+01  +2.602e+01  +4e-04  1e-05  2e-06  2e-05  5e-06  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  +2.602e+01  +2.602e+01  +9e-05  3e-06  5e-07  4e-06  1e-06  0.7833  1e-03   1  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  +2.602e+01  +2.602e+01  +2e-05  6e-07  1e-07  1e-06  2e-07  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  +2.602e+01  +2.602e+01  +4e-06  1e-07  2e-08  2e-07  6e-08  0.7833  5e-04   1  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  +2.602e+01  +2.602e+01  +8e-07  3e-08  6e-09  5e-08  1e-08  0.7833  9e-03   2  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  +2.602e+01  +2.602e+01  +8e-08  2e-09  1e-10  1e-09  1e-09  0.9791  1e-02   0  0  0 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=2.1e-09, reltol=3.1e-09, abstol=8.0e-08).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.002074 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 75<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 50, constraints m = 76<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 75, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 3.72e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 5.17e+19  9.30e+19  1.00e+00 -8.32e+20  2.09e+21  1.10e+21  7.24e-04 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      20| 6.21e-10  9.58e-10  2.03e-10  2.60e+01  2.60e+01  6.90e-16  2.58e-02 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 2.58e-02s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 201, avg solve time: 3.58e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 1.16e-03s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 5.68e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 2.3938e-17, dist(y, K*) = 0.0000e+00, s'y/|s||y| = -4.9127e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 6.2098e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 9.5837e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 2.0258e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = 26.0203, -b'y = 26.0203<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -1.450e+00  +2e+01  1e+00  3e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  +7.390e-01  +4.608e-01  +3e+00  5e-01  9e-02  5e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  +4.537e+00  +4.598e+00  +6e-01  2e-01  3e-02  4e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  +6.622e+00  +6.751e+00  +1e-01  7e-02  1e-02  2e-01  8e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  +7.597e+00  +7.679e+00  +2e-02  3e-02  4e-03  1e-01  2e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  +7.926e+00  +7.953e+00  +4e-03  7e-03  1e-03  4e-02  3e-04  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  +8.019e+00  +8.026e+00  +9e-04  2e-03  3e-04  9e-03  7e-05  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  +8.046e+00  +8.046e+00  +3e-05  6e-05  8e-06  3e-04  2e-06  0.9791  9e-03   2  1  1 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  +8.047e+00  +8.047e+00  +6e-06  1e-05  2e-06  7e-05  4e-07  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  +8.047e+00  +8.047e+00  +1e-06  3e-06  4e-07  1e-05  1e-07  0.7833  2e-02   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  +8.047e+00  +8.047e+00  +3e-07  7e-07  1e-07  3e-06  2e-08  0.7833  9e-03   2  0  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  +8.047e+00  +8.047e+00  +7e-08  2e-07  2e-08  7e-07  5e-09  0.7833  1e-04   2  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  +8.047e+00  +8.047e+00  +1e-08  3e-08  5e-09  2e-07  1e-09  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  +8.047e+00  +8.047e+00  +1e-09  2e-09  1e-10  4e-09  9e-11  0.9791  9e-03   0  0  0 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=2.2e-09, reltol=1.8e-10, abstol=1.4e-09).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.000717 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 15<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 10, constraints m = 16<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 15, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 2.13e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 2.19e+19  3.38e+19  1.00e+00 -8.97e+19  1.41e+20  9.66e+19  3.23e-04 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      20| 8.59e-09  7.01e-09  8.18e-09  8.05e+00  8.05e+00  3.20e-16  3.35e-03 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 3.36e-03s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 41, avg solve time: 1.20e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 1.34e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 1.95e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 9.9997e-17, dist(y, K*) = 0.0000e+00, s'y/|s||y| = 8.0287e-11<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 8.5889e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 7.0122e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 8.1810e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = 8.0472, -b'y = 8.0472<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -2.900e+00  +3e+01  1e+00  3e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  +2.479e+00  +1.719e+00  +7e+00  5e-01  9e-02  6e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  +1.081e+01  +1.072e+01  +1e+00  2e-01  3e-02  4e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  +1.649e+01  +1.668e+01  +2e-01  9e-02  1e-02  4e-01  8e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  +2.019e+01  +2.044e+01  +4e-02  4e-02  7e-03  3e-01  1e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  +2.207e+01  +2.223e+01  +7e-03  2e-02  2e-03  2e-01  3e-04  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  +2.276e+01  +2.282e+01  +1e-03  5e-03  7e-04  7e-02  5e-05  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  +2.296e+01  +2.298e+01  +3e-04  1e-03  2e-04  2e-02  1e-05  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  +2.302e+01  +2.302e+01  +9e-06  4e-05  6e-06  6e-04  3e-07  0.9791  9e-03   1  1  1 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  +2.303e+01  +2.303e+01  +2e-06  9e-06  1e-06  1e-04  8e-08  0.7833  1e-02   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  +2.303e+01  +2.303e+01  +4e-07  2e-06  3e-07  3e-05  2e-08  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  +2.303e+01  +2.303e+01  +1e-07  5e-07  7e-08  6e-06  4e-09  0.7833  1e-02   2  1  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  +2.303e+01  +2.303e+01  +2e-08  1e-07  2e-08  1e-06  7e-10  0.7833  9e-03   1  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  +2.303e+01  +2.303e+01  +6e-09  2e-08  3e-09  3e-07  2e-10  0.7833  1e-04   1  0  0 |  0  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14  +2.303e+01  +2.303e+01  +1e-09  5e-09  7e-10  6e-08  4e-11  0.7833  9e-03   0  0  0 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=4.7e-09, reltol=4.2e-11, abstol=9.6e-10).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.001157 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 30<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 20, constraints m = 31<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 30, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 2.61e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 3.24e+19  5.09e+19  1.00e+00 -2.29e+20  4.07e+20  2.75e+20  5.96e-04 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      20| 1.26e-09  8.99e-10  4.71e-10  2.30e+01  2.30e+01  5.04e-17  5.69e-03 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 5.70e-03s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 81, avg solve time: 1.82e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 2.34e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 2.88e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 2.5502e-16, dist(y, K*) = 0.0000e+00, s'y/|s||y| = -3.1369e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 1.2595e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 8.9891e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 4.7115e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = 23.0259, -b'y = 23.0259<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  [1] 25<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ECOS 2.0.7 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   0  +0.000e+00  -7.249e+00  +8e+01  1e+00  3e-01  1e+00  1e+00    ---    ---    0  0  - |  -  - <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1  +7.770e+00  +5.523e+00  +2e+01  5e-01  9e-02  6e-01  2e-01  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2  +2.985e+01  +2.920e+01  +3e+00  2e-01  4e-02  5e-01  4e-02  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3  +4.686e+01  +4.688e+01  +6e-01  1e-01  2e-02  5e-01  8e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4  +6.052e+01  +6.092e+01  +1e-01  6e-02  9e-03  6e-01  1e-03  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5  +7.063e+01  +7.118e+01  +2e-02  3e-02  5e-03  7e-01  2e-04  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6  +7.669e+01  +7.714e+01  +3e-03  1e-02  2e-03  5e-01  5e-05  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7  +7.933e+01  +7.954e+01  +6e-04  4e-03  6e-04  2e-01  9e-06  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8  +8.018e+01  +8.024e+01  +1e-04  1e-03  2e-04  7e-02  2e-06  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9  +8.040e+01  +8.042e+01  +3e-05  3e-04  4e-05  2e-02  4e-07  0.7833  9e-03   2  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10  +8.047e+01  +8.047e+01  +8e-07  8e-06  1e-06  4e-04  1e-08  0.9791  9e-03   2  1  1 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11  +8.047e+01  +8.047e+01  +2e-07  2e-06  3e-07  9e-05  2e-09  0.7833  9e-03   1  1  1 |  1  1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12  +8.047e+01  +8.047e+01  +9e-09  8e-08  8e-09  2e-06  1e-10  0.9791  9e-03   1  1  1 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13  +8.047e+01  +8.047e+01  +3e-09  3e-08  5e-09  1e-06  4e-11  0.5013  2e-01   2  0  0 |  4  3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14  +8.047e+01  +8.047e+01  +3e-10  2e-09  1e-10  2e-08  4e-12  0.9791  9e-03   0  0  0 |  1  0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  OPTIMAL (within feastol=2.2e-09, reltol=3.5e-12, abstol=2.8e-10).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Runtime: 0.002470 seconds.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	SCS v2.1.1 - Splitting Conic Solver<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	(c) Brendan O'Donoghue, Stanford University, 2012<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Lin-sys: sparse-direct, nnz in A = 75<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  eps = 1.00e-04, alpha = 1.50, max_iters = 2500, normalize = 1, scale = 1.00<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  acceleration_lookback = 10, rho_x = 1.00e-03<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Variables n = 50, constraints m = 76<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Cones:	primal zero / dual free vars: 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	exp vars: 75, dual exp vars: 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Setup time: 4.09e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   Iter | pri res | dua res | rel gap | pri obj | dua obj | kap/tau | time (s)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;       0| 5.44e+19  8.72e+19  1.00e+00 -8.32e+20  1.69e+21  1.10e+21  1.56e-03 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;      20| 8.58e-09  3.22e-09  2.58e-09  8.05e+01  8.05e+01  9.64e-16  1.35e-02 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Status: Solved<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Timing: Solve time: 1.35e-02s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Lin-sys: nnz in L factor: 201, avg solve time: 4.12e-06s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Cones: avg projection time: 5.58e-04s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  	Acceleration: avg step time: 6.68e-05s<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Error metrics:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dist(s, K) = 7.2366e-16, dist(y, K*) = 0.0000e+00, s'y/|s||y| = -1.7069e-10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  primal res: |Ax + s - b|_2 / (1 + |b|_2) = 8.5828e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  dual res:   |A'y + c|_2 / (1 + |c|_2) = 3.2193e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 2.5754e-09<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ----------------------------------------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  c'x = 80.4719, -b'y = 80.4719<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ============================================================================<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   *** caught segfault ***<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  address 0, cause 'memory not mapped'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Traceback:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   1: scs::scs(A = args$A, b = args$b, obj = args$c, cone = cones,     control = control)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   2: solve_via_data(object@solver, data, warm_start, verbose, feastol,     reltol, abstol, num_iter, solver_opts, problem@.solver_cache)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   3: solve_via_data(object@solver, data, warm_start, verbose, feastol,     reltol, abstol, num_iter, solver_opts, problem@.solver_cache)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   4: reduction_solve_via_data(object@.solving_chain, object, data,     warm_start, verbose, feastol, reltol, abstol, num_iter, list(...))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   5: reduction_solve_via_data(object@.solving_chain, object, data,     warm_start, verbose, feastol, reltol, abstol, num_iter, list(...))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   6: psolve(a, solver = NA, ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   7: psolve(a, solver = NA, ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   8: solve(prob)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;   9: solve(prob)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  10: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  11: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  12: withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  13: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  14: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  15: tryCatchList(expr, names[-nh], parentenv, handlers[-nh])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  16: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  17: tryCatchOne(tryCatchList(expr, names[-nh], parentenv, handlers[-nh]),     names[nh], parentenv, handlers[[nh]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  18: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  19: tryCatch(withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error), error = handle_fatal,     skip = function(e) {    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  20: test_code(desc, code, env = parent.frame())<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  21: test_that("Test a problem with diag", {    C &lt;- Variable(3, 3)    obj &lt;- Maximize(C[1, 3])    constraints &lt;- list(diag(C) == 1, C[1, 2] == 0.6, C[2, 3] ==         -0.3, C == Variable(3, 3, PSD = TRUE))    prob &lt;- Problem(obj, constraints)    result &lt;- solve(prob)    expect_equal(result$value, 0.583151, tolerance = 0.01)})<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  22: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  23: eval(code, test_env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  24: withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  25: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  26: tryCatchOne(expr, names, parentenv, handlers[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  27: tryCatchList(expr, names[-nh], parentenv, handlers[-nh])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  28: doTryCatch(return(expr), name, parentenv, handler)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  29: tryCatchOne(tryCatchList(expr, names[-nh], parentenv, handlers[-nh]),     names[nh], parentenv, handlers[[nh]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  30: tryCatchList(expr, classes, parentenv, handlers)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  31: tryCatch(withCallingHandlers({    eval(code, test_env)    if (!handled &amp;&amp; !is.null(test)) {        skip_empty()    }}, expectation = handle_expectation, skip = handle_skip, warning = handle_warning,     message = handle_message, error = handle_error), error = handle_fatal,     skip = function(e) {    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  32: test_code(NULL, exprs, env)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  33: source_file(path, new.env(parent = env), chdir = TRUE, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  34: force(code)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  35: doWithOneRestart(return(expr), restart)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  36: withOneRestart(expr, restarts[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  37: withRestarts(testthat_abort_reporter = function() NULL, force(code))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  38: with_reporter(reporter = reporter, start_end_reporter = start_end_reporter,     {        reporter$start_file(basename(path))        lister$start_file(basename(path))        source_file(path, new.env(parent = env), chdir = TRUE,             wrap = wrap)        reporter$.end_context()        reporter$end_file()    })<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  39: FUN(X[[i]], ...)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  40: lapply(paths, test_file, env = env, reporter = current_reporter,     start_end_reporter = FALSE, load_helpers = FALSE, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  41: force(code)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  42: doWithOneRestart(return(expr), restart)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  43: withOneRestart(expr, restarts[[1L]])<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  44: withRestarts(testthat_abort_reporter = function() NULL, force(code))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  45: with_reporter(reporter = current_reporter, results &lt;- lapply(paths,     test_file, env = env, reporter = current_reporter, start_end_reporter = FALSE,     load_helpers = FALSE, wrap = wrap))<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  46: test_files(paths, reporter = reporter, env = env, stop_on_failure = stop_on_failure,     stop_on_warning = stop_on_warning, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  47: test_dir(path = test_path, reporter = reporter, env = env, filter = filter,     ..., stop_on_failure = stop_on_failure, stop_on_warning = stop_on_warning,     wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  48: test_package_dir(package = package, test_path = test_path, filter = filter,     reporter = reporter, ..., stop_on_failure = stop_on_failure,     stop_on_warning = stop_on_warning, wrap = wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  49: test_check("CVXR", filter = "^g01")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  An irrecoverable exception occurred. R is aborting now ...
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/CVXR-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+</body>
+</html>

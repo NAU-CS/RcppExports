@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package lvmcomp</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/lvmcomp/index.html"> lvmcomp </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:56 CEST.
+</p>
+<table border="1" summary="CRAN check results for package lvmcomp">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.2 </td> <td class="r"> 78.23 </td> <td class="r"> 33.40 </td> <td class="r"> 111.63 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.2 </td> <td class="r"> 55.87 </td> <td class="r"> 26.55 </td> <td class="r"> 82.42 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 167.32 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 151.39 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 201.00 </td> <td class="r"> 84.00 </td> <td class="r"> 285.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 62.67 </td> <td class="r"> 33.69 </td> <td class="r"> 96.36 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 1974.70 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/lvmcomp-00check.html"><span class="check_ko">ERROR</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 67.35 </td> <td class="r"> 33.54 </td> <td class="r"> 100.89 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 144.00 </td> <td class="r"> 107.00 </td> <td class="r"> 251.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.2 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/lvmcomp-00check.html"><span class="check_ok">OK</span></a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.2 </td> <td class="r"> 154.00 </td> <td class="r"> 0.00 </td> <td class="r"> 154.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/lvmcomp-00check.html">FAIL</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.2
+
+
+<br/>
+
+Check: examples
+
+
+<br/>
+
+Result: ERROR
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Running examples in ‘lvmcomp-Ex.R’ failed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;The error most likely occurred in:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Name: StEM_mirt<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Title: Stochastic EM algorithm for solving multivariate item response<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ###   theory model<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### Aliases: StEM_mirt<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; ### ** Examples<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # run a toy example based on the M2PL model<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # load a simulated dataset<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; attach(data_sim_mirt)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # generate starting values for the algorithm<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; A0 &lt;- Q<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; d0 &lt;- rep(0, J)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; theta0 &lt;- matrix(rnorm(N*K, 0, 1),N)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; sigma0 &lt;- diag(1, K) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # do the confirmatory MIRT analysis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; # to enable multicore processing, set parallel = T<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt; mirt_res &lt;- StEM_mirt(response, Q, A0, d0, theta0, sigma0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Step  1	| <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Step  2	| <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Step  3	| <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Step  4	|
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/lvmcomp-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.2
+
+
+<br/>
+
+Check: for non-standard things in the check directory
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Found the following files/directories:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘core’
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/lvmcomp-00check.html">r-patched-solaris-x86</a>
+
+</p>
+
+<p>
+
+Version: 1.2
+
+
+<br/>
+
+Check: running examples for arch ‘i386’
+
+
+<br/>
+
+Result: FAIL
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Check process probably crashed or hung up for 20 minutes ... killed<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Most likely this happened in the example checks (?),<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if not, ignore the following last lines of example output:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;======== End of example output (where/before crash/hang up occured ?) ========
+
+<br/>
+
+Flavor: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/lvmcomp-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>

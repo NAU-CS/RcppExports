@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>CRAN Package Check Results for Package bcpa</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+<body lang="en">
+<h2>CRAN Package Check Results for Package <a href="../packages/bcpa/index.html"> bcpa </a> </h2>
+<p>
+Last updated on 2020-05-04 22:52:47 CEST.
+</p>
+<table border="1" summary="CRAN check results for package bcpa">
+<tr> <th> Flavor </th> <th> Version </th> <th> T<sub>install</sub> </th> <th> T<sub>check</sub> </th> <th> T<sub>total</sub> </th> <th> Status </th> <th> Flags </th> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-clang"> r-devel-linux-x86_64-debian-clang </a> </td> <td> 1.1 </td> <td class="r"> 21.64 </td> <td class="r"> 69.30 </td> <td class="r"> 90.94 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-debian-gcc"> r-devel-linux-x86_64-debian-gcc </a> </td> <td> 1.1 </td> <td class="r"> 13.71 </td> <td class="r"> 49.91 </td> <td class="r"> 63.62 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-clang"> r-devel-linux-x86_64-fedora-clang </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 113.02 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-linux-x86_64-fedora-gcc"> r-devel-linux-x86_64-fedora-gcc </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 106.73 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-devel-windows-ix86_x86_64"> r-devel-windows-ix86+x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 57.00 </td> <td class="r"> 115.00 </td> <td class="r"> 172.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-linux-x86_64"> r-patched-linux-x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 15.82 </td> <td class="r"> 65.71 </td> <td class="r"> 81.53 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-linux-x86_64/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-patched-solaris-x86"> r-patched-solaris-x86 </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r"> 130.90 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-patched-solaris-x86/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-linux-x86_64"> r-release-linux-x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 16.28 </td> <td class="r"> 65.10 </td> <td class="r"> 81.38 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-linux-x86_64/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-osx-x86_64"> r-release-osx-x86_64 </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-osx-x86_64/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-release-windows-ix86_x86_64"> r-release-windows-ix86+x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 48.00 </td> <td class="r"> 158.00 </td> <td class="r"> 206.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-osx-x86_64"> r-oldrel-osx-x86_64 </a> </td> <td> 1.1 </td> <td class="r">  </td> <td class="r">  </td> <td class="r">  </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-osx-x86_64/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+<tr> <td>  <a href="check_flavors.html#r-oldrel-windows-ix86_x86_64"> r-oldrel-windows-ix86+x86_64 </a> </td> <td> 1.1 </td> <td class="r"> 43.00 </td> <td class="r"> 147.00 </td> <td class="r"> 190.00 </td> <td> <a href="https://www.R-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/bcpa-00check.html">NOTE</a> </td> <td>  </td> </tr>
+</table>
+<h3>Check Details</h3>
+
+<p>
+
+Version: 1.1
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;ChangePointSummary: no visible global function definition for 'density'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;ChangePointSummary : &lt;anonymous&gt;: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'par'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'qqnorm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'qqline'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'hist'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'curve'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'dnorm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'acf'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible binding for global variable 'na.pass'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for 'layout'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetBestBreak: no visible global function definition for 'optimize'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetDoubleL: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : GetLL: no visible global function definition for 'dnorm'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M0: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M1: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M2: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M3: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M4: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M5: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M6: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M7: no visible global function definition for 'sd'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetRho: no visible global function definition for 'optimize'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetRho2: no visible global function definition for 'optimize'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot : Segments: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'segments'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for 'palette'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for 'topo.colors'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for 'points'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for 'legend'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for 'palette'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for 'topo.colors'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for 'points'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for 'legend'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for 'txtProgressBar'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for 'plot.ts'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for 'abline'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  'setTxtProgressBar'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for 'rgb'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for 'lines'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for 'abline'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for 'palette'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for 'topo.colors'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for 'points'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for 'segments'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.track: no visible global function definition for 'rgb'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.track: no visible global function definition for 'points'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  abline acf curve density dnorm hist layout legend lines na.pass<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  optimize palette par plot.ts points qqline qqnorm rgb sd segments<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  setTxtProgressBar topo.colors txtProgressBar<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "palette", "rgb", "topo.colors")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "abline", "curve", "hist", "layout", "legend",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "lines", "par", "points", "segments")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "acf", "density", "dnorm", "na.pass", "optimize",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "plot.ts", "qqline", "qqnorm", "sd")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("utils", "setTxtProgressBar", "txtProgressBar")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-clang/bcpa-00check.html">r-devel-linux-x86_64-debian-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-debian-gcc/bcpa-00check.html">r-devel-linux-x86_64-debian-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/bcpa-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/bcpa-00check.html">r-devel-linux-x86_64-fedora-gcc</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-windows-ix86+x86_64/bcpa-00check.html">r-devel-windows-ix86+x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-linux-x86_64/bcpa-00check.html">r-patched-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-patched-solaris-x86/bcpa-00check.html">r-patched-solaris-x86</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-linux-x86_64/bcpa-00check.html">r-release-linux-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-osx-x86_64/bcpa-00check.html">r-release-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-release-windows-ix86+x86_64/bcpa-00check.html">r-release-windows-ix86+x86_64</a>
+
+</p>
+
+<p>
+
+Version: 1.1
+
+
+<br/>
+
+Check: compiled code
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;File ‘bcpa/libs/bcpa.so’:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  Found no calls to: ‘R_registerRoutines’, ‘R_useDynamicSymbols’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;It is good practice to register native routines and to disable symbol<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;search.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-clang/bcpa-00check.html">r-devel-linux-x86_64-fedora-clang</a>, <a href="https://www.r-project.org/nosvn/R.check/r-devel-linux-x86_64-fedora-gcc/bcpa-00check.html">r-devel-linux-x86_64-fedora-gcc</a>
+
+</p>
+
+<p>
+
+Version: 1.1
+
+
+<br/>
+
+Check: R code for possible problems
+
+
+<br/>
+
+Result: NOTE
+
+
+<br/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;ChangePointSummary: no visible global function definition for ‘density’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;ChangePointSummary : &lt;anonymous&gt;: no visible global function definition<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘par’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘qqnorm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘qqline’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘hist’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘curve’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘dnorm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘acf’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible binding for global variable ‘na.pass’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;DiagPlot: no visible global function definition for ‘layout’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetBestBreak: no visible global function definition for ‘optimize’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetDoubleL: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : GetLL: no visible global function definition for ‘dnorm’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M0: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M1: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M2: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M3: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M4: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M5: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M6: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetModels : M7: no visible global function definition for ‘sd’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetRho: no visible global function definition for ‘optimize’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;GetRho2: no visible global function definition for ‘optimize’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot : Segments: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘segments’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for ‘palette’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for ‘topo.colors’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for ‘points’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PathPlot: no visible global function definition for ‘legend’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for ‘palette’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for ‘topo.colors’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for ‘points’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;PhasePlot: no visible global function definition for ‘legend’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for ‘txtProgressBar’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for ‘plot.ts’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for ‘abline’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;WindowSweep: no visible global function definition for<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  ‘setTxtProgressBar’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘rgb’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘lines’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘abline’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘palette’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘topo.colors’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘points’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.bcpa: no visible global function definition for ‘segments’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.track: no visible global function definition for ‘rgb’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.track: no visible global function definition for ‘plot’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;plot.track: no visible global function definition for ‘points’<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Undefined global functions or variables:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  abline acf curve density dnorm hist layout legend lines na.pass<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  optimize palette par plot plot.ts points qqline qqnorm rgb sd<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  segments setTxtProgressBar topo.colors txtProgressBar<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Consider adding<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("grDevices", "palette", "rgb", "topo.colors")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("graphics", "abline", "curve", "hist", "layout", "legend",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "lines", "par", "plot", "points", "segments")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("stats", "acf", "density", "dnorm", "na.pass", "optimize",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;             "plot.ts", "qqline", "qqnorm", "sd")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;  importFrom("utils", "setTxtProgressBar", "txtProgressBar")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;to your NAMESPACE file.
+
+<br/>
+
+Flavors: <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-osx-x86_64/bcpa-00check.html">r-oldrel-osx-x86_64</a>, <a href="https://www.r-project.org/nosvn/R.check/r-oldrel-windows-ix86+x86_64/bcpa-00check.html">r-oldrel-windows-ix86+x86_64</a>
+
+</p>
+
+</body>
+</html>
