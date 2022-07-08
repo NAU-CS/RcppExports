@@ -133,6 +133,7 @@ print(names(table(arg.dt$clean.type)))
 print(names(table(ns.dt$namespace)))
 arg.dt[clean.type=="longint"]
 arg.dt[grepl(" ", funName)]
+arg.dt[, .(usages=.N), by=clean.type][order(-usages)][1:100]
 
 arg.counts <- arg.dt[, .(
   args=.N

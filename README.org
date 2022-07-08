@@ -1,6 +1,117 @@
 Database of all RcppExports.cpp files, to support [[https://github.com/NAU-CS/RcppDeepState][RcppDeepState]]
 project.
 
+** 8 July 2022
+
+Update [[file:compileAttributes-parse.R]] to count total usages of type across all Rcpp functions in CRAN packages, here are the top 100:
+
+#+begin_src
+> arg.dt[, .(usages=.N), by=clean.type][order(-usages)][1:100]
+                                   clean.type usages
+                                       <char>  <int>
+  1:                                      int  10610
+  2:                                   double  10460
+  3:                      Rcpp::NumericVector   9374
+  4:                                arma::mat   5317
+  5:                                arma::vec   4620
+  6:                      Rcpp::NumericMatrix   4062
+  7:                                     bool   4058
+  8:                                     SEXP   3826
+  9:                               Rcpp::List   2624
+ 10:                      Rcpp::IntegerVector   2226
+ 11:                              std::string   2109
+ 12:                             unsigned int   1093
+ 13:                    Rcpp::CharacterVector    971
+ 14:                      Rcpp::IntegerMatrix    541
+ 15:                      std::vector<double>    509
+ 16:                          Eigen::VectorXd    491
+ 17:                          Rcpp::DataFrame    439
+ 18:                             arma::colvec    427
+ 19:                               arma::uvec    416
+ 20:                          Eigen::MatrixXd    415
+ 21:                                     long    400
+ 22:                 std::vector<std::string>    394
+ 23:                            Rcpp::RObject    282
+ 24:                             Rcpp::String    280
+ 25:                              std::size_t    276
+ 26:                         std::vector<int>    258
+ 27:                               arma::cube    257
+ 28:                           Rcpp::Function    249
+ 29:                              arma::uword    247
+ 30:                      Rcpp::LogicalVector    227
+ 31:              Eigen::Map<Eigen::MatrixXd>    209
+ 32:                               arma::ivec    202
+ 33:                                    float    165
+ 34:                                 Rcpp::S4    159
+ 35:                             arma::sp_mat    151
+ 36:                          Eigen::VectorXi    150
+ 37:      Rcpp::Nullable<Rcpp::NumericVector>    148
+ 38:                       Rcpp::StringVector    141
+ 39:                                 unsigned    124
+ 40:                        Rcpp::Environment    121
+ 41:                             arma::rowvec    114
+ 42:                                XPtrImage     99
+ 43:              Eigen::Map<Eigen::VectorXd>     96
+ 44:              Eigen::SparseMatrix<double>     83
+ 45:                               arma::umat     77
+ 46:                                     char     65
+ 47:                       Rcpp::DoubleVector     63
+ 48:                                   uint64     62
+ 49:                   arma::field<arma::vec>     59
+ 50:                                    char*     57
+ 51:                                     uint     53
+ 52:                      Rcpp::LogicalMatrix     51
+ 53: Eigen::Matrix<double, Eigen::Dynamic, 1>     50
+ 54:                          Rcpp::RawVector     49
+ 55:                        std::vector<long>     49
+ 56:                                   char *     48
+ 57:                             arma::cx_mat     43
+ 58:                        arma::Mat<double>     41
+ 59:                      Rcpp::XPtr<matrix4>     39
+ 60:                                 XPtrNode     38
+ 61:                   arma::field<arma::mat>     37
+ 62:                           Eigen::ArrayXd     36
+ 63:              std::vector<QuantLib::Date>     34
+ 64:                               arma::imat     34
+ 65:                                       CV     33
+ 66:                    Rcpp::CharacterMatrix     31
+ 67:                              PyObjectRef     31
+ 68:                              arma::ucube     27
+ 69:                      arma::Col<unsigned>     26
+ 70:                   std::vector<arma::mat>     25
+ 71:                            arma::cx_cube     25
+ 72:   arma::field<arma::Cube<unsigned char>>     24
+ 73:                           arma::Col<int>     23
+ 74:                                 uint32_t     23
+ 75:                           QuantLib::Date     23
+ 76:                      Rcpp::GenericVector     23
+ 77:                          Rcpp::RawMatrix     22
+ 78:                std::vector<unsigned int>     21
+ 79:              Rcpp::Nullable<std::string>     21
+ 80:                                  XPtrMat     21
+ 81:                                  XPtrDoc     20
+ 82:      Rcpp::Nullable<Rcpp::IntegerVector>     19
+ 83:      Rcpp::Nullable<Rcpp::NumericMatrix>     18
+ 84:                                DbResult*     18
+ 85:                            unsigned long     17
+ 86:    std::vector<std::vector<std::string>>     17
+ 87:               Eigen::Map<Eigen::ArrayXd>     16
+ 88:              Rcpp::XPtr<DbConnectionPtr>     16
+ 89:                         Rcpp::DateVector     16
+ 90:                          RcppGSL::Matrix     16
+ 91:                 std::vector<std::size_t>     16
+ 92:           std::vector<Rcpp::Environment>     16
+ 93:                            ComplexVector     15
+ 94:                            std::ostream*     15
+ 95:            std::vector<std::vector<int>>     14
+ 96:                        std::vector<bool>     14
+ 97:    Rcpp::Nullable<Rcpp::CharacterVector>     14
+ 98:         std::vector<std::vector<double>>     13
+ 99:                             arma::cx_vec     13
+100:                                   Symbol     13
+                                   clean.type usages
+#+end_src
+
 ** 5 Feb 2020
 
 - [[file:compileAttributes-untar.R]] untars the entire R package and then
